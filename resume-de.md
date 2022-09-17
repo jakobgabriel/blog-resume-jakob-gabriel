@@ -1,7 +1,7 @@
 ---
 layout: resume
-title: Resume German
-description: Experienced Analytics and Data Engineer from Germany
+title: Lebenslauf - Deutsch
+description: 
 hide_description: true
 left_column:
   - work
@@ -18,12 +18,12 @@ no_language_icons: false
 no_skill_icons: false
 buttons:
   print: true
-  pdf: /assets/Resume.pdf
+  #pdf: /assets/Resume.pdf
   # For the vCard you can either provide a link to a .vcf file in assets (see `pdf` above),
   # or use `h2vx.com` to generate a vCard on the fly based on the structured data of the resume page.
   # The later requires `hydejack.no_structured_data: false` and only works once the site is deployed to a public URL.
-  vcf: http://h2vx.com/vcf/<!--url-->
-  json: /assets/resume.json
+  #vcf: http://h2vx.com/vcf/<!--url-->
+  #json: /assets/resume.json
 # Resume data for German
 resume:
   # If you have a `resume.json` file, copy it into `_data` and delete this file.
@@ -31,18 +31,18 @@ resume:
   # See also: <https://jsonresume.org/>.
   basics:
     name: 'Jakob Gabriel'
-    label: Analytik- und Dateningenieur
+    label: 
     picture: 'assets/img/logo.jpeg'
     email: 'jakob.gabriel5@googlemail.com'
     phone: '+49-159-01665306'
     website: ' jakobgabriel.com'
-    summary: Erfahrener Analytik- und Dateningenieur
+    summary: 
     location:
       address: 'Friedrich-Engels-Str. 13'
       postalCode: '99086'
       city: 'Erfurt'
       countryCode: 'DE'
-      region: ''
+      region: 'Thüringen'
     profiles:
       - network: 'GitHub'
         username: 'Jakob Gabriel'
@@ -145,7 +145,7 @@ resume:
       startDate: '2019-04-01'
       endDate: '2023-04-01'
       gpa: 'N/A'
-    - institution: 'Cooperative State University Gera Eisenach'
+    - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Polymer Engineering'
       studyType: 'Bachelor of Engineering'
       startDate: '2015-10-01'
