@@ -16,7 +16,7 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang: en
+lang: en,de
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title: Jakob Gabriel
@@ -53,10 +53,10 @@ menu:
   #   url:               /blog/
   # - title:             Projects
   #   url:               /projects/
-  - title: Resume English
-    url: /
-  - title: Resume German
-    url: /resume-de
+  - title: Resume - English
+    url: /resume-english
+  - title: Lebenslauf - Deutsch
+    url: /resume-deutsch
   # - title:             Documentation
   #   url:               /docs/
 
@@ -83,8 +83,8 @@ paginate_path: /blog/:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
-# remote_theme: hydecorp/hydejack@v9
+#theme: jekyll-theme-hydejack
+#remote_theme: hydecorp/hydejack@v9
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
@@ -233,7 +233,7 @@ hydejack:
 
   # Set to `true` if you do not want to expose your resume and projects
   # in machine-readable formats.
-  no_structured_data: false
+  no_structured_data: true
 
   # You can set this to `true` if you don't want to set the `theme-color` meta tag,
   # This only affects the meta tag, not the color specified in the app manifest.
@@ -419,6 +419,6 @@ jekyll_compose:
 # Resume languages (additional) - Default is English
 resume_languages:
   - name: English
-    link: /resume
+    link: /resume-english
   - name: German
-    link: /resume-de
+    link: /resume-deutsch
