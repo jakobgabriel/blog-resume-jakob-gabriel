@@ -31,12 +31,12 @@ resume:
   # See also: <https://jsonresume.org/>.
   basics:
     name: 'Jakob Gabriel'
-    label: 
+    label: 'Data / Analytics Engineer'
     picture: 'assets/img/logo.jpeg'
     email: 'jakob.gabriel5@googlemail.com'
     phone: '+49-159-01665306'
-    website: ' jakobgabriel.com'
-    summary: 
+    #website: ' jakobgabriel.com'
+    summary: TODO
     location:
       address: 'Friedrich-Engels-Str. 13'
       postalCode: '99086'
@@ -53,10 +53,15 @@ resume:
       - network: 'XING'
         username: 'Jakob Gabriel'
         url: 'https://www.xing.com/profile/Jakob_Gabriel4'
+
   work:
-    - position: 'Analytics and Data Engineer'
+    - company: 'ContiTech Techno-Chemie GmbH - Karben'
+      position: 'Analytics and Data Engineer'
+      website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2022-01-01'
       endDate: ''
+      summary: > 
+        TODO
       highlights:
         - section: Industry 4.0 Management and Strategy
         - items:
@@ -98,9 +103,13 @@ resume:
         - items:
             - Development of central manufacturing engineering standards for Shopfloor IT/OT and Manufacturing Intelligence Activities
             - Provide feedback and input for further development of standards regarding manufacturing engineering
-    - position: 'Quality Engineer'
+    - company: 'ContiTech MGW GmbH - Waltershausen'
+      position: 'Quality Engineer'
+      website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2018-10-01'
       endDate: '2021-12-31'
+      summary: > 
+        TODO
       highlights:
         - items:
             - Carrying out sampling/reclamations
@@ -130,48 +139,65 @@ resume:
             - Clear identification, labelling and tracing of products as well as control according to "FIFO".
             - Ensuring the process capability of the product-relevant machines and systems
             - AS/WS/UWS within the framework of the activities
-    - position: 'Working student'
-      startDate: '2015-08-01'
+    - company: 'ContiTech MGW GmbH - Waltershausen'
+      position: 'Werksstudent'
+      website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
+      startDate: '2015-10-01'
       endDate: '2018-09-30'
       highlights:
         - items:
             - Analysis of problems and development of solutions in the field of product and process industrialization
             - Documentation of the analyses within a project or seminar paper associated with the semester.
-
+    - company: 'ContiTech MGW GmbH - Waltershausen'
+      position: 'Praktikant'
+      website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
+      startDate: '2015-08-01'
+      endDate: '2015-09-30'
+      highlights:
+        - items:
+            - TODO
+            
   education:
-    - institution: 'University of Applied Sciences Schmalkalden'
-      area: 'Applied Polymer Engineering'
+    - institution: 'Hochschule Schmalkalden'
+      area: 'Angewandte Kunststofftechnik'
       studyType: 'Master of Engineering'
       startDate: '2019-04-01'
-      endDate: '2023-04-01'
+      endDate: ''
       gpa: 'N/A'
     - institution: 'Duale Hochschule Gera Eisenach'
-      area: 'Polymer Engineering'
+      area: 'Kunststofftechnik'
       studyType: 'Bachelor of Engineering'
       startDate: '2015-10-01'
       endDate: '2018-09-30'
-      gpa: 1.6
+      gpa: '1.6'
   skills:
     - name: 'Project Management'
-      level: '3-3'
+      level: '4-5'
     - name: 'FMEA Moderation'
-      level: '3-3'
-    - name: 'Minitab'
-      level: '3-3'
-    - name: 'CBS Methods'
-      level: '2-3'
-    - name: 'KNIME Analytics Platform'
-      level: '2-3'
-    - name: 'Python'
-      level: '2-3'
-    - name: 'Databases (Postgres, Timescale, InfluxDB)'
-      level: '2-3'
-    - name: 'Grafana'
-      level: '3-3'
-    - name: 'Superset'
-      level: '2-3'
-    - name: 'App Development (Figma)'
-      level: '1-3'
+      level: '4-5'
+      keywords: 
+        - "Plato e1ns"
+    - name: 'Statistics'
+      level: '2-5'
+      keywords:
+        - "Minitab"
+    - name: 'Data Engineering'
+      level: '3-5'
+      keywords:
+        - "KNIME Analytics Platform"
+        - "Python"
+    - name: 'Databases'
+      level: '3-5'
+      keywords:
+        - "Postgres"
+        - "Timescale"
+        - "InfluxDB"
+    - name: 'Data Visualization'
+      level: '4-5'
+      keywords: 
+        - "Grafana"
+        - "Superset"
+        - "PowerBI"
 
   languages:
     - language: 'German'
