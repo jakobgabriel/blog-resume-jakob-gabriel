@@ -31,7 +31,7 @@ resume:
   # See also: <https://jsonresume.org/>.
   basics:
     name: 'Jakob Gabriel'
-    label: 'Data / Analytics Engineer'
+    label: 'Analytics and Data Engineer'
     picture: 'assets/img/logo.jpeg'
     email: 'jakob.gabriel5@googlemail.com'
     phone: '+49-159-01665306'
@@ -156,7 +156,7 @@ resume:
       highlights:
         - items:
             - TODO
-            
+
   education:
     - institution: 'Hochschule Schmalkalden'
       area: 'Angewandte Kunststofftechnik'
@@ -170,30 +170,35 @@ resume:
       startDate: '2015-10-01'
       endDate: '2018-09-30'
       gpa: '1.6'
+
   skills:
     - name: 'Project Management'
-      level: '4-5'
+      level: '2-3'
+      keywords: 
+        - "MS Project"
+        - "MS Planner"
+        - "Gitlab"
     - name: 'FMEA Moderation'
-      level: '4-5'
+      level: '2-3'
       keywords: 
         - "Plato e1ns"
     - name: 'Statistics'
-      level: '2-5'
+      level: '2-3'
       keywords:
         - "Minitab"
     - name: 'Data Engineering'
-      level: '3-5'
+      level: '2-3'
       keywords:
         - "KNIME Analytics Platform"
         - "Python"
     - name: 'Databases'
-      level: '3-5'
+      level: '2-3'
       keywords:
         - "Postgres"
         - "Timescale"
         - "InfluxDB"
     - name: 'Data Visualization'
-      level: '4-5'
+      level: '2-3'
       keywords: 
         - "Grafana"
         - "Superset"
@@ -203,5 +208,5 @@ resume:
     - language: 'German'
       fluency: 'native-speaker'
     - language: 'English'
-      fluency: 'full-professional-proficiency'
+      fluency: 'professional-working-proficiency'
 ---

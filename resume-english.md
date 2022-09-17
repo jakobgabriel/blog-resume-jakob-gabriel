@@ -24,14 +24,14 @@ buttons:
   # The later requires `hydejack.no_structured_data: false` and only works once the site is deployed to a public URL.
   #vcf: http://h2vx.com/vcf/<!--url-->
   #json: /assets/resume.json
-# Resume data for German
+# Resume data for English
 resume:
   # If you have a `resume.json` file, copy it into `_data` and delete this file.
   # If you don't have a JSON Resume you can just edit this YAML file instead.
   # See also: <https://jsonresume.org/>.
   basics:
     name: 'Jakob Gabriel'
-    label: 'Data / Analytics Engineer'
+    label: 'Analytics and Data Engineer'
     picture: 'assets/img/logo.jpeg'
     email: 'jakob.gabriel5@googlemail.com'
     phone: '+49-159-01665306'
@@ -173,28 +173,32 @@ resume:
 
   skills:
     - name: 'Project Management'
-      level: '4-5'
+      level: '2-3'
+      keywords: 
+        - "MS Project"
+        - "MS Planner"
+        - "Gitlab"
     - name: 'FMEA Moderation'
-      level: '4-5'
+      level: '2-3'
       keywords: 
         - "Plato e1ns"
     - name: 'Statistics'
-      level: '2-5'
+      level: '2-3'
       keywords:
         - "Minitab"
     - name: 'Data Engineering'
-      level: '3-5'
+      level: '2-3'
       keywords:
         - "KNIME Analytics Platform"
         - "Python"
     - name: 'Databases'
-      level: '3-5'
+      level: '2-3'
       keywords:
         - "Postgres"
         - "Timescale"
         - "InfluxDB"
     - name: 'Data Visualization'
-      level: '4-5'
+      level: '2-3'
       keywords: 
         - "Grafana"
         - "Superset"
@@ -204,5 +208,5 @@ resume:
     - language: 'German'
       fluency: 'native-speaker'
     - language: 'English'
-      fluency: 'full-professional-proficiency'
+      fluency: 'professional-working-proficiency'
 ---
