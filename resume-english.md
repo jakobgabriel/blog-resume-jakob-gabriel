@@ -129,7 +129,7 @@ resume:
             - Participation in FMEA meetings
             - Carrying out risk analyses
             - Participation in internal process series as well as in customer acceptance tests
-            - Coordination/scheduling of customer appointments with central Quality planner and production
+            - Coordination/scheduling of customer appointments with global Quality Planner and production
             - Effectiveness check of the Poka Yoke measures
             - Checking of product and process-related documents for correctness
             - Checking of product and process-related documents for correctness and completeness - Initiation and supervision of process capability studies
@@ -147,15 +147,12 @@ resume:
       highlights:
         - items:
             - Analysis of problems and development of solutions in the field of product and process industrialization
-            - Documentation of the analyses within a project or seminar paper associated with the semester.
+            - Documentation of the analyses within a project or seminar paper associated with the semester
     - company: 'ContiTech MGW GmbH - Waltershausen'
       position: 'Trainee'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2015-08-01'
       endDate: '2015-09-30'
-      highlights:
-        - items:
-            - TODO
 
   education:
     - institution: 'University of Applied Sciences Schmalkalden'
@@ -163,7 +160,6 @@ resume:
       studyType: 'Master of Engineering'
       startDate: '2019-04-01'
       endDate: ''
-      gpa: 'N/A'
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Polymer Engineering'
       studyType: 'Bachelor of Engineering'
@@ -178,15 +174,17 @@ resume:
         - "MS Project"
         - "MS Planner"
         - "Gitlab"
-    - name: 'FMEA Moderation'
-      level: '2-3'
-      keywords: 
-        - "Plato e1ns"
+    - name: 'Quality Management'
+      level: '3-3'
+      keywords:
+        - 'FMEA Moderation'
+        - 'Product Audits'
+        - 'APQP'
     - name: 'Statistics'
       level: '2-3'
       keywords:
         - "Minitab"
-    - name: 'Data Engineering'
+    - name: 'Data Engineering / Analytics'
       level: '2-3'
       keywords:
         - "KNIME Analytics Platform"

@@ -112,50 +112,44 @@ resume:
         TODO
       highlights:
         - items:
-            - Carrying out sampling/reclamations
-            - Coordination of the sampling dates with the global Quality Planner between inter company customer and production
-            - Creation of initial sample inspection reports for blow molding parts
-            - Processing of pre-series complaints
-            - Monitoring the processing of corrective measures
-            - Transfer of root causes and measures from complaints to the FMEA
-            - Inspection planning - development of gage concepts for the inspection of Blow molding parts in the different production steps
-            - Collaboration in the definition of part-related gauge layouts
-            - Creation and maintenance of test instructions
-            - Creation of the pre-series control plan, the series control plan as well as production flow chart
-            - Determination and evaluation of quality-relevant customer requirements within the feasability Study and process fmea
-            - Checking the drawings for compliance with internal specifications as well as quality-relevant topics
-            - Documentation of deviations or requirements during the manufacturability process.
-            - Coordination and moderation of the FMEA meetings
-            - Participation in FMEA meetings
-            - Carrying out risk analyses
-            - Participation in internal process series as well as in customer acceptance tests
-            - Coordination/scheduling of customer appointments with central Quality planner and production
-            - Effectiveness check of the Poka Yoke measures
-            - Checking of product and process-related documents for correctness
-            - Checking of product and process-related documents for correctness and completeness - Initiation and supervision of process capability studies
-            - Enforcement of the principle of autonomous monitoring at every production site.
-            - Specification, instruction and monitoring of compliance with workplace and inspection documentation.
-            - Continuous improvement with the aim of reducing quality costs
-            - Clear identification, labelling and tracing of products as well as control according to "FIFO".
-            - Ensuring the process capability of the product-relevant machines and systems
-            - AS/WS/UWS within the framework of the activities
-    - company: 'ContiTech MGW GmbH - Waltershausen'
+            - Durchführung von Bemusterungen/Reklamationen 
+            - Abstimmung der Bemusterungstermine mit globalem Qualitätsplaner zwischen ICO Kunden und Produktion
+            - Erstellung von Erstmusterprüfberichten für BM-Teile
+            - Bearbeitung von Vorserienreklamationen Überwachung der Abarbeitung von Korrekturmaßnahmen
+            - Übertragung von Ursachen, sowie Maßnahmen aus Reklamationen in die FMEA
+            - Prüfplanung - Entwicklung von Lehren-Konzepten zur Prüfung von BM-Teilen in den verschiedenen Fertigungsschritten
+            - Mitarbeit bei der Festlegung von teilebezogenen Lehren-Layouts
+            - Erstellung und Pflege von Prüfanweisungen Erstellung des Vorserien Kontrollplans, des Serien Kontrollplans sowie Produktionsablaufplans
+            - Ermittlung und Bewertung von qualitätsrelevanten Kundenanforderungen innerhalb Herstellbarkeitsprozess
+            - Überprüfung der Zeichnungen auf Einhaltung von internen Vorgaben sowie qualitätsrelevanten Themen Dokumentation von Abweichungen bzw. Auflagen bei der Herstellbarkeitsbewertung
+            - Koordination und Moderation der FMEA Sitzungen
+            - Mitarbeit in FMEA Besprechungen 
+            - Durchführung von Risikoanalysen
+            - Teilnahme an internen Prozessserien sowie an Kundenabnahmen
+            - Koordination/Terminierung der Kundentermine mit globalem Qualitätsplaner und Produktion
+            - Wirksamkeitsprüfung der Poka Yoke-Maßnahmen
+            - Überprüfung von produkt- sowie prozessbezogenen Dokumenten auf Richtigkeit und Vollständigkeit
+            - Einleitung sowie Betreuung von Prozessfähigkeitsuntersuchungen
+            - Durchsetzung des Prinzips der eigenverantwortlichen Überwachung an jedem Arbeitsplatz 
+            - Vorgabe, Einweisung und Überwachung zur Einhaltung der Arbeitsplatz-sowie Prüfdokumentation
+            - Stetige Verbesserung mit dem Ziel der Senkung der Qualitätskosten 
+            - Eindeutige Identifizierung, Kennzeichnung und Rückverfolgung der Produkte sowie Lenkung nach FIFO
+            - Sicherung der Prozessfähigkeit der produktrelevanten Maschinen und Anlagen AS/WS/UWS im Rahmen der Tätigkeiten
+
+- company: 'ContiTech MGW GmbH - Waltershausen'
       position: 'Werksstudent'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2015-10-01'
       endDate: '2018-09-30'
       highlights:
         - items:
-            - Analysis of problems and development of solutions in the field of product and process industrialization
-            - Documentation of the analyses within a project or seminar paper associated with the semester.
+            - Analyse von Problemen und Entwicklung von Lösungen im Bereich der Produkt- und Prozessindustrialisierung
+            - Dokumentation der Analysen im Rahmen einer semesterbegleitenden Projekt- oder Seminararbeit.
     - company: 'ContiTech MGW GmbH - Waltershausen'
       position: 'Praktikant'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2015-08-01'
       endDate: '2015-09-30'
-      highlights:
-        - items:
-            - TODO
 
   education:
     - institution: 'Hochschule Schmalkalden'
@@ -163,7 +157,6 @@ resume:
       studyType: 'Master of Engineering'
       startDate: '2019-04-01'
       endDate: ''
-      gpa: 'N/A'
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Kunststofftechnik'
       studyType: 'Bachelor of Engineering'
@@ -172,26 +165,28 @@ resume:
       gpa: '1.6'
 
   skills:
-    - name: 'Project Management'
+    - name: 'Projektmanagement'
       level: '2-3'
       keywords: 
         - "MS Project"
         - "MS Planner"
         - "Gitlab"
-    - name: 'FMEA Moderation'
-      level: '2-3'
-      keywords: 
-        - "Plato e1ns"
-    - name: 'Statistics'
+    - name: 'Qualitätsmanagement'
+      level: '3-3'
+      keywords:
+        - 'FMEA Moderation'
+        - 'Produktauditierung'
+        - 'APQP'
+    - name: 'Statistik'
       level: '2-3'
       keywords:
         - "Minitab"
-    - name: 'Data Engineering'
+    - name: 'Data Engineering / Analytics'
       level: '2-3'
       keywords:
         - "KNIME Analytics Platform"
         - "Python"
-    - name: 'Databases'
+    - name: 'Datenbanken'
       level: '2-3'
       keywords:
         - "Postgres"
@@ -205,8 +200,8 @@ resume:
         - "PowerBI"
 
   languages:
-    - language: 'German'
+    - language: 'Deutsch'
       fluency: 'native-speaker'
-    - language: 'English'
+    - language: 'Englisch'
       fluency: 'professional-working-proficiency'
 ---

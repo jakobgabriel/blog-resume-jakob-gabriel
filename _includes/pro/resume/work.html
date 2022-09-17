@@ -8,8 +8,11 @@
     </h2>
     {% for work in resume.work %}
     <section x-data="{open:false}">
-      <header class="{% unless forloop.first %}mt2{% endunless %}"
-        property="{% if work.endDate.size > 0 %}alumniOf{% else %}worksFor{% endif %}" typeof="Organization">
+      <header 
+        class="{% unless forloop.first %}mt2{% endunless %}"
+        property="{% if work.endDate.size > 0 %}alumniOf{% else %}worksFor{% endif %}" 
+        typeof="Organization"
+        >
         {% if work.startDate.size > 0 %}
         <p class="faded">
           {% include components/from-to.html from=work.startDate to=work.endDate format=from_to_format %}
