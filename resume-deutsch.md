@@ -35,7 +35,7 @@ resume:
     picture: 'assets/img/logo.jpeg'
     email: 'jakob.gabriel5@googlemail.com'
     phone: '+49-159-01665306'
-    #website: ' jakobgabriel.com'
+    #website: 
     summary: TODO
     location:
       address: 'Friedrich-Engels-Str. 13'
@@ -135,8 +135,7 @@ resume:
             - Stetige Verbesserung mit dem Ziel der Senkung der Qualitätskosten 
             - Eindeutige Identifizierung, Kennzeichnung und Rückverfolgung der Produkte sowie Lenkung nach FIFO
             - Sicherung der Prozessfähigkeit der produktrelevanten Maschinen und Anlagen AS/WS/UWS im Rahmen der Tätigkeiten
-
-- company: 'ContiTech MGW GmbH - Waltershausen'
+    - company: 'ContiTech MGW GmbH - Waltershausen'
       position: 'Werksstudent'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2015-10-01'
@@ -157,6 +156,7 @@ resume:
       studyType: 'Master of Engineering'
       startDate: '2019-04-01'
       endDate: ''
+      gpa: 'N/A'
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Kunststofftechnik'
       studyType: 'Bachelor of Engineering'

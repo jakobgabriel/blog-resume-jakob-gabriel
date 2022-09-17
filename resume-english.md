@@ -35,7 +35,7 @@ resume:
     picture: 'assets/img/logo.jpeg'
     email: 'jakob.gabriel5@googlemail.com'
     phone: '+49-159-01665306'
-    #website: ' jakobgabriel.com'
+    #website: 
     summary: 
     location:
       address: 'Friedrich-Engels-Str. 13'
@@ -136,7 +136,7 @@ resume:
             - Enforcement of the principle of autonomous monitoring at every production site.
             - Specification, instruction and monitoring of compliance with workplace and inspection documentation.
             - Continuous improvement with the aim of reducing quality costs
-            - Clear identification, labelling and tracing of products as well as control according to "FIFO".
+            - Clear identification, labelling and tracing of products as well as control according to "FIFO"
             - Ensuring the process capability of the product-relevant machines and systems
             - AS/WS/UWS within the framework of the activities
     - company: 'ContiTech MGW GmbH - Waltershausen'

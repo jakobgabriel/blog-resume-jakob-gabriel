@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Index
+title: Home
 sitemap: false
 ---
