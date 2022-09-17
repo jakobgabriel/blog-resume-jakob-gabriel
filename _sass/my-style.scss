@@ -1,0 +1,13 @@
+.card {
+  padding: 2em;
+  border: 1px solid #dee2e6;
+  text-align: center !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  margin-bottom: 0 !important;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
