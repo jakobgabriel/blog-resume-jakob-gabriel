@@ -22,13 +22,15 @@ buttons:
   # For the vCard you can either provide a link to a .vcf file in assets (see `pdf` above),
   # or use `h2vx.com` to generate a vCard on the fly based on the structured data of the resume page.
   # The later requires `hydejack.no_structured_data: false` and only works once the site is deployed to a public URL.
-  vcf: http://h2vx.com/vcf/<!--url-->
+  vcf: /assets/Jakob Gabriel.vcf
+  #http://h2vx.com/vcf/<!--url-->
   #json: /assets/resume.json
 # Resume data for German
 resume:
   # If you have a `resume.json` file, copy it into `_data` and delete this file.
   # If you don't have a JSON Resume you can just edit this YAML file instead.
   # See also: <https://jsonresume.org/>.
+  
   basics:
     name: 'Jakob Gabriel'
     label: 'Analytics and Data Engineer'

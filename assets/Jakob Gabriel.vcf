@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=UTF-8:Gabriel;Jakob;;;
+FN;CHARSET=UTF-8: Jakob Gabriel
+URL;PRIVATE:https://jakobgabriel.github.io/resume-curriculum-vitae-jakob-gabriel/
+EMAIL;type=HOME:jakob.gabriel5@googlemail.com
+TEL;type=HOME;VOICE:+4915901665306
+ADR;CHARSET=UTF-8;HOME;type=pref:;;Friedrich-Engels-Straße 13;Erfurt;;99086;Deutschland
+LABEL;HOME;PREF;ENCODING=QUOTED-PRINTABLE;CHARSET=UTF-8:Friedrich-Engels-Straße 13=0D=0A=
+99086 Erfurt Deutschland
+REV:2022-09-18T16:38:15+02:00
+END:VCARD
