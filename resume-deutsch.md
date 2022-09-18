@@ -61,26 +61,34 @@ resume:
       startDate: '2022-01-01'
       endDate: ''
       summary: > 
-        TODO
+        - Erarbeiten und Definieren von Analytics Anwendungsfällen und Projekten auf Basis von Problemstellungen in Produktionsprozessen der Mobile Fluid Systems in Zusammenarbeit mit Steakholdern
+        - Ausführen von kontinuierlichen Verbesserungsprozessen durch Anwendung von analytischen Methoden im datengetriebenen Problemlösungsprozess vor dem Hintergrund von globalen Skalierungspotenzialen
+        - Interpretieren und Dokumentieren von Lösungsansätzen aus durchgeführten Anwendungsfällen und Projekten zur weiteren Entscheidungsfindung und Iteration
+        - Automatisieren von Analytics und operativen Business Workflows zur Beschleunigung von Ergebnisfindung und Unterstützung von Entscheidungsfindungsprozessen von Steakholdern
+        - Vorbereitung von Budgets für Analytics Projekte mit anschließender Sicherstellung dieser im Rahmen von definierten Projektzielen
+        - Vorbereitung und Dokumentation von Guidelines im Rahmen von Lessons Learned aus abgeschlossenen Projekten zur kontinuierlichen Weiterentwicklung
+        - Unterstützung von existierenden Prozess- und Maschinenstandards vor dem Hintergrund von Ergebnissen aus Analytics Projekten
+        - Enge Zusammenarbeit mit anderen Business Unit Funktionen und den ContiTech Zentralfunktionen
       highlights:
         - section: Industry 4.0 Management and Strategy
         - items:
-            - 'Manage and coordinate use cases and projects for data-driven process improvements in manufacturing processes'
-            - 'Support and implement continuous improvement activities by applying advanced data analytics methods (scope?)'
-            - 'Translate manufacturing process specific problems with data into decision workflows'
-            - 'Interface to local plant and BA functions in order to gather manufacturing engineering requirements and other feedback for data analytics and data science topics'
-            - 'Translate plant/operations unit’s requests into use cases and procedures to ensure the implementation'
-            - 'Contribute to strategic planning of OT solutions to ensure Advanced Analytics and Data Science Capabilites'
-            - 'Strategic planning of a Manufacturing Intelligence/ Analytics Solutions for MFS, based on the latest OT solutions and CT and MFS Implementations'
-            - 'Participate in and/or steer global or local manufacturing engineering related and cross-functional projects with background of advanced analytics approaches'
-            - 'Coordinate Data Analytics and Data Science Use Cases and Projects globally'
+            - Manage and coordinate use cases and projects for data-driven process improvements in manufacturing processes
+            - Support and implement continuous improvement activities by applying advanced data analytics methods (scope?)
+            - Translate manufacturing process specific problems with data into decision workflows
+            - Interface to local plant and BA functions in order to gather manufacturing engineering requirements and other feedback for data analytics and data science topics
+            - Translate plant/operations unit’s requests into use cases and procedures to ensure the implementation
+            - Contribute to strategic planning of OT solutions to ensure Advanced Analytics and Data Science Capabilites
+            - Strategic planning of a Manufacturing Intelligence/ Analytics Solutions for MFS, based on the latest OT solutions and CT and MFS Implementations
+            - Participate in and/or steer global or local manufacturing engineering related and cross-functional projects with background of advanced analytics approaches
+            - Coordinate Data Analytics and Data Science Use Cases and Projects globally
         - section: Financial Management for Industry 4.0 Implementations
         - items:
             - Prepare the budget and forecast of Data Analytics and Data Science related Use Cases and Projects
             - Ensure that the financial goals are met within the Use Cases or Projects
         - section: Manufacturing Intelligence / (Advanced) Analytics / Data Science
         - items:
-            - Understanding of manufacturing process problems ▪ Definition of Analysis Goals related to the Use Cases and Projects
+            - Understanding of manufacturing process problems 
+            - Definition of Analysis Goals related to the Use Cases and Projects
             - Understand, Clean, Join and Prepare Data for Use Cases and Projects
             - Abstract Features from Prepared Data
             - Explore Data (Visual Management)
@@ -108,8 +116,6 @@ resume:
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2018-10-01'
       endDate: '2021-12-31'
-      summary: > 
-        TODO
       highlights:
         - items:
             - Durchführung von Bemusterungen/Reklamationen 
