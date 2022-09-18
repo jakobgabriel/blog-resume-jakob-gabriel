@@ -22,7 +22,7 @@ buttons:
   # For the vCard you can either provide a link to a .vcf file in assets (see `pdf` above),
   # or use `h2vx.com` to generate a vCard on the fly based on the structured data of the resume page.
   # The later requires `hydejack.no_structured_data: false` and only works once the site is deployed to a public URL.
-  #vcf: http://h2vx.com/vcf/<!--url-->
+  vcf: http://h2vx.com/vcf/<!--url-->
   #json: /assets/resume.json
 # Resume data for German
 resume:
@@ -36,7 +36,7 @@ resume:
     email: 'jakob.gabriel5@googlemail.com'
     phone: '+49-159-01665306'
     #website: 
-    summary: TODO
+    #summary: TODO
     location:
       address: 'Friedrich-Engels-Str. 13'
       postalCode: '99086'
@@ -164,14 +164,14 @@ resume:
       startDate: '2019-04-01'
       endDate: ''
       gpa: 'N/A'
-      website: 'https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng'
+      url: 'https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng'
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Kunststofftechnik'
       studyType: 'Bachelor of Engineering'
       startDate: '2015-10-01'
       endDate: '2018-09-30'
       gpa: '1.6'
-      website: 'https://www.dhge.de/DHGE/Studiengaenge/Technik/Kunststofftechnik.html'
+      url: 'https://www.dhge.de/DHGE/Studiengaenge/Technik/Kunststofftechnik.html'
 
   skills:
     - name: 'Projektmanagement'
