@@ -30,7 +30,7 @@ resume:
   # If you have a `resume.json` file, copy it into `_data` and delete this file.
   # If you don't have a JSON Resume you can just edit this YAML file instead.
   # See also: <https://jsonresume.org/>.
-  
+
   basics:
     name: 'Jakob Gabriel'
     label: 'Analytics and Data Engineer'
@@ -104,7 +104,7 @@ resume:
             - Unterstützung bei der Evaluierung und Implementierung von Software wie z.B. PLC, MDA/PDA, MES und Hardware wie z.B. Edge-Technologie nach CT- und MFS-Standards
             - Identifikation von Schlüsselprozessen mit erheblichem Digitalisierungsbedarf sowie von Schlüsselkonzepten und -technologien zur Digitalisierung (MFS-intern und -extern, z.B. präventive und prädiktive Ansätze)
             - Entwicklung von Standards in Bezug auf Methoden (z.B. Data Exploration, Advanced Analytics, Data Science), Prozesse und Tools/Technologien (z.B. prädiktive Methoden)
-            - Organisation und Umsetzung von Rollout-Konzepten, Kommunikation und Compliance der entwickelten Digitalisierungsstandards in allen MFS PMS (shared)
+            - Organisation und Umsetzung von Rollout-Konzepten, Kommunikation und Compliance der entwickelten Digitalisierungsstandards in allen MFS PMS (geteilt)
             - Unterstützung der lokalen Operations und ME bei der Lösungsimplementierung in Bezug auf Analytics-Ansätze
         - section: Schulung und Coaching
         - items:
