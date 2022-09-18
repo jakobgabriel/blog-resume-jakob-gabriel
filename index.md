@@ -1,10 +1,10 @@
 ---
 layout: base
-title: Home
+page:
+    title: Home
 sitemap: false
 ---
 
+[Resume - English](https://jakobgabriel.github.io/resume-curriculum-vitae-jakob-gabriel/resume-english){: .btn .btn-sm .btn-primary .mt1}
 
-Lorem ipsum dolor sit amet.
-
-[Click me](http://www.google.com){: .btn}
+[Lebenslauf - Deutsch](https://jakobgabriel.github.io/resume-curriculum-vitae-jakob-gabriel/resume-deutsch){: .btn .btn-sm .btn-primary .mt1}
