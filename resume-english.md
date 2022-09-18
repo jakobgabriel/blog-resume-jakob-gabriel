@@ -18,7 +18,7 @@ no_language_icons: false
 no_skill_icons: false
 buttons:
   print: true
-  #pdf: /assets/Resume.pdf
+  #pdf: /assets/resume-english.pdf
   # For the vCard you can either provide a link to a .vcf file in assets (see `pdf` above),
   # or use `h2vx.com` to generate a vCard on the fly based on the structured data of the resume page.
   # The later requires `hydejack.no_structured_data: false` and only works once the site is deployed to a public URL.
@@ -113,6 +113,7 @@ resume:
         - items:
             - Development of central manufacturing engineering standards for Shopfloor IT/OT and Manufacturing Intelligence Activities
             - Provide feedback and input for further development of standards regarding manufacturing engineering
+
     - company: 'ContiTech MGW GmbH - Waltershausen'
       position: 'Quality Engineer'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
@@ -147,6 +148,7 @@ resume:
             - Clear identification, labelling and tracing of products as well as control according to "FIFO"
             - Ensuring the process capability of the product-relevant machines and systems
             - AS/WS/UWS within the framework of the activities
+
     - company: 'ContiTech MGW GmbH - Waltershausen'
       position: 'Working Student'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
@@ -156,6 +158,7 @@ resume:
         - items:
             - Analysis of problems and development of solutions in the field of product and process industrialization
             - Documentation of the analyses within a project or seminar paper associated with the semester
+
     - company: 'ContiTech MGW GmbH - Waltershausen'
       position: 'Trainee'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'

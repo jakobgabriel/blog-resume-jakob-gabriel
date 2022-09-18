@@ -18,7 +18,7 @@ no_language_icons: false
 no_skill_icons: false
 buttons:
   print: true
-  #pdf: /assets/Resume.pdf
+  #pdf: /assets/lebenslauf-deutsch.pdf
   # For the vCard you can either provide a link to a .vcf file in assets (see `pdf` above),
   # or use `h2vx.com` to generate a vCard on the fly based on the structured data of the resume page.
   # The later requires `hydejack.no_structured_data: false` and only works once the site is deployed to a public URL.
@@ -72,7 +72,8 @@ resume:
             - Vorbereitung von Budgets für Analytics Projekte mit anschließender Sicherstellung dieser im Rahmen von definierten Projektzielen
             - Vorbereitung und Dokumentation von Guidelines im Rahmen von Lessons Learned aus abgeschlossenen Projekten zur kontinuierlichen Weiterentwicklung
             - Unterstützung von existierenden Prozess- und Maschinenstandards vor dem Hintergrund von Ergebnissen aus Analytics Projekten
-            - Enge Zusammenarbeit mit anderen Business Unit Funktionen und den ContiTech Zentralfunktionen 
+            - Enge Zusammenarbeit mit anderen Business Unit Funktionen und den ContiTech Zentralfunktionen
+
         - section: Industrie 4.0 Management und Strategie
         - items:
             - Verwaltung und Koordinierung von Anwendungsfällen und Projekten für datengestützte Prozessverbesserungen in Fertigungsprozessen
@@ -114,6 +115,7 @@ resume:
         - items:
             - Entwicklung zentraler Standards für die Fertigungstechnik für Shopfloor IT/OT und Manufacturing Intelligence Aktivitäten
             - Bereitstellung von Feedback und Input für die weitere Entwicklung von Standards für die Fertigungstechnik
+
     - company: 'ContiTech MGW GmbH - Waltershausen'
       position: 'Quality Engineer'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
@@ -144,6 +146,7 @@ resume:
             - Stetige Verbesserung mit dem Ziel der Senkung der Qualitätskosten 
             - Eindeutige Identifizierung, Kennzeichnung und Rückverfolgung der Produkte sowie Lenkung nach FIFO
             - Sicherung der Prozessfähigkeit der produktrelevanten Maschinen und Anlagen AS/WS/UWS im Rahmen der Tätigkeiten
+
     - company: 'ContiTech MGW GmbH - Waltershausen'
       position: 'Werksstudent'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'

@@ -56,7 +56,7 @@ menu:
   - title: Resume - English
     url: /resume-english
   - title: Lebenslauf - Deutsch
-    url: /resume-deutsch
+    url: /lebenslauf-deutsch
   # - title:             Documentation
   #   url:               /docs/
 
@@ -64,7 +64,7 @@ menu:
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
 #  - title: LICENSE
-#    url: /licenses/pro
+#    url: /LICENSE/
 #   - title: NOTICE
 #     url: /NOTICE/
 #   - title: CHANGELOG
@@ -421,4 +421,4 @@ resume_languages:
   - name: English
     link: /resume-english
   - name: German
-    link: /resume-deutsch
+    link: /lebenslauf-deutsch
