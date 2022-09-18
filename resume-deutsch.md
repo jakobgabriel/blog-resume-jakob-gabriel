@@ -60,57 +60,58 @@ resume:
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2022-01-01'
       endDate: ''
-      summary: > 
-        - Erarbeiten und Definieren von Analytics Anwendungsfällen und Projekten auf Basis von Problemstellungen in Produktionsprozessen der Mobile Fluid Systems in Zusammenarbeit mit Steakholdern
-        - Ausführen von kontinuierlichen Verbesserungsprozessen durch Anwendung von analytischen Methoden im datengetriebenen Problemlösungsprozess vor dem Hintergrund von globalen Skalierungspotenzialen
-        - Interpretieren und Dokumentieren von Lösungsansätzen aus durchgeführten Anwendungsfällen und Projekten zur weiteren Entscheidungsfindung und Iteration
-        - Automatisieren von Analytics und operativen Business Workflows zur Beschleunigung von Ergebnisfindung und Unterstützung von Entscheidungsfindungsprozessen von Steakholdern
-        - Vorbereitung von Budgets für Analytics Projekte mit anschließender Sicherstellung dieser im Rahmen von definierten Projektzielen
-        - Vorbereitung und Dokumentation von Guidelines im Rahmen von Lessons Learned aus abgeschlossenen Projekten zur kontinuierlichen Weiterentwicklung
-        - Unterstützung von existierenden Prozess- und Maschinenstandards vor dem Hintergrund von Ergebnissen aus Analytics Projekten
-        - Enge Zusammenarbeit mit anderen Business Unit Funktionen und den ContiTech Zentralfunktionen
       highlights:
-        - section: Industry 4.0 Management and Strategy
+        - section: Zusammenfassung
+        - items: 
+            - Erarbeiten und Definieren von Analytics Anwendungsfällen und Projekten auf Basis von Problemstellungen in Produktionsprozessen der Mobile Fluid Systems in Zusammenarbeit mit Steakholdern 
+            - Ausführen von kontinuierlichen Verbesserungsprozessen durch Anwendung von analytischen Methoden im datengetriebenen Problemlösungsprozess vor dem Hintergrund von globalen Skalierungspotenzialen 
+            - Interpretieren und Dokumentieren von Lösungsansätzen aus durchgeführten Anwendungsfällen und Projekten zur weiteren Entscheidungsfindung und Iteration
+            - Automatisieren von Analytics und operativen Business Workflows zur Beschleunigung von Ergebnisfindung und Unterstützung von Entscheidungsfindungsprozessen von Steakholdern
+            - Vorbereitung von Budgets für Analytics Projekte mit anschließender Sicherstellung dieser im Rahmen von definierten Projektzielen
+            - Vorbereitung und Dokumentation von Guidelines im Rahmen von Lessons Learned aus abgeschlossenen Projekten zur kontinuierlichen Weiterentwicklung
+            - Unterstützung von existierenden Prozess- und Maschinenstandards vor dem Hintergrund von Ergebnissen aus Analytics Projekten
+            - Enge Zusammenarbeit mit anderen Business Unit Funktionen und den ContiTech Zentralfunktionen 
+        - section: Industrie 4.0 Management und Strategie
         - items:
-            - Manage and coordinate use cases and projects for data-driven process improvements in manufacturing processes
-            - Support and implement continuous improvement activities by applying advanced data analytics methods (scope?)
-            - Translate manufacturing process specific problems with data into decision workflows
-            - Interface to local plant and BA functions in order to gather manufacturing engineering requirements and other feedback for data analytics and data science topics
-            - Translate plant/operations unit’s requests into use cases and procedures to ensure the implementation
-            - Contribute to strategic planning of OT solutions to ensure Advanced Analytics and Data Science Capabilites
-            - Strategic planning of a Manufacturing Intelligence/ Analytics Solutions for MFS, based on the latest OT solutions and CT and MFS Implementations
-            - Participate in and/or steer global or local manufacturing engineering related and cross-functional projects with background of advanced analytics approaches
-            - Coordinate Data Analytics and Data Science Use Cases and Projects globally
-        - section: Financial Management for Industry 4.0 Implementations
+            - Verwaltung und Koordinierung von Anwendungsfällen und Projekten für datengestützte Prozessverbesserungen in Fertigungsprozessen
+            - Unterstützung und Umsetzung kontinuierlicher Verbesserungsmaßnahmen durch Anwendung fortschrittlicher Datenanalysemethoden
+            - Umsetzung von fertigungsprozessspezifischen Problemen mit Daten in Entscheidungsabläufe
+            - Schnittstelle zu lokalen Werks- und BA-Funktionen, um fertigungstechnische Anforderungen und sonstiges Feedback für Data Analytics und Data Science Themen zu sammeln
+            - Übersetzen Sie die Anforderungen des Werks/der Betriebseinheit in Anwendungsfälle und Verfahren, um die Implementierung sicherzustellen
+            - Beitrag zur strategischen Planung von OT-Lösungen, um fortgeschrittene Analyse- und Data-Science-Kapazitäten sicherzustellen
+            - Strategische Planung von Manufacturing Intelligence / Analytics-Lösungen für MFS, basierend auf den neuesten OT-Lösungen und CT- und MFS-Implementierungen
+            - Teilnahme an und/oder Leitung von globalen oder lokalen fertigungstechnischen und funktionsübergreifenden Projekten mit dem Hintergrund fortschrittlicher Analyseansätze
+            - Koordinierung von Data Analytics und Data Science Use Cases und Projekten auf globaler Ebene
+        - section: Finanzmanagement für Industrie 4.0-Implementierungen
         - items:
-            - Prepare the budget and forecast of Data Analytics and Data Science related Use Cases and Projects
-            - Ensure that the financial goals are met within the Use Cases or Projects
+            - Vorbereitung des Budgets und der Prognosen für Anwendungsfälle und Projekte im Bereich Data Analytics und Data Science
+            - Sicherstellen, dass die finanziellen Ziele innerhalb der Anwendungsfälle oder Projekte erreicht werden
         - section: Manufacturing Intelligence / (Advanced) Analytics / Data Science
         - items:
-            - Understanding of manufacturing process problems 
-            - Definition of Analysis Goals related to the Use Cases and Projects
-            - Understand, Clean, Join and Prepare Data for Use Cases and Projects
-            - Abstract Features from Prepared Data
-            - Explore Data (Visual Management)
-            - Model and Execute Analytics Workflows for Rout Causes and Decisions
-            - Automate the execution of Analytics Workflows
-            - Interpret, Evaluate the workflows results and their benefits
-            - Continuous Iteration over Analytics Workflows for better and faster process development cycles
-        - section: Development and Rollout of MFS wide digitalization standards
+            - Verständnis der Probleme des Herstellungsprozesses 
+            - Definition von Analysezielen in Bezug auf die Anwendungsfälle und Projekte
+            - Verstehen, Bereinigen, Zusammenführen und Vorbereiten von Daten für Anwendungsfälle und Projekte
+            - Abstrahieren von Merkmalen aus vorbereiteten Daten
+            - Daten erforschen (visuelles Management)
+            - Modellieren und Ausführen von Analytics Workflows für Routineursachen und -entscheidungen
+            - Automatisieren der Ausführung von Analytics-Workflows
+            - Interpretieren, Evaluieren der Workflow-Ergebnisse und deren Nutzen
+            - Kontinuierliche Iteration über Analytics Workflows für bessere und schnellere Prozessentwicklungszyklen
+        - section: Entwicklung und Einführung von MFS-weiten Digitalisierungsstandards
         - items:
-            - Support the evaluatuation and implementation of software as e.g. PLC, MDA/PDA, MES and hardware as e.g. edge technology according to CT and MFS standards
-            - Identify key processes with substantial digitalization needs as well as key digitalization concepts and technologies (internal and external to MFS, e.g. preventive and predictive approaches)
-            - Develop standards regarding methods (e.g. Data Exploration, Advanced Analytics, Data Science), processes and tools / technologies (e.g. predictive methods)
-            - Organize and implement rollout concepts, communication and compliance of the developed digitalization standards in all MFS PMSs (shared)
-            - Support local Operations and ME in solution deployment regarding analytics approaches
-        - section: Training and Coaching
+            - Unterstützung bei der Evaluierung und Implementierung von Software wie z.B. PLC, MDA/PDA, MES und Hardware wie z.B. Edge-Technologie nach CT- und MFS-Standards
+            - Identifikation von Schlüsselprozessen mit erheblichem Digitalisierungsbedarf sowie von Schlüsselkonzepten und -technologien zur Digitalisierung (MFS-intern und -extern, z.B. präventive und prädiktive Ansätze)
+            - Entwicklung von Standards in Bezug auf Methoden (z.B. Data Exploration, Advanced Analytics, Data Science), Prozesse und Tools/Technologien (z.B. prädiktive Methoden)
+            - Organisation und Umsetzung von Rollout-Konzepten, Kommunikation und Compliance der entwickelten Digitalisierungsstandards in allen MFS PMS (shared)
+            - Unterstützung der lokalen Operations und ME bei der Lösungsimplementierung in Bezug auf Analytics-Ansätze
+        - section: Schulung und Coaching
         - items:
-            - Provide Use Case and Project related documentation for continuous qualification of other manufacturing engineers
-            - Share knowledge and status of existing projects within the MFS organization
-        - section: Standardization
+            - Bereitstellung von Use Case- und projektbezogener Dokumentation für die kontinuierliche Qualifizierung anderer Fertigungsingenieure
+            - Austausch von Wissen und Status bestehender Projekte innerhalb der MFS-Organisation
+        - section: Standardisierung
         - items:
-            - Development of central manufacturing engineering standards for Shopfloor IT/OT and Manufacturing Intelligence Activities
-            - Provide feedback and input for further development of standards regarding manufacturing engineering
+            - Entwicklung zentraler Standards für die Fertigungstechnik für Shopfloor IT/OT und Manufacturing Intelligence Aktivitäten
+            - Bereitstellung von Feedback und Input für die weitere Entwicklung von Standards für die Fertigungstechnik
     - company: 'ContiTech MGW GmbH - Waltershausen'
       position: 'Quality Engineer'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
@@ -163,12 +164,14 @@ resume:
       startDate: '2019-04-01'
       endDate: ''
       gpa: 'N/A'
+      courses: https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Kunststofftechnik'
       studyType: 'Bachelor of Engineering'
       startDate: '2015-10-01'
       endDate: '2018-09-30'
       gpa: '1.6'
+      courses: https://www.dhge.de/DHGE/Studiengaenge/Technik/Kunststofftechnik.html
 
   skills:
     - name: 'Projektmanagement'

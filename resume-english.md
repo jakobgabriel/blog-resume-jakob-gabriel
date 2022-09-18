@@ -60,16 +60,17 @@ resume:
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2022-01-01'
       endDate: ''
-      summary: >
-        - Developing and defining analytics use cases and projects based on problems in production processes of Mobile Fluid Systems in collaboration with steakholders
-        - Execution of continuous improvement processes by applying analytical methods in the data-driven problem solving process against the background of global scaling potentials
-        - Interpret and document solution approaches from executed use cases and projects for further decision making and iteration
-        - Automate analytics and operational business workflows to accelerate result discovery and support steakholder decision-making processes
-        - Preparation of budgets for analytics projects with subsequent securing of these within the framework of defined project objectives
-        - Preparation and documentation of guidelines in the context of lessons learned from completed projects for continuous further development
-        - Support of existing process and machine standards against the background of results from analytics projects
-        - Close cooperation with other business unit functions and the ContiTech central functions
       highlights:
+        - section: Summary
+        - items: 
+            - Developing and defining analytics use cases and projects based on problems in production processes of Mobile Fluid Systems in collaboration with steakholders
+            - Execution of continuous improvement processes by applying analytical methods in the data-driven problem solving process against the background of global scaling potentials
+            - Interpret and document solution approaches from executed use cases and projects for further decision making and iteration
+            - Automate analytics and operational business workflows to accelerate result discovery and support steakholder decision-making processes
+            - Preparation of budgets for analytics projects with subsequent securing of these within the framework of defined project objectives
+            - Preparation and documentation of guidelines in the context of lessons learned from completed projects for continuous further development
+            - Support of existing process and machine standards against the background of results from analytics projects
+            - Close cooperation with other business unit functions and the ContiTech central functions 
         - section: Industry 4.0 Management and Strategy
         - items:
             - Manage and coordinate use cases and projects for data-driven process improvements in manufacturing processes
@@ -167,12 +168,15 @@ resume:
       startDate: '2019-04-01'
       endDate: ''
       gpa: 'N/A'
+      courses: https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Polymer Engineering'
       studyType: 'Bachelor of Engineering'
       startDate: '2015-10-01'
       endDate: '2018-09-30'
       gpa: 1.6
+      courses: https://www.dhge.de/DHGE/Studiengaenge/Technik/Kunststofftechnik.html
+
 
   skills:
     - name: 'Project Management'
