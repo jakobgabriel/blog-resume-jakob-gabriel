@@ -168,14 +168,14 @@ resume:
       startDate: '2019-04-01'
       endDate: ''
       gpa: 'N/A'
-      courses: https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng
+      website: https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Polymer Engineering'
       studyType: 'Bachelor of Engineering'
       startDate: '2015-10-01'
       endDate: '2018-09-30'
       gpa: 1.6
-      courses: https://www.dhge.de/DHGE/Studiengaenge/Technik/Kunststofftechnik.html
+      website: 'https://www.dhge.de/DHGE/Studiengaenge/Technik/Kunststofftechnik.html'
 
 
   skills:
