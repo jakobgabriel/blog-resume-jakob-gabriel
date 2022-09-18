@@ -56,15 +56,15 @@ menu:
   - title: Resume - English
     url: /resume-english
   - title: Lebenslauf - Deutsch
-    url: /resume-deutsch
+    url: /lebenslauf-deutsch
   # - title:             Documentation
   #   url:               /docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
-#   - title: LICENSE
-#     url: /LICENSE/
+  - title: LICENSE
+    url: /licenses/pro
 #   - title: NOTICE
 #     url: /NOTICE/
 #   - title: CHANGELOG
@@ -233,7 +233,7 @@ hydejack:
 
   # Set to `true` if you do not want to expose your resume and projects
   # in machine-readable formats.
-  no_structured_data: true
+  no_structured_data: false
 
   # You can set this to `true` if you don't want to set the `theme-color` meta tag,
   # This only affects the meta tag, not the color specified in the app manifest.
