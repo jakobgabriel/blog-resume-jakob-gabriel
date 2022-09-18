@@ -166,6 +166,7 @@ resume:
       studyType: 'Master of Engineering'
       startDate: '2019-04-01'
       endDate: ''
+      gpa: 'N/A'
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Polymer Engineering'
       studyType: 'Bachelor of Engineering'
