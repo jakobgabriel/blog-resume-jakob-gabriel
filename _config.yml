@@ -285,7 +285,7 @@ hydejack:
 # Collections
 # ----------------------------------------------------------------------------------------
 
-# collections:
+collections:
 #   featured_categories:
 #     permalink: /blog/:name/
 #     output: true
@@ -294,9 +294,12 @@ hydejack:
 #     permalink: /tag-:name/
 #     output: true
 
-#   projects:
-#     permalink: /projects/:path/
-#     output: true
+  projects_2021:
+    permalink: /projects/2021/
+    output: true
+  projects_2022:
+    permalink: /projects/2022/
+    output: true
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------

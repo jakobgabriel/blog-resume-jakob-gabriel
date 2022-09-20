@@ -15,6 +15,7 @@ links:
   - title: Link
     url: https://hydejack.com/
 sitemap: false
+show_collection: projects_2021
 ---
 
 DEMO PAGE

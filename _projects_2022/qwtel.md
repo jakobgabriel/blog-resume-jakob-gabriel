@@ -20,6 +20,7 @@ accent_image:
   background: '#193747'
 theme_color: '#193747'
 sitemap: false
+show_collection: projects_2022
 ---
 
 DEMO PAGE
