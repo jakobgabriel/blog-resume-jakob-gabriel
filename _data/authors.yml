@@ -2,8 +2,8 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Jakob Gabriel
+  email:             jakob.gabriel5@googlemail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -26,9 +26,9 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    #twitter:         <username>
+    github:          https://github.com/jakobgabriel
+    email:           jakob.gabriel5@googlemail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -57,8 +57,8 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
-    # xing:            <firstname_lastname_counter>
+    linkedin:        https://www.linkedin.com/in/jakob-gabriel/
+    xing:            https://www.xing.com/profile/Jakob_Gabriel4/
     # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
@@ -78,5 +78,5 @@ author2:
     Open `_data/authors.yml` to edit this text.
 
   picture:           https://placehold.it/128x128
-  twitter:           <username>
+  #twitter:           <username>
   github:            <username>

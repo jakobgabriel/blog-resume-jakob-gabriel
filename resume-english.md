@@ -23,13 +23,16 @@ buttons:
   # or use `h2vx.com` to generate a vCard on the fly based on the structured data of the resume page.
   # The later requires `hydejack.no_structured_data: false` and only works once the site is deployed to a public URL.
   vcf: /assets/Jakob Gabriel.vcf
+  ondrive: https://1drv.ms/u/s!ApGC4LfxKCgGicUAyodVoedcgmjcBQ?e=Qk8O7g 
   #http://h2vx.com/vcf/<!--url-->
   #json: /assets/resume.json
+
 # Resume data for English
 resume:
   # If you have a `resume.json` file, copy it into `_data` and delete this file.
   # If you don't have a JSON Resume you can just edit this YAML file instead.
   # See also: <https://jsonresume.org/>.
+
   basics:
     name: 'Jakob Gabriel'
     label: 'Analytics and Data Engineer'
@@ -165,6 +168,7 @@ resume:
       startDate: '2015-08-01'
       endDate: '2015-09-30'
 
+
   education:
     - institution: 'University of Applied Sciences Schmalkalden'
       area: 'Applied Polymer Engineering'
@@ -199,17 +203,21 @@ resume:
       level: '2-3'
       keywords:
         - "Minitab"
-    - name: 'Data Engineering / Analytics'
+    - name: 'Programming Languages'
+      level: '1-3'
+      keywords: 
+        - "Python"
+    - name: 'Analytics Tools'
       level: '2-3'
       keywords:
         - "KNIME Analytics Platform"
-        - "Python"
     - name: 'Databases'
       level: '2-3'
       keywords:
         - "Postgres"
         - "Timescale"
         - "InfluxDB"
+        - "Cassandra"
     - name: 'Data Visualization'
       level: '2-3'
       keywords: 

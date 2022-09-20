@@ -25,6 +25,7 @@ buttons:
   vcf: /assets/Jakob Gabriel.vcf
   # http://h2vx.com/vcf/<!--url-->
   #json: /assets/resume.json
+  ondrive: https://1drv.ms/u/s!ApGC4LfxKCgGicR_6WNFuvW_SenzcQ?e=AzshDb
 # Resume data for German
 resume:
   # If you have a `resume.json` file, copy it into `_data` and delete this file.
@@ -73,7 +74,6 @@ resume:
             - Vorbereitung und Dokumentation von Guidelines im Rahmen von Lessons Learned aus abgeschlossenen Projekten zur kontinuierlichen Weiterentwicklung
             - Unterstützung von existierenden Prozess- und Maschinenstandards vor dem Hintergrund von Ergebnissen aus Analytics Projekten
             - Enge Zusammenarbeit mit anderen Business Unit Funktionen und den ContiTech Zentralfunktionen
-
         - section: Industrie 4.0 Management und Strategie
         - items:
             - Verwaltung und Koordinierung von Anwendungsfällen und Projekten für datengestützte Prozessverbesserungen in Fertigungsprozessen
@@ -156,11 +156,13 @@ resume:
         - items:
             - Analyse von Problemen und Entwicklung von Lösungen im Bereich der Produkt- und Prozessindustrialisierung
             - Dokumentation der Analysen im Rahmen einer semesterbegleitenden Projekt- oder Seminararbeit.
+
     - company: 'ContiTech MGW GmbH - Waltershausen'
       position: 'Praktikant'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2015-08-01'
       endDate: '2015-09-30'
+
 
   education:
     - institution: 'Hochschule Schmalkalden'
@@ -177,6 +179,7 @@ resume:
       endDate: '2018-09-30'
       gpa: '1.6'
       url: 'https://www.dhge.de/DHGE/Studiengaenge/Technik/Kunststofftechnik.html'
+
 
   skills:
     - name: 'Projektmanagement'
@@ -195,17 +198,21 @@ resume:
       level: '2-3'
       keywords:
         - "Minitab"
-    - name: 'Data Engineering / Analytics'
+    - name: 'Programmiersprachen'
+      level: '1-3'
+      keywords: 
+        - "Python"
+    - name: 'Analytics Tools'
       level: '2-3'
       keywords:
         - "KNIME Analytics Platform"
-        - "Python"
     - name: 'Datenbanken'
       level: '2-3'
       keywords:
         - "Postgres"
         - "Timescale"
         - "InfluxDB"
+        - "Cassandra"
     - name: 'Data Visualization'
       level: '2-3'
       keywords: 
