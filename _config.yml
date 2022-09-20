@@ -51,12 +51,12 @@ author:
 menu:
   # - title:             Blog
   #   url:               /blog/
-  # - title:             Projects
-  #   url:               /projects/
   - title: Resume - English
     url: /resume-english
   - title: Lebenslauf - Deutsch
     url: /lebenslauf-deutsch
+  - title: Projects
+    url: /projects/
   # - title:             Documentation
   #   url:               /docs/
 
