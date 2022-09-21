@@ -3,42 +3,40 @@
   <div class="npb">
     <h2 id="education" class="h3 hr-bottom">
       {{ strings.resume.education | default:"Education" }}
-      <span
-        class="symbol {{ icons.education | default:'icon-library' }}"
-      ></span>
+      <span class="symbol {{ icons.education | default:'icon-library' }}"></span>
     </h2>
     {% for edu in resume.education %}
     <section>
       <header class="{% unless forloop.first %}mt2{% endunless %}">
         {% if edu.startDate.size > 0 %}
         <p class="faded">
-          {% include components/from-to.html from=edu.startDate to=edu.endDate
-          format=from_to_format %}
+          {% assign todayYear = 'now' | date: "%Y" %}
+          {% assign startYear = edu.startDate | date: "%Y" %}
+          {% assign endYear = edu.endDate | date: "%Y" | default: todayYear %}
+          {% assign diff = endYear | minus: startYear %}
+          {% assign unit = "years" %}
+          {% if diff == 0 %}
+          {% assign todayMonth = 'now' | date: "%m" %}
+          {% assign startMonth = edu.startDate | date: "%m" %}
+          {% assign endMonth = edu.endDate | date: "%m" | default: todayMonth %}
+          {% assign diff = endMonth | minus: startMonth %}
+          {% assign unit = "month(s)" %}
+          {% endif %}
+          {% include components/from-to.html from=edu.startDate to=edu.endDate format=from_to_format %}<i
+            class="faded"><span class="icon-history"></span> {{diff}} {{unit}}</i>
         </p>
         {% endif %}
         <h3 class="h4 faded" {% if edu.endDate.size>
           0 %}property="alumniOf" typeof="EducationalOrganization"{% endif %}>
           {% capture study_type %}<span class="bc">{{ edu.studyType }}</span>{%
-          endcapture %} {% capture area %}<span class="bc">{{ edu.area }}</span
-          >{% endcapture %} {% capture institution %}<span
-            class="bc"
-            {%
-            if
-            edu.endDate.size
-          >
+          endcapture %} {% capture area %}<span class="bc"> {{ edu.area }}</span>{% endcapture %} {% capture institution
+          %}<span class="bc" {% if edu.endDate.size>
             0 %}property="name"{% endif %}>
-            <a href="{{edu.url}}">{{ edu.institution }}</a> </span
-          >{% endcapture %} {% capture gpa %}<span class="bc"
-            >{{ edu.gpa }}</span
-          >{% endcapture %} {{ strings.resume.education_title | default:"<!--study_type-->
-          in
-          <!--area-->
-          from
-          <!--institution-->
-          with GPA of
-          <!--gpa-->" | replace:"<!--study_type-->", study_type | replace:"<!--area-->",
-          area | replace:"<!--institution-->", institution | replace:"<!--gpa-->",
-          gpa }}
+            <a href="{{edu.url}}">{{ edu.institution }}</a> </span>{% endcapture %} {% capture gpa %}<span class="bc">{{
+            edu.gpa }}</span>{% endcapture %}
+          <span>
+            {{study_type}} in {{area}} from {{institution}} with GPA of {{gpa}}
+          </span>
         </h3>
       </header>
 

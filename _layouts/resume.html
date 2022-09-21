@@ -26,13 +26,6 @@ layout: base
   %}vocab="http://schema.org/" typeof="Person" resource="#resume" {% endunless %}>
   {% include pro/resume/header.html %}
   {% include pro/resume/buttons.html %}
-  <!-- <div class="columns column_break" style="margin-top: 1em; text-align:center;">
-    <div class="column">
-      <strong>Available in:</strong>{% for lang in
-      resume_languages %} <a href="{{lang.link | relative_url}}">{{lang.name}}</a>
-      {%endfor%}
-    </div>
-  </div> -->
 
   <div class="columns contact {% unless no_third_column %}columns-break{% endunless %}">
     {% include pro/resume/basics.html %}
@@ -55,6 +48,9 @@ layout: base
       {% include pro/resume/volunteer.html %}
       {% when 'education' %}
       {% include pro/resume/education.html %}
+      <!-- Certificates -->
+      {% when 'certificates' %}
+      {% include pro/resume/certificates.html %}
       {% when 'awards' %}
       {% include pro/resume/awards.html %}
       {% when 'publications' %}
@@ -80,6 +76,9 @@ layout: base
       {% include pro/resume/volunteer.html %}
       {% when 'education' %}
       {% include pro/resume/education.html %}
+      <!-- Certificates -->
+      {% when 'certificates' %}
+      {% include pro/resume/certificates.html %}
       {% when 'awards' %}
       {% include pro/resume/awards.html %}
       {% when 'publications' %}
