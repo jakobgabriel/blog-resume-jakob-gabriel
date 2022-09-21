@@ -1,12 +1,13 @@
 ---
 layout: resume
 title: Resume - English
-description: 
+description:
 hide_description: true
 left_column:
   - work
   - volunteer
   - education
+  - certificates
   - awards
   - publications
   - references
@@ -23,9 +24,11 @@ buttons:
   # or use `h2vx.com` to generate a vCard on the fly based on the structured data of the resume page.
   # The later requires `hydejack.no_structured_data: false` and only works once the site is deployed to a public URL.
   vcf: /assets/Jakob Gabriel.vcf
-  #ondrive: https://1drv.ms/u/s!ApGC4LfxKCgGicUAyodVoedcgmjcBQ?e=Qk8O7g 
+  #ondrive: https://1drv.ms/u/s!ApGC4LfxKCgGicUAyodVoedcgmjcBQ?e=Qk8O7g
   #http://h2vx.com/vcf/<!--url-->
   #json: /assets/resume.json
+  # Attachments
+  attachments: https://onedrive.com
 
 # Resume data for English
 resume:
@@ -39,7 +42,7 @@ resume:
     picture: 'assets/img/logo.jpeg'
     email: 'jakob.gabriel5@googlemail.com'
     phone: '+49-159-01665306'
-    #website: 
+    #website:
     #summary: TODO
     location:
       address: 'Friedrich-Engels-Str. 13'
@@ -66,7 +69,7 @@ resume:
       endDate: ''
       highlights:
         - section: Summary
-        - items: 
+        - items:
             - Developing and defining analytics use cases and projects based on problems in production processes of Mobile Fluid Systems in collaboration with steakholders
             - Execution of continuous improvement processes by applying analytical methods in the data-driven problem solving process against the background of global scaling potentials
             - Interpret and document solution approaches from executed use cases and projects for further decision making and iteration
@@ -74,7 +77,7 @@ resume:
             - Preparation of budgets for analytics projects with subsequent securing of these within the framework of defined project objectives
             - Preparation and documentation of guidelines in the context of lessons learned from completed projects for continuous further development
             - Support of existing process and machine standards against the background of results from analytics projects
-            - Close cooperation with other business unit functions and the ContiTech central functions 
+            - Close cooperation with other business unit functions and the ContiTech central functions
         - section: Industry 4.0 Management and Strategy
         - items:
             - Manage and coordinate use cases and projects for data-driven process improvements in manufacturing processes
@@ -92,7 +95,7 @@ resume:
             - Ensure that the financial goals are met within the Use Cases or Projects
         - section: Manufacturing Intelligence / (Advanced) Analytics / Data Science
         - items:
-            - Understanding of manufacturing process problems 
+            - Understanding of manufacturing process problems
             - Definition of Analysis Goals related to the Use Cases and Projects
             - Understand, Clean, Join and Prepare Data for Use Cases and Projects
             - Abstract Features from Prepared Data
@@ -168,7 +171,6 @@ resume:
       startDate: '2015-08-01'
       endDate: '2015-09-30'
 
-
   education:
     - institution: 'University of Applied Sciences Schmalkalden'
       area: 'Applied Polymer Engineering'
@@ -177,6 +179,7 @@ resume:
       endDate: ''
       gpa: 'N/A'
       url: https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng
+
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Polymer Engineering'
       studyType: 'Bachelor of Engineering'
@@ -185,14 +188,21 @@ resume:
       gpa: 1.6
       url: 'https://www.dhge.de/DHGE/Studiengaenge/Technik/Kunststofftechnik.html'
 
+  # Certiciates/Training
+  certificates:
+    - name: 'Digital Compression Pioneer Certificate'
+      date: '2014-11-01'
+      organization: 'Techcrunch'
+      summary: 'There is no spoon.'
+      url: 'https://microsoft.com'
 
   skills:
     - name: 'Project Management'
       level: '2-3'
-      keywords: 
-        - "MS Project"
-        - "MS Planner"
-        - "Gitlab"
+      keywords:
+        - 'MS Project'
+        - 'MS Planner'
+        - 'Gitlab'
     - name: 'Quality Management'
       level: '3-3'
       keywords:
@@ -202,28 +212,28 @@ resume:
     - name: 'Statistics'
       level: '2-3'
       keywords:
-        - "Minitab"
+        - 'Minitab'
     - name: 'Programming Languages'
       level: '1-3'
-      keywords: 
-        - "Python"
+      keywords:
+        - 'Python'
     - name: 'Analytics Tools'
       level: '2-3'
       keywords:
-        - "KNIME Analytics Platform"
+        - 'KNIME Analytics Platform'
     - name: 'Databases'
       level: '2-3'
       keywords:
-        - "Postgres"
-        - "Timescale"
-        - "InfluxDB"
-        - "Cassandra"
+        - 'Postgres'
+        - 'Timescale'
+        - 'InfluxDB'
+        - 'Cassandra'
     - name: 'Data Visualization'
       level: '2-3'
-      keywords: 
-        - "Grafana"
-        - "Superset"
-        - "PowerBI"
+      keywords:
+        - 'Grafana'
+        - 'Superset'
+        - 'PowerBI'
 
   languages:
     - language: 'German'

@@ -8,19 +8,29 @@
     </h2>
     {% for work in resume.work %}
     <section x-data="{open:false}">
-      <header 
-        class="{% unless forloop.first %}mt2{% endunless %}"
-        property="{% if work.endDate.size > 0 %}alumniOf{% else %}worksFor{% endif %}" 
-        typeof="Organization"
-        >
+      <header class="{% unless forloop.first %}mt2{% endunless %}"
+        property="{% if work.endDate.size > 0 %}alumniOf{% else %}worksFor{% endif %}" typeof="Organization">
         {% if work.startDate.size > 0 %}
         <p class="faded">
-          {% include components/from-to.html from=work.startDate to=work.endDate format=from_to_format %}
+          {% assign todayYear = 'now' | date: "%Y" %}
+          {% assign startYear = work.startDate | date: "%Y" %}
+          {% assign endYear = work.endDate | date: "%Y" | default: todayYear %}
+          {% assign diff = endYear | minus: startYear %}
+          {% assign unit = "years" %}
+          {% if diff == 0 %}
+          {% assign todayMonth = 'now' | date: "%m" %}
+          {% assign startMonth = work.startDate | date: "%m" %}
+          {% assign endMonth = work.endDate | date: "%m" | default: todayMonth %}
+          {% assign diff = endMonth | minus: startMonth %}
+          {% assign unit = "month(s)" %}
+          {% endif %}
+          {% include components/from-to.html from=work.startDate to=work.endDate format=from_to_format %}<i
+            class="faded"><span class="icon-history"></span> {{diff}} {{unit}}</i>
         </p>
         {% endif %}
         <h3 class="h4 faded">
           <button style="border: none; background-color: white;" @click="open=!open" x-text="open?'-':'+'"></button>
-          <meta property="name" content="{{ work.company }}"/>
+          <meta property="name" content="{{ work.company }}" />
           {% capture position %}<span class="bc">{{ work.position }}</span>{% endcapture %}
           {% capture company_class %}{% if work.endDate.size > 0 %}{% else %}org p-org h-card{% endif %}{% endcapture %}
           {% capture company %}{% include components/link.html title=work.company href=work.website class=company_class
