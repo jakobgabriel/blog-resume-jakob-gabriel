@@ -25,7 +25,8 @@ buttons:
   vcf: /assets/Jakob Gabriel.vcf
   # http://h2vx.com/vcf/<!--url-->
   #json: /assets/resume.json
-  #ondrive: https://1drv.ms/u/s!ApGC4LfxKCgGicR_6WNFuvW_SenzcQ?e=AzshDb
+  attachments:  https://1drv.ms/u/s!ApGC4LfxKCgGicR_6WNFuvW_SenzcQ?e=AzshDb
+  
 # Resume data for German
 resume:
   # If you have a `resume.json` file, copy it into `_data` and delete this file.

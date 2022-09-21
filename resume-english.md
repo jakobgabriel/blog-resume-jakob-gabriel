@@ -24,11 +24,10 @@ buttons:
   # or use `h2vx.com` to generate a vCard on the fly based on the structured data of the resume page.
   # The later requires `hydejack.no_structured_data: false` and only works once the site is deployed to a public URL.
   vcf: /assets/Jakob Gabriel.vcf
-  #ondrive: https://1drv.ms/u/s!ApGC4LfxKCgGicUAyodVoedcgmjcBQ?e=Qk8O7g
   #http://h2vx.com/vcf/<!--url-->
   #json: /assets/resume.json
   # Attachments
-  attachments: https://onedrive.com
+  attachments: https://1drv.ms/u/s!ApGC4LfxKCgGicUAyodVoedcgmjcBQ?e=Qk8O7g
 
 # Resume data for English
 resume:
