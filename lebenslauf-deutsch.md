@@ -180,6 +180,13 @@ resume:
       gpa: '1.6'
       url: 'https://www.dhge.de/DHGE/Studiengaenge/Technik/Kunststofftechnik.html'
 
+  # Certiciates/Training
+  certificates:
+    - name: 'Advanced Analytics Methodologies'
+      date: '2021-10-11'
+      organization: 'AdvancedAnalytics.Academy GmbH'
+      #summary: 'There is no spoon.'
+      url: 'https://advancedanalytics.academy/trainings/fundamentals/advanced-analytics-methodologies'
 
   skills:
     - name: 'Projektmanagement'

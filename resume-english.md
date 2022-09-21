@@ -190,11 +190,11 @@ resume:
 
   # Certiciates/Training
   certificates:
-    - name: 'Digital Compression Pioneer Certificate'
-      date: '2014-11-01'
-      organization: 'Techcrunch'
-      summary: 'There is no spoon.'
-      url: 'https://microsoft.com'
+    - name: 'Advanced Analytics Methodologies'
+      date: '2021-10-11'
+      organization: 'AdvancedAnalytics.Academy GmbH'
+      #summary: 'There is no spoon.'
+      url: 'https://advancedanalytics.academy/trainings/fundamentals/advanced-analytics-methodologies'
 
   skills:
     - name: 'Project Management'
