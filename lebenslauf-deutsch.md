@@ -1,12 +1,13 @@
 ---
 layout: resume
 title: Lebenslauf - Deutsch
-description: 
+description:
 hide_description: true
 left_column:
   - work
   - volunteer
   - education
+  - certificates
   - awards
   - publications
   - references
@@ -25,8 +26,8 @@ buttons:
   vcf: /assets/Jakob Gabriel.vcf
   # http://h2vx.com/vcf/<!--url-->
   #json: /assets/resume.json
-  attachments:  https://1drv.ms/u/s!ApGC4LfxKCgGicR_6WNFuvW_SenzcQ?e=AzshDb
-  
+  attachments: https://1drv.ms/u/s!ApGC4LfxKCgGicR_6WNFuvW_SenzcQ?e=AzshDb
+
 # Resume data for German
 resume:
   # If you have a `resume.json` file, copy it into `_data` and delete this file.
@@ -39,7 +40,7 @@ resume:
     picture: 'assets/img/logo.jpeg'
     email: 'jakob.gabriel5@googlemail.com'
     phone: '+49-159-01665306'
-    #website: 
+    #website:
     #summary: TODO
     location:
       address: 'Friedrich-Engels-Str. 13'
@@ -66,9 +67,9 @@ resume:
       endDate: ''
       highlights:
         - section: Zusammenfassung
-        - items: 
-            - Erarbeiten und Definieren von Analytics Anwendungsfällen und Projekten auf Basis von Problemstellungen in Produktionsprozessen der Mobile Fluid Systems in Zusammenarbeit mit Steakholdern 
-            - Ausführen von kontinuierlichen Verbesserungsprozessen durch Anwendung von analytischen Methoden im datengetriebenen Problemlösungsprozess vor dem Hintergrund von globalen Skalierungspotenzialen 
+        - items:
+            - Erarbeiten und Definieren von Analytics Anwendungsfällen und Projekten auf Basis von Problemstellungen in Produktionsprozessen der Mobile Fluid Systems in Zusammenarbeit mit Steakholdern
+            - Ausführen von kontinuierlichen Verbesserungsprozessen durch Anwendung von analytischen Methoden im datengetriebenen Problemlösungsprozess vor dem Hintergrund von globalen Skalierungspotenzialen
             - Interpretieren und Dokumentieren von Lösungsansätzen aus durchgeführten Anwendungsfällen und Projekten zur weiteren Entscheidungsfindung und Iteration
             - Automatisieren von Analytics und operativen Business Workflows zur Beschleunigung von Ergebnisfindung und Unterstützung von Entscheidungsfindungsprozessen von Steakholdern
             - Vorbereitung von Budgets für Analytics Projekte mit anschließender Sicherstellung dieser im Rahmen von definierten Projektzielen
@@ -92,7 +93,7 @@ resume:
             - Sicherstellen, dass die finanziellen Ziele innerhalb der Anwendungsfälle oder Projekte erreicht werden
         - section: Manufacturing Intelligence / (Advanced) Analytics / Data Science
         - items:
-            - Verständnis der Probleme des Herstellungsprozesses 
+            - Verständnis der Probleme des Herstellungsprozesses
             - Definition von Analysezielen in Bezug auf die Anwendungsfälle und Projekte
             - Verstehen, Bereinigen, Zusammenführen und Vorbereiten von Daten für Anwendungsfälle und Projekte
             - Abstrahieren von Merkmalen aus vorbereiteten Daten
@@ -124,7 +125,7 @@ resume:
       endDate: '2021-12-31'
       highlights:
         - items:
-            - Durchführung von Bemusterungen/Reklamationen 
+            - Durchführung von Bemusterungen/Reklamationen
             - Abstimmung der Bemusterungstermine mit globalem Qualitätsplaner zwischen ICO Kunden und Produktion
             - Erstellung von Erstmusterprüfberichten für BM-Teile
             - Bearbeitung von Vorserienreklamationen Überwachung der Abarbeitung von Korrekturmaßnahmen
@@ -135,16 +136,16 @@ resume:
             - Ermittlung und Bewertung von qualitätsrelevanten Kundenanforderungen innerhalb Herstellbarkeitsprozess
             - Überprüfung der Zeichnungen auf Einhaltung von internen Vorgaben sowie qualitätsrelevanten Themen Dokumentation von Abweichungen bzw. Auflagen bei der Herstellbarkeitsbewertung
             - Koordination und Moderation der FMEA Sitzungen
-            - Mitarbeit in FMEA Besprechungen 
+            - Mitarbeit in FMEA Besprechungen
             - Durchführung von Risikoanalysen
             - Teilnahme an internen Prozessserien sowie an Kundenabnahmen
             - Koordination/Terminierung der Kundentermine mit globalem Qualitätsplaner und Produktion
             - Wirksamkeitsprüfung der Poka Yoke-Maßnahmen
             - Überprüfung von produkt- sowie prozessbezogenen Dokumenten auf Richtigkeit und Vollständigkeit
             - Einleitung sowie Betreuung von Prozessfähigkeitsuntersuchungen
-            - Durchsetzung des Prinzips der eigenverantwortlichen Überwachung an jedem Arbeitsplatz 
+            - Durchsetzung des Prinzips der eigenverantwortlichen Überwachung an jedem Arbeitsplatz
             - Vorgabe, Einweisung und Überwachung zur Einhaltung der Arbeitsplatz-sowie Prüfdokumentation
-            - Stetige Verbesserung mit dem Ziel der Senkung der Qualitätskosten 
+            - Stetige Verbesserung mit dem Ziel der Senkung der Qualitätskosten
             - Eindeutige Identifizierung, Kennzeichnung und Rückverfolgung der Produkte sowie Lenkung nach FIFO
             - Sicherung der Prozessfähigkeit der produktrelevanten Maschinen und Anlagen AS/WS/UWS im Rahmen der Tätigkeiten
 
@@ -163,7 +164,6 @@ resume:
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2015-08-01'
       endDate: '2015-09-30'
-
 
   education:
     - institution: 'Hochschule Schmalkalden'
@@ -192,10 +192,10 @@ resume:
   skills:
     - name: 'Projektmanagement'
       level: '2-3'
-      keywords: 
-        - "MS Project"
-        - "MS Planner"
-        - "Gitlab"
+      keywords:
+        - 'MS Project'
+        - 'MS Planner'
+        - 'Gitlab'
     - name: 'Qualitätsmanagement'
       level: '3-3'
       keywords:
@@ -205,28 +205,28 @@ resume:
     - name: 'Statistik'
       level: '2-3'
       keywords:
-        - "Minitab"
+        - 'Minitab'
     - name: 'Programmiersprachen'
       level: '1-3'
-      keywords: 
-        - "Python"
+      keywords:
+        - 'Python'
     - name: 'Analytics Tools'
       level: '2-3'
       keywords:
-        - "KNIME Analytics Platform"
+        - 'KNIME Analytics Platform'
     - name: 'Datenbanken'
       level: '2-3'
       keywords:
-        - "Postgres"
-        - "Timescale"
-        - "InfluxDB"
-        - "Cassandra"
+        - 'Postgres'
+        - 'Timescale'
+        - 'InfluxDB'
+        - 'Cassandra'
     - name: 'Data Visualization'
       level: '2-3'
-      keywords: 
-        - "Grafana"
-        - "Superset"
-        - "PowerBI"
+      keywords:
+        - 'Grafana'
+        - 'Superset'
+        - 'PowerBI'
 
   languages:
     - language: 'Deutsch'
