@@ -207,7 +207,7 @@ resume:
       endDate: '2019-09-18'
       organization: 'TÜV Hessen'
       #summary: >
-      url: ''
+      url: 'https://www.tuev-club.de/656/tuev-know-how-club-seminare/'
 
   skills:
     - name: 'Project Management'
