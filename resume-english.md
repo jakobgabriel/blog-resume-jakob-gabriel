@@ -190,14 +190,21 @@ resume:
   # Certiciates/Training
   certificates:
     - name: 'Advanced Analytics Methodologies'
-      date: '2021-10-11'
+      startDate: '2021-10-11'
+      endDate: '2021-12-11'
       organization: 'AdvancedAnalytics.Academy GmbH'
       #summary: ''
       url: 'https://advancedanalytics.academy/trainings/fundamentals/advanced-analytics-methodologies'
     - name: 'Process Auditor VDA 6.3'
-      date: ''
+      startDate: '2021-10-11'
+      endDate: '2021-12-11'
       organization: 'TÜV Hessen'
-      #summary: ''
+      summary: >
+        * You can
+
+        * Use bullets
+
+        * Like this
       url: ''
 
   skills:
