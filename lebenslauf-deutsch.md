@@ -65,17 +65,24 @@ resume:
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2022-01-01'
       endDate: ''
+      summary: >
+        *  Erarbeiten und Definieren von Analytics Anwendungsfällen und Projekten auf Basis von Problemstellungen in Produktionsprozessen der Mobile Fluid Systems in Zusammenarbeit mit Steakholdern
+        
+        * Ausführen von kontinuierlichen Verbesserungsprozessen durch Anwendung von analytischen Methoden im datengetriebenen Problemlösungsprozess vor dem Hintergrund von globalen Skalierungspotenzialen
+        
+        * Interpretieren und Dokumentieren von Lösungsansätzen aus durchgeführten Anwendungsfällen und Projekten zur weiteren Entscheidungsfindung und Iteration
+        
+        * Automatisieren von Analytics und operativen Business Workflows zur Beschleunigung von Ergebnisfindung und Unterstützung von Entscheidungsfindungsprozessen von Steakholdern
+        
+        * Vorbereitung von Budgets für Analytics Projekte mit anschließender Sicherstellung dieser im Rahmen von definierten Projektzielen
+        
+        * Vorbereitung und Dokumentation von Guidelines im Rahmen von Lessons Learned aus abgeschlossenen Projekten zur kontinuierlichen Weiterentwicklung
+        
+        * Unterstützung von existierenden Prozess- und Maschinenstandards vor dem Hintergrund von Ergebnissen aus Analytics Projekten
+        
+        * Enge Zusammenarbeit mit anderen Business Unit Funktionen und den ContiTech Zentralfunktionen
+
       highlights:
-        - section: Zusammenfassung
-        - items:
-            - Erarbeiten und Definieren von Analytics Anwendungsfällen und Projekten auf Basis von Problemstellungen in Produktionsprozessen der Mobile Fluid Systems in Zusammenarbeit mit Steakholdern
-            - Ausführen von kontinuierlichen Verbesserungsprozessen durch Anwendung von analytischen Methoden im datengetriebenen Problemlösungsprozess vor dem Hintergrund von globalen Skalierungspotenzialen
-            - Interpretieren und Dokumentieren von Lösungsansätzen aus durchgeführten Anwendungsfällen und Projekten zur weiteren Entscheidungsfindung und Iteration
-            - Automatisieren von Analytics und operativen Business Workflows zur Beschleunigung von Ergebnisfindung und Unterstützung von Entscheidungsfindungsprozessen von Steakholdern
-            - Vorbereitung von Budgets für Analytics Projekte mit anschließender Sicherstellung dieser im Rahmen von definierten Projektzielen
-            - Vorbereitung und Dokumentation von Guidelines im Rahmen von Lessons Learned aus abgeschlossenen Projekten zur kontinuierlichen Weiterentwicklung
-            - Unterstützung von existierenden Prozess- und Maschinenstandards vor dem Hintergrund von Ergebnissen aus Analytics Projekten
-            - Enge Zusammenarbeit mit anderen Business Unit Funktionen und den ContiTech Zentralfunktionen
         - section: Industrie 4.0 Management und Strategie
         - items:
             - Verwaltung und Koordinierung von Anwendungsfällen und Projekten für datengestützte Prozessverbesserungen in Fertigungsprozessen
@@ -184,15 +191,17 @@ resume:
   # Certiciates/Training
   certificates:
     - name: 'Advanced Analytics Methodologies'
-      date: '2021-10-11'
+      startDate: '2021-10-11'
+      endDate: '2021-10-12'
       organization: 'AdvancedAnalytics.Academy GmbH'
       #summary: 'There is no spoon.'
       url: 'https://advancedanalytics.academy/trainings/fundamentals/advanced-analytics-methodologies'
-    - name: 'Prozessauditor VDA 6.3'
-      date: ''
+    - name: 'Produktauditor VDA 6.5'
+      startDate: '2019-09-18'
+      endDate: '2019-09-18'
       organization: 'TÜV Hessen'
       #summary: ''
-      url: ''
+      url: 'https://www.tuev-club.de/656/tuev-know-how-club-seminare/'
 
 
   skills:

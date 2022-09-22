@@ -66,17 +66,24 @@ resume:
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2022-01-01'
       endDate: ''
+      summary: >
+        * Developing and defining analytics use cases and projects based on problems in production processes of Mobile Fluid Systems in collaboration with steakholders
+        
+        * Execution of continuous improvement processes by applying analytical methods in the data-driven problem solving process against the background of global scaling potentials
+        
+        * Interpret and document solution approaches from executed use cases and projects for further decision making and iteration
+        
+        * Automate analytics and operational business workflows to accelerate result discovery and support steakholder decision-making processes
+        
+        * Preparation of budgets for analytics projects with subsequent securing of these within the framework of defined project objectives
+        
+        * Preparation and documentation of guidelines in the context of lessons learned from completed projects for continuous further development
+        
+        * Support of existing process and machine standards against the background of results from analytics projects
+        
+        * Close cooperation with other business unit functions and the ContiTech central functions
+
       highlights:
-        - section: Summary
-        - items:
-            - Developing and defining analytics use cases and projects based on problems in production processes of Mobile Fluid Systems in collaboration with steakholders
-            - Execution of continuous improvement processes by applying analytical methods in the data-driven problem solving process against the background of global scaling potentials
-            - Interpret and document solution approaches from executed use cases and projects for further decision making and iteration
-            - Automate analytics and operational business workflows to accelerate result discovery and support steakholder decision-making processes
-            - Preparation of budgets for analytics projects with subsequent securing of these within the framework of defined project objectives
-            - Preparation and documentation of guidelines in the context of lessons learned from completed projects for continuous further development
-            - Support of existing process and machine standards against the background of results from analytics projects
-            - Close cooperation with other business unit functions and the ContiTech central functions
         - section: Industry 4.0 Management and Strategy
         - items:
             - Manage and coordinate use cases and projects for data-driven process improvements in manufacturing processes
@@ -191,20 +198,15 @@ resume:
   certificates:
     - name: 'Advanced Analytics Methodologies'
       startDate: '2021-10-11'
-      endDate: '2021-12-11'
+      endDate: '2021-10-12'
       organization: 'AdvancedAnalytics.Academy GmbH'
       #summary: ''
       url: 'https://advancedanalytics.academy/trainings/fundamentals/advanced-analytics-methodologies'
-    - name: 'Process Auditor VDA 6.3'
-      startDate: '2021-10-11'
-      endDate: '2021-12-11'
+    - name: 'Product Auditor VDA 6.5'
+      startDate: '2019-09-18'
+      endDate: '2019-09-18'
       organization: 'TÜV Hessen'
-      summary: >
-        * You can
-
-        * Use bullets
-
-        * Like this
+      #summary: >
       url: ''
 
   skills:
