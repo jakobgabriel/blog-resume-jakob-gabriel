@@ -1,10 +1,10 @@
 ---
 layout: project
-title: 'Hydejack Site'
-caption: Dogfooding Hydejack to sell Hydejack.
+title: 'Quality App'
+caption: Demo caption
 description: >
-  While Hydejack is built for personal sites, it's versatility allows it to be used a product page as well.
-date: '01-01-2016'
+  Demo description
+date: '01-01-2021'
 image:
   path: /assets/img/projects/hydejack-site.jpg
   srcset:
@@ -13,9 +13,11 @@ image:
     480w: /assets/img/projects/hydejack-site@0,25x.jpg
 links:
   - title: Link
-    url: https://hydejack.com/
+    url: 
 sitemap: false
 show_collection: projects_2021
 ---
+
+# Quality App 
 
 DEMO PAGE

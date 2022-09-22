@@ -192,8 +192,13 @@ resume:
     - name: 'Advanced Analytics Methodologies'
       date: '2021-10-11'
       organization: 'AdvancedAnalytics.Academy GmbH'
-      #summary: 'There is no spoon.'
+      #summary: ''
       url: 'https://advancedanalytics.academy/trainings/fundamentals/advanced-analytics-methodologies'
+    - name: 'Process Auditor VDA 6.3'
+      date: ''
+      organization: 'TÜV Hessen'
+      #summary: ''
+      url: ''
 
   skills:
     - name: 'Project Management'

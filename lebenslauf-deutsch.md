@@ -188,6 +188,12 @@ resume:
       organization: 'AdvancedAnalytics.Academy GmbH'
       #summary: 'There is no spoon.'
       url: 'https://advancedanalytics.academy/trainings/fundamentals/advanced-analytics-methodologies'
+    - name: 'Prozessauditor VDA 6.3'
+      date: ''
+      organization: 'TÜV Hessen'
+      #summary: ''
+      url: ''
+
 
   skills:
     - name: 'Projektmanagement'
