@@ -55,8 +55,8 @@ menu:
     url: /resume-english
   - title: Lebenslauf - Deutsch
     url: /lebenslauf-deutsch
-  - title: Projects
-    url: /projects-projekte/
+  #- title: Projects - Projekte
+  #  url: /projects-projekte/
   # - title:             Documentation
   #   url:               /docs/
 
