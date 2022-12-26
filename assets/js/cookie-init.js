@@ -117,7 +117,7 @@ window.addEventListener("DOMContentLoaded", () => {
             {
               title: "More information",
               description:
-                'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="https://jakobgabriel.github.io/resume-curriculum-vitae-jakob-gabriel/contact-me">contact us</a>.',
+                'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="https://jakobgabriel.github.io/resume-curriculum-vitae-jakob-gabriel/contact-me">contact me</a>.',
             },
           ],
         },
