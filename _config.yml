@@ -62,8 +62,8 @@ menu:
   #  url: /resume-english
   #- title: Lebenslauf - Deutsch
   #  url: /lebenslauf-deutsch
-  #- title: Contact Me
-  #  url: /contact-me
+  - title: Contact Me
+    url: /contact-me
   # Here is a parent menu, which can be used for a better sidebar structure
   #- title: Parent menu
   #  url: /
