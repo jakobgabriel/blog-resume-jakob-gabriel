@@ -36,6 +36,9 @@ keywords: []
 # It also used by the `jekyll-seo-tag` plugin.
 logo: "assets/img/logo.jpeg"
 email: jakob.gabriel5@googlemail.com
+
+# Analytics
+g4: "G-347452798"
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
