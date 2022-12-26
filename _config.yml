@@ -62,12 +62,10 @@ menu:
         url: /resume-english
       - title: Lebenslauf - Deutsch
         url: /lebenslauf-deutsch
-  #- title: Resume - English
-  #  url: /resume-english
-  #- title: Lebenslauf - Deutsch
-  #  url: /lebenslauf-deutsch
   - title: Contact Me
     url: /contact-me
+
+
   # Here is a parent menu, which can be used for a better sidebar structure
   #- title: Parent menu
   #  url: /
@@ -85,7 +83,7 @@ menu:
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
   - title: LICENSE
-    url: /LICENSE/
+    url: /licenses/
 #   - title: NOTICE
 #     url: /NOTICE/
 #   - title: CHANGELOG
