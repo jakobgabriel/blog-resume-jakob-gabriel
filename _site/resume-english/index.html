@@ -82,28 +82,37 @@
 
 
 
-<script>!function(r,c){"use strict";function a(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}r.loadJS=function(e,t){var n=c.createElement("script"),e=(n.src=e,t&&a(n,"load",t,{once:!0}),c.scripts[0]);return e.parentNode.insertBefore(n,e),n},r._loaded=!1,r.loadJSDeferred=function(e,t){var n=c.createElement("script");function o(){r._loaded=!0,t&&a(n,"load",t,{once:!0});var e=c.scripts[0];e.parentNode.insertBefore(n,e)}return n.src=e,r._loaded?o():a(r,"load",o,{once:!0}),n},r.setRel=r.setRelStylesheet=function(e){a(c.getElementById(e),"load",function(){this.rel="stylesheet"},{once:!0})}}(window,document);
+<script>
+  !function(r,c){"use strict";function a(e,t,n,o){e.addEventListener?e.addEventListener(t,n,o):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n}r.loadJS=function(e,t){var n=c.createElement("script"),e=(n.src=e,t&&a(n,"load",t,{once:!0}),c.scripts[0]);return e.parentNode.insertBefore(n,e),n},r._loaded=!1,r.loadJSDeferred=function(e,t){var n=c.createElement("script");function o(){r._loaded=!0,t&&a(n,"load",t,{once:!0});var e=c.scripts[0];e.parentNode.insertBefore(n,e)}return n.src=e,r._loaded?o():a(r,"load",o,{once:!0}),n},r.setRel=r.setRelStylesheet=function(e){a(c.getElementById(e),"load",function(){this.rel="stylesheet"},{once:!0})}}(window,document);
 !function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
 !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
 !function(w) {
-  w._baseURL = '/';
-  w._publicPath = '/assets/js/';
-  w._noPushState = false;
-  w._noDrawer = false;
-  w._noNavbar = false;
-  w._noToc = false;
-  w._noSearch = true;
-  w._advertise = false;
-  w._search = {
-    DATA_URL: '/assets/sitedata.json?no-cache',
-    STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2022-09-23T15:30:44+05:30',
-  };
-  w._clapButton = true;
-}(window);</script>
+    w._baseURL = '/';
+    w._publicPath = '/assets/js/';
+    w._noPushState = false;
+    w._noDrawer = false;
+    w._noNavbar = false;
+    w._noToc = false;
+    w._noSearch = true;
+    w._advertise = false;
+    w._search = {
+      DATA_URL: '/assets/sitedata.json?no-cache',
+      STORAGE_KEY: 'mini-search/',
+      INDEX_KEY: 'index--2022-12-26T18:07:25+05:30',
+    };
+    w._clapButton = true;
+  }(window);
+</script>
 
 
-<script async src="/assets/bower_components/MathJax/es5/tex-mml-chtml.js" id="_MathJax"></script>
+<script
+  async
+  src="/assets/bower_components/MathJax/es5/tex-mml-chtml.js"
+  id="_MathJax"
+></script>
+
+
+<script src="//unpkg.com/alpinejs" defer></script>
 
 
 <!--[if gt IE 8]><!---->
@@ -416,7 +425,6 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
       
       
       
-<script src="//unpkg.com/alpinejs" defer></script>
 <section>
   <div class="npb">
     <h2 id="work" class="h3 hr-bottom">
@@ -425,17 +433,14 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
     </h2>
     
     <section x-data="{open:false}">
-      <header class=""
-        property="worksFor" typeof="Organization">
+      <header
+        class=""
+        property="worksFor"
+        typeof="Organization"
+      >
         
         <p class="faded">
-          
-          
-          
-          
-          
-          
-          
+                
 
 
 <time datetime="2022-01-01T00:00:00+05:30">Jan 2022</time>
@@ -443,17 +448,38 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
 
   <em>present</em>
 
-<i
-            class="faded"><span class="icon-history"></span> 8 month(s)</i>
+<i class="faded"
+            ><span class="icon-history"></span> 11 month(s)</i
+          >
         </p>
         
         <h3 class="h4 faded">
-          <button style="border: none; background-color: white;" @click="open=!open" x-text="open?'-':'+'"></button>
+          <button
+            style="border: none; background-color: white"
+            @click="open=!open"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-plus-lg"
+              viewBox="0 0 16 16"
+            >
+              <path
+                x-show="!open"
+                fill-rule="evenodd"
+                d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"
+              />
+              <path
+                x-show="open"
+                fill-rule="evenodd"
+                d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"
+              />
+            </svg>
+          </button>
           <meta property="name" content="ContiTech Techno-Chemie GmbH - Karben" />
-          
-          
-          
-          <span class="bc">Analytics and Data Engineer</span> at 
+             <span class="bc">Analytics and Data Engineer</span> at 
   <a
     class="org p-org h-card "
     href="https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems"
@@ -485,19 +511,32 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
     </p>
   
 
-
-
-      
+ 
       <div x-show="open">
-        <h4 class="sr-only">Highlights</h4>
+        <h4 class="sr-only">
+          Highlights
+        </h4>
         <ul>
           
-          <div style="margin-bottom: 0.5em; margin-top: 0.5em; font-weight: bold; color: gray">
+          <div
+            style="
+              margin-bottom: 0.5em;
+              margin-top: 0.5em;
+              font-weight: bold;
+              color: gray;
+            "
+          >
             Industry 4.0 Management and Strategy
           </div>
-          
-          
-          <div style="margin-bottom: 0.5em; margin-top: 0.5em; font-weight: bold; color: gray">
+           
+          <div
+            style="
+              margin-bottom: 0.5em;
+              margin-top: 0.5em;
+              font-weight: bold;
+              color: gray;
+            "
+          >
             
           </div>
           
@@ -518,28 +557,52 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
           <li>Participate in and/or steer global or local manufacturing engineering related and cross-functional projects with background of advanced analytics approaches</li>
           
           <li>Coordinate Data Analytics and Data Science Use Cases and Projects globally</li>
-          
-          
-          <div style="margin-bottom: 0.5em; margin-top: 0.5em; font-weight: bold; color: gray">
+           
+          <div
+            style="
+              margin-bottom: 0.5em;
+              margin-top: 0.5em;
+              font-weight: bold;
+              color: gray;
+            "
+          >
             Financial Management for Industry 4.0 Implementations
           </div>
-          
-          
-          <div style="margin-bottom: 0.5em; margin-top: 0.5em; font-weight: bold; color: gray">
+           
+          <div
+            style="
+              margin-bottom: 0.5em;
+              margin-top: 0.5em;
+              font-weight: bold;
+              color: gray;
+            "
+          >
             
           </div>
           
           <li>Prepare the budget and forecast of Data Analytics and Data Science related Use Cases and Projects</li>
           
           <li>Ensure that the financial goals are met within the Use Cases or Projects</li>
-          
-          
-          <div style="margin-bottom: 0.5em; margin-top: 0.5em; font-weight: bold; color: gray">
+           
+          <div
+            style="
+              margin-bottom: 0.5em;
+              margin-top: 0.5em;
+              font-weight: bold;
+              color: gray;
+            "
+          >
             Manufacturing Intelligence / (Advanced) Analytics / Data Science
           </div>
-          
-          
-          <div style="margin-bottom: 0.5em; margin-top: 0.5em; font-weight: bold; color: gray">
+           
+          <div
+            style="
+              margin-bottom: 0.5em;
+              margin-top: 0.5em;
+              font-weight: bold;
+              color: gray;
+            "
+          >
             
           </div>
           
@@ -560,14 +623,26 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
           <li>Interpret, Evaluate the workflows results and their benefits</li>
           
           <li>Continuous Iteration over Analytics Workflows for better and faster process development cycles</li>
-          
-          
-          <div style="margin-bottom: 0.5em; margin-top: 0.5em; font-weight: bold; color: gray">
+           
+          <div
+            style="
+              margin-bottom: 0.5em;
+              margin-top: 0.5em;
+              font-weight: bold;
+              color: gray;
+            "
+          >
             Development and Rollout of MFS wide digitalization standards
           </div>
-          
-          
-          <div style="margin-bottom: 0.5em; margin-top: 0.5em; font-weight: bold; color: gray">
+           
+          <div
+            style="
+              margin-bottom: 0.5em;
+              margin-top: 0.5em;
+              font-weight: bold;
+              color: gray;
+            "
+          >
             
           </div>
           
@@ -580,55 +655,75 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
           <li>Organize and implement rollout concepts, communication and compliance of the developed digitalization standards in all MFS PMSs (shared)</li>
           
           <li>Support local Operations and ME in solution deployment regarding analytics approaches</li>
-          
-          
-          <div style="margin-bottom: 0.5em; margin-top: 0.5em; font-weight: bold; color: gray">
+           
+          <div
+            style="
+              margin-bottom: 0.5em;
+              margin-top: 0.5em;
+              font-weight: bold;
+              color: gray;
+            "
+          >
             Training and Coaching
           </div>
-          
-          
-          <div style="margin-bottom: 0.5em; margin-top: 0.5em; font-weight: bold; color: gray">
+           
+          <div
+            style="
+              margin-bottom: 0.5em;
+              margin-top: 0.5em;
+              font-weight: bold;
+              color: gray;
+            "
+          >
             
           </div>
           
           <li>Provide Use Case and Project related documentation for continuous qualification of other manufacturing engineers</li>
           
           <li>Share knowledge and status of existing projects within the MFS organization</li>
-          
-          
-          <div style="margin-bottom: 0.5em; margin-top: 0.5em; font-weight: bold; color: gray">
+           
+          <div
+            style="
+              margin-bottom: 0.5em;
+              margin-top: 0.5em;
+              font-weight: bold;
+              color: gray;
+            "
+          >
             Standardization
           </div>
-          
-          
-          <div style="margin-bottom: 0.5em; margin-top: 0.5em; font-weight: bold; color: gray">
+           
+          <div
+            style="
+              margin-bottom: 0.5em;
+              margin-top: 0.5em;
+              font-weight: bold;
+              color: gray;
+            "
+          >
             
           </div>
           
           <li>Development of central manufacturing engineering standards for Shopfloor IT/OT and Manufacturing Intelligence Activities</li>
           
           <li>Provide feedback and input for further development of standards regarding manufacturing engineering</li>
-          
-          
+           
         </ul>
       </div>
       
     </section>
     
   </div>
-  
+   
     <section x-data="{open:false}">
-      <header class="mt2"
-        property="alumniOf" typeof="Organization">
+      <header
+        class="mt2"
+        property="alumniOf"
+        typeof="Organization"
+      >
         
         <p class="faded">
-          
-          
-          
-          
-          
-          
-          
+                
 
 
 <time datetime="2018-10-01T00:00:00+05:30">Oct 2018</time>
@@ -636,17 +731,38 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
 
   <time datetime="2021-12-31T00:00:00+05:30">Dec 2021</time>
 
-<i
-            class="faded"><span class="icon-history"></span> 3 years</i>
+<i class="faded"
+            ><span class="icon-history"></span> 3 years</i
+          >
         </p>
         
         <h3 class="h4 faded">
-          <button style="border: none; background-color: white;" @click="open=!open" x-text="open?'-':'+'"></button>
+          <button
+            style="border: none; background-color: white"
+            @click="open=!open"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-plus-lg"
+              viewBox="0 0 16 16"
+            >
+              <path
+                x-show="!open"
+                fill-rule="evenodd"
+                d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"
+              />
+              <path
+                x-show="open"
+                fill-rule="evenodd"
+                d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"
+              />
+            </svg>
+          </button>
           <meta property="name" content="ContiTech MGW GmbH - Waltershausen" />
-          
-          
-          
-          <span class="bc">Quality Engineer</span> at 
+             <span class="bc">Quality Engineer</span> at 
   <a
     class=" "
     href="https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems"
@@ -664,14 +780,21 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
 
   
 
-
-
-      
+ 
       <div x-show="open">
-        <h4 class="sr-only">Highlights</h4>
+        <h4 class="sr-only">
+          Highlights
+        </h4>
         <ul>
           
-          <div style="margin-bottom: 0.5em; margin-top: 0.5em; font-weight: bold; color: gray">
+          <div
+            style="
+              margin-bottom: 0.5em;
+              margin-top: 0.5em;
+              font-weight: bold;
+              color: gray;
+            "
+          >
             
           </div>
           
@@ -728,26 +851,21 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
           <li>Ensuring the process capability of the product-relevant machines and systems</li>
           
           <li>AS/WS/UWS within the framework of the activities</li>
-          
-          
+           
         </ul>
       </div>
       
     </section>
-    
-  
+     
     <section x-data="{open:false}">
-      <header class="mt2"
-        property="alumniOf" typeof="Organization">
+      <header
+        class="mt2"
+        property="alumniOf"
+        typeof="Organization"
+      >
         
         <p class="faded">
-          
-          
-          
-          
-          
-          
-          
+                
 
 
 <time datetime="2015-10-01T00:00:00+05:30">Oct 2015</time>
@@ -755,17 +873,38 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
 
   <time datetime="2018-09-30T00:00:00+05:30">Sep 2018</time>
 
-<i
-            class="faded"><span class="icon-history"></span> 3 years</i>
+<i class="faded"
+            ><span class="icon-history"></span> 3 years</i
+          >
         </p>
         
         <h3 class="h4 faded">
-          <button style="border: none; background-color: white;" @click="open=!open" x-text="open?'-':'+'"></button>
+          <button
+            style="border: none; background-color: white"
+            @click="open=!open"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-plus-lg"
+              viewBox="0 0 16 16"
+            >
+              <path
+                x-show="!open"
+                fill-rule="evenodd"
+                d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"
+              />
+              <path
+                x-show="open"
+                fill-rule="evenodd"
+                d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"
+              />
+            </svg>
+          </button>
           <meta property="name" content="ContiTech MGW GmbH - Waltershausen" />
-          
-          
-          
-          <span class="bc">Working Student</span> at 
+             <span class="bc">Working Student</span> at 
   <a
     class=" "
     href="https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems"
@@ -783,40 +922,42 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
 
   
 
-
-
-      
+ 
       <div x-show="open">
-        <h4 class="sr-only">Highlights</h4>
+        <h4 class="sr-only">
+          Highlights
+        </h4>
         <ul>
           
-          <div style="margin-bottom: 0.5em; margin-top: 0.5em; font-weight: bold; color: gray">
+          <div
+            style="
+              margin-bottom: 0.5em;
+              margin-top: 0.5em;
+              font-weight: bold;
+              color: gray;
+            "
+          >
             
           </div>
           
           <li>Analysis of problems and development of solutions in the field of product and process industrialization</li>
           
           <li>Documentation of the analyses within a project or seminar paper associated with the semester</li>
-          
-          
+           
         </ul>
       </div>
       
     </section>
-    
-  
+     
     <section x-data="{open:false}">
-      <header class="mt2"
-        property="alumniOf" typeof="Organization">
+      <header
+        class="mt2"
+        property="alumniOf"
+        typeof="Organization"
+      >
         
         <p class="faded">
-          
-          
-          
-          
-          
-          
-          
+                
 
 
 <time datetime="2015-08-01T00:00:00+05:30">Aug 2015</time>
@@ -824,17 +965,38 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
 
   <time datetime="2015-09-30T00:00:00+05:30">Sep 2015</time>
 
-<i
-            class="faded"><span class="icon-history"></span> 1 month(s)</i>
+<i class="faded"
+            ><span class="icon-history"></span> 1 month(s)</i
+          >
         </p>
         
         <h3 class="h4 faded">
-          <button style="border: none; background-color: white;" @click="open=!open" x-text="open?'-':'+'"></button>
+          <button
+            style="border: none; background-color: white"
+            @click="open=!open"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-plus-lg"
+              viewBox="0 0 16 16"
+            >
+              <path
+                x-show="!open"
+                fill-rule="evenodd"
+                d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"
+              />
+              <path
+                x-show="open"
+                fill-rule="evenodd"
+                d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"
+              />
+            </svg>
+          </button>
           <meta property="name" content="ContiTech MGW GmbH - Waltershausen" />
-          
-          
-          
-          <span class="bc">Trainee</span> at 
+             <span class="bc">Trainee</span> at 
   <a
     class=" "
     href="https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems"
@@ -852,13 +1014,11 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
 
   
 
-
-
-      
+ 
     </section>
-    
-  
+     
 </section>
+
 
       
       
@@ -1398,47 +1558,144 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
   </div>
 
   <nav class="sidebar-nav heading" role="navigation">
-    <span class="sr-only">Navigation:</span>
-<ul>
-  
+    <span class="sr-only"
+  >Navigation:</span
+>
+<ul class="text-align: start;">
     
+  <li x-data="{showSubmenu:false}">
+    <a
+      id="_drawer--opened"
       
-      <li>
-        <a
-          id="_drawer--opened"
-          href="/resume-english"
-          class="sidebar-nav-item "
-          
-        >
-          Resume - English
-        </a>
-      </li>
-    
+      href="/resume-english"
+      class="sidebar-nav-item "
       
-      <li>
-        <a
-          
-          href="/lebenslauf-deutsch"
-          class="sidebar-nav-item "
-          
-        >
-          Lebenslauf - Deutsch
-        </a>
-      </li>
+    >
+      Resume - English
+    </a>
     
+    <div x-show="showSubmenu">
       
-      <li>
-        <a
-          
-          href="/projects-projekte/"
-          class="sidebar-nav-item "
-          
-        >
-          Projects
-        </a>
-      </li>
+    </div>
+  </li>
+   
+  <li x-data="{showSubmenu:false}">
+    <a
+      
+      href="/lebenslauf-deutsch"
+      class="sidebar-nav-item "
+      
+    >
+      Lebenslauf - Deutsch
+    </a>
     
-  
+    <div x-show="showSubmenu">
+      
+    </div>
+  </li>
+   
+  <li x-data="{showSubmenu:false}">
+    <a
+      
+      href="/contact"
+      class="sidebar-nav-item "
+      
+    >
+      Contact
+    </a>
+    
+    <div x-show="showSubmenu">
+      
+    </div>
+  </li>
+   
+  <li x-data="{showSubmenu:false}">
+    <a
+      
+      href="/"
+      class="sidebar-nav-item "
+      
+    >
+      Parent menu
+    </a>
+    
+    <span x-on:click="showSubmenu=!showSubmenu" style="cursor: pointer">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-chevron-down"
+        style="margin-left: 0.5em"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+          x-show="!showSubmenu"
+        />
+        <path
+          fill-rule="evenodd"
+          d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+          x-show="showSubmenu"
+        /></svg
+    ></span>
+    
+    <div x-show="showSubmenu">
+       
+      <div>
+        <a
+          href="/submenu-1"
+          style="
+            font-weight: normal !important;
+            color: #fafafa !important;
+            text-decoration: none;
+          "
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-dash-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"
+            />
+          </svg>
+          Submenu 1</a
+        >
+      </div>
+      
+      <div>
+        <a
+          href="/submenu-2"
+          style="
+            font-weight: normal !important;
+            color: #fafafa !important;
+            text-decoration: none;
+          "
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-dash-lg"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"
+            />
+          </svg>
+          Submenu 2</a
+        >
+      </div>
+       
+    </div>
+  </li>
+   
 </ul>
 
   </nav>
