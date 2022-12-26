@@ -7,7 +7,7 @@ layout: page
     <h1 class="page-title">Contact Me</h1>
     <div class="hr pb0"></div>
   </header>
-  <p class="lead">You can start a conversation by submitting the form below. </p>
+  <p class="lead">You can start a conversation by submitting the form below.</p>
   <form
     action="https://formsubmit.co/{{site.email}}"
     class="validate message"
@@ -23,7 +23,7 @@ layout: page
             class="form-control"
             placeholder="First Name"
             name="First Name"
-            required=""
+            required
           />
           <p class="help-block text-danger"></p>
         </div>
@@ -33,7 +33,31 @@ layout: page
             class="form-control"
             placeholder="Last Name"
             name="Last Name"
-            required=""
+            required
+          />
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Company"
+            name="Company Name"
+            required
+          />
+          <p class="help-block text-danger"></p>
+        </div>
+        <div class="col">
+          <input
+            type="tel"
+            class="form-control"
+            placeholder="Phone"
+            name="Phone Number"
+            minlength="10"
+            maxlength="15"
+            required
           />
           <p class="help-block text-danger"></p>
         </div>
@@ -45,7 +69,7 @@ layout: page
             class="form-control"
             placeholder="E-Mail Address"
             name="Email"
-            required=""
+            required
           />
           <p class="help-block text-danger"></p>
         </div>
@@ -56,17 +80,19 @@ layout: page
         <textarea
           rows="10"
           class="form-control"
-          placeholder="Message"
+          placeholder="Enter your message..."
           name="Message"
-          required=""
+          required
         ></textarea>
         <p class="help-block text-danger"></p>
       </div>
     </div>
     <div id="success"></div>
     <div class="form-group">
+      <input type="hidden" name="_captcha" value="false">
+      <!--<input type="hidden" name="_next" value="message_sent.html">-->
       <button type="submit" class="btn btn-primary" id="sendMessageButton">
-        Send
+        Submit
       </button>
     </div>
   </form>
