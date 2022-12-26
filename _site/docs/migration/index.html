@@ -18,8 +18,7 @@
 
 
   
-    
-<!-- Begin Jekyll SEO tag v2.8.0 -->
+     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Migration | Jakob Gabriel</title>
 <meta name="generator" content="Jekyll v3.9.2" />
 <meta property="og:title" content="Migration" />
@@ -100,7 +99,7 @@
     w._search = {
       DATA_URL: '/assets/sitedata.json?no-cache',
       STORAGE_KEY: 'mini-search/',
-      INDEX_KEY: 'index--2022-12-26T18:07:25+05:30',
+      INDEX_KEY: 'index--2022-12-26T20:22:33+05:30',
     };
     w._clapButton = true;
   }(window);
@@ -114,30 +113,180 @@
 ></script>
 
 
+<!-- Google tag (gtag.js) -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-347452798"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
+
+  gtag("config", "G-347452798");
+</script>
+
 <script src="//unpkg.com/alpinejs" defer></script>
+<script
+  src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.9/dist/cookieconsent.js"
+  defer
+></script>
+
+<script>
+  window.addEventListener("load", function () {
+    // obtain plugin
+    var cc = initCookieConsent();
+
+    // run plugin with your configuration
+    cc.run({
+      current_lang: "en",
+      autoclear_cookies: true, // default: false
+      page_scripts: true, // default: false
+
+      // mode: 'opt-in'                          // default: 'opt-in'; value: 'opt-in' or 'opt-out'
+      // delay: 0,                               // default: 0
+      // auto_language: '',                      // default: null; could also be 'browser' or 'document'
+      // autorun: true,                          // default: true
+      // force_consent: false,                   // default: false
+      // hide_from_bots: false,                  // default: false
+      // remove_cookie_tables: false             // default: false
+      // cookie_name: 'cc_cookie',               // default: 'cc_cookie'
+      // cookie_expiration: 182,                 // default: 182 (days)
+      // cookie_necessary_only_expiration: 182   // default: disabled
+      // cookie_domain: location.hostname,       // default: current domain
+      // cookie_path: '/',                       // default: root
+      // cookie_same_site: 'Lax',                // default: 'Lax'
+      // use_rfc_cookie: false,                  // default: false
+      // revision: 0,                            // default: 0
+
+      onFirstAction: function (user_preferences, cookie) {
+        // callback triggered only once on the first accept/reject action
+      },
+
+      onAccept: function (cookie) {
+        // callback triggered on the first accept/reject action, and after each page load
+      },
+
+      onChange: function (cookie, changed_categories) {
+        // callback triggered when user changes preferences after consent has already been given
+      },
+
+      languages: {
+        en: {
+          consent_modal: {
+            title: "We use cookies!",
+            description:
+              'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <button type="button" data-cc="c-settings" class="cc-link">Let me choose</button>',
+            primary_btn: {
+              text: "Accept all",
+              role: "accept_all", // 'accept_selected' or 'accept_all'
+            },
+            secondary_btn: {
+              text: "Reject all",
+              role: "accept_necessary", // 'settings' or 'accept_necessary'
+            },
+          },
+          settings_modal: {
+            title: "Cookie preferences",
+            save_settings_btn: "Save settings",
+            accept_all_btn: "Accept all",
+            reject_all_btn: "Reject all",
+            close_btn_label: "Close",
+            cookie_table_headers: [
+              { col1: "Name" },
+              { col2: "Domain" },
+              { col3: "Expiration" },
+              { col4: "Description" },
+            ],
+            blocks: [
+              {
+                title: "Cookie usage 📢",
+                description:
+                  'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="#" class="cc-link">privacy policy</a>.',
+              },
+              {
+                title: "Strictly necessary cookies",
+                description:
+                  "These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly",
+                toggle: {
+                  value: "necessary",
+                  enabled: true,
+                  readonly: true, // cookie categories with readonly=true are all treated as "necessary cookies"
+                },
+              },
+              {
+                title: "Performance and Analytics cookies",
+                description:
+                  "These cookies allow the website to remember the choices you have made in the past",
+                toggle: {
+                  value: "analytics", // your cookie category
+                  enabled: false,
+                  readonly: false,
+                },
+                cookie_table: [
+                  // list of all expected cookies
+                  {
+                    col1: "^_ga", // match all cookies starting with "_ga"
+                    col2: "google.com",
+                    col3: "2 years",
+                    col4: "description ...",
+                    is_regex: true,
+                  },
+                  {
+                    col1: "_gid",
+                    col2: "google.com",
+                    col3: "1 day",
+                    col4: "description ...",
+                  },
+                ],
+              },
+              {
+                title: "Advertisement and Targeting cookies",
+                description:
+                  "These cookies collect information about how you use the website, which pages you visited and which links you clicked on. All of the data is anonymized and cannot be used to identify you",
+                toggle: {
+                  value: "targeting",
+                  enabled: false,
+                  readonly: false,
+                },
+              },
+              {
+                title: "More information",
+                description:
+                  'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="#yourcontactpage">contact us</a>.',
+              },
+            ],
+          },
+        },
+      },
+    });
+  });
+</script>
 
 
 <!--[if gt IE 8]><!---->
-
-  
+ 
 
 
 
 
 <link rel="stylesheet" href="/assets/css/hydejack-9.1.6.css" id="_stylePreload">
 <link rel="stylesheet" href="/assets/icomoon/style.css" id="_iconsPreload">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i&display=swap" id="_fontsPreload">
-
-
-
-  <style id="_pageStyle">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700%7CNoto+Sans:400,400i,700,700i&display=swap" id="_fontsPreload">  
+<style id="_pageStyle">
 
 html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);--accent-color-highlight: rgba(79,177,186,0.1);--accent-color-darkened: #409ba3;--theme-color: rgb(25,55,71);--dark-mode-body-bg: #2a2d2f;--dark-mode-border-color: #363a3d}
 
 </style>
-
-
+ 
 <!--<![endif]-->
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.9/dist/cookieconsent.css"
+/>
 
 
 
@@ -452,56 +601,11 @@ and delete <code class="language-plaintext highlighter-rouge">{% include about-s
     <a
       id="_drawer--opened"
       
-      href="/resume-english"
-      class="sidebar-nav-item "
-      
-    >
-      Resume - English
-    </a>
-    
-    <div x-show="showSubmenu">
-      
-    </div>
-  </li>
-   
-  <li x-data="{showSubmenu:false}">
-    <a
-      
-      href="/lebenslauf-deutsch"
-      class="sidebar-nav-item "
-      
-    >
-      Lebenslauf - Deutsch
-    </a>
-    
-    <div x-show="showSubmenu">
-      
-    </div>
-  </li>
-   
-  <li x-data="{showSubmenu:false}">
-    <a
-      
-      href="/contact"
-      class="sidebar-nav-item "
-      
-    >
-      Contact
-    </a>
-    
-    <div x-show="showSubmenu">
-      
-    </div>
-  </li>
-   
-  <li x-data="{showSubmenu:false}">
-    <a
-      
       href="/"
       class="sidebar-nav-item "
       
     >
-      Parent menu
+      Resumé - Lebenslauf
     </a>
     
     <span x-on:click="showSubmenu=!showSubmenu" style="cursor: pointer">
@@ -530,7 +634,7 @@ and delete <code class="language-plaintext highlighter-rouge">{% include about-s
        
       <div>
         <a
-          href="/submenu-1"
+          href="/resume-english"
           style="
             font-weight: normal !important;
             color: #fafafa !important;
@@ -549,13 +653,13 @@ and delete <code class="language-plaintext highlighter-rouge">{% include about-s
               d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"
             />
           </svg>
-          Submenu 1</a
+          Resume - English</a
         >
       </div>
       
       <div>
         <a
-          href="/submenu-2"
+          href="/lebenslauf-deutsch"
           style="
             font-weight: normal !important;
             color: #fafafa !important;
@@ -574,10 +678,25 @@ and delete <code class="language-plaintext highlighter-rouge">{% include about-s
               d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"
             />
           </svg>
-          Submenu 2</a
+          Lebenslauf - Deutsch</a
         >
       </div>
        
+    </div>
+  </li>
+   
+  <li x-data="{showSubmenu:false}">
+    <a
+      
+      href="/contact-me"
+      class="sidebar-nav-item "
+      
+    >
+      Contact Me
+    </a>
+    
+    <div x-show="showSubmenu">
+      
     </div>
   </li>
    
