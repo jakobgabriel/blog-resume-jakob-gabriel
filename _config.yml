@@ -38,7 +38,8 @@ logo: "assets/img/logo.jpeg"
 email: jakob.gabriel5@googlemail.com
 
 # Analytics
-g4: "G-347452798"
+g4: "G-18VGL8XXHX"
+
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
