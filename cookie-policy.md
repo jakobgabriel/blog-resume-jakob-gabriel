@@ -12,7 +12,7 @@ By some laws I must annouce that I am(or more precisely Google Analytics is) usi
 
 ## Cookies Policy
 
-This Cookies Policy describes how [my blog and resume](https://jakobgabriel.github.io/resume-curriculum-vitae-jakob-gabriel/)("Site") uses cookies and similar technologies to assist you when visiting the Site. If you have any comments or questions about this Cookies Policy, feel free to [contact me](https://jakobgabriel.github.io/resume-curriculum-vitae-jakob-gabriel/contact-me).
+This Cookies Policy describes how [my blog and resume](https://jakobgabriel.github.io/blog-resume-jakob-gabriel/)("Site") uses cookies and similar technologies to assist you when visiting the Site. If you have any comments or questions about this Cookies Policy, feel free to [contact me](https://jakobgabriel.github.io/blog-resume-jakob-gabriel/contact-me).
 
 ## What are cookies?
 
