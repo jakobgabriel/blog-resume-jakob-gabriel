@@ -1,0 +1,61 @@
+---
+layout: page
+---
+
+<article class="page mb6" role="article">
+  <header>
+    <h1 class="page-title">Contact</h1>
+    <div class="hr pb0"></div>
+  </header>
+  <p class="lead">Let's start a conversation.</p>
+  <form
+    action="https://formsubmit.co/{{site.email}}"
+    class="validate message"
+    method="POST"
+    name="Contact"
+  >
+    <input type="hidden" name="form-name" value="Contact" />
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Name"
+            name="Name"
+            required=""
+          />
+          <p class="help-block text-danger"></p>
+        </div>
+        <div class="col">
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Email address"
+            name="Email"
+            required=""
+          />
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="form-group floating-label-form-group controls">
+        <textarea
+          rows="5"
+          class="form-control"
+          placeholder="Message"
+          name="Message"
+          required=""
+        ></textarea>
+        <p class="help-block text-danger"></p>
+      </div>
+    </div>
+    <div id="success"></div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary" id="sendMessageButton">
+        Send
+      </button>
+    </div>
+  </form>
+</article>
