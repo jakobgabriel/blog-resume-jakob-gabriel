@@ -9,7 +9,7 @@ layout: page
   </header>
   <p class="lead">You can start a conversation by submitting the form below.</p>
   <form
-    action="https://formsubmit.co/{{site.email}}"
+    action="https://formsubmit.co/808e81167cb335f819d74822827aa1c2"
     class="validate message"
     method="POST"
     name="Contact Me"
@@ -22,7 +22,7 @@ layout: page
             type="text"
             class="form-control"
             placeholder="First Name"
-            name="First Name"
+            name="first_name"
             required
           />
           <p class="help-block text-danger"></p>
@@ -32,7 +32,7 @@ layout: page
             type="text"
             class="form-control"
             placeholder="Last Name"
-            name="Last Name"
+            name="last_name"
             required
           />
           <p class="help-block text-danger"></p>
@@ -43,8 +43,8 @@ layout: page
           <input
             type="text"
             class="form-control"
-            placeholder="Company"
-            name="Company Name"
+            placeholder="Company Name"
+            name="company_name"
             required
           />
           <p class="help-block text-danger"></p>
@@ -53,8 +53,8 @@ layout: page
           <input
             type="tel"
             class="form-control"
-            placeholder="Phone"
-            name="Phone Number"
+            placeholder="Phone Number"
+            name="phone_number"
             minlength="10"
             maxlength="15"
             required
@@ -68,7 +68,7 @@ layout: page
             type="email"
             class="form-control"
             placeholder="E-Mail Address"
-            name="Email"
+            name="email_adress"
             required
           />
           <p class="help-block text-danger"></p>
@@ -80,6 +80,7 @@ layout: page
         <input
           type="text"
           class="form-control"
+          placeholder="Subject"
           name="_subject"
           required
         />
@@ -100,7 +101,7 @@ layout: page
     </div>
     <div id="success"></div>
     <div class="form-group">
-      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_captcha" value="true">
       <!--<input type="hidden" name="_next" value="message_sent.html">-->
       <button type="submit" class="btn btn-primary" id="sendMessageButton">
         Submit
