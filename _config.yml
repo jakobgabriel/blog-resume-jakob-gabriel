@@ -44,29 +44,37 @@ author:
   # Used by `jekyll-feed`:
   name: Jakob Gabriel
   email: "mailto:jakob.gabriel5@googlemail.com"
-  github: jakobgabriel
   linkedin: jakob-gabriel
   xing: Jakob_Gabriel4
+  github: jakobgabriel
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
   # - title:             Blog
-  #   url:               /blog/
-  - title: Resume - English
-    url: /resume-english
-  - title: Lebenslauf - Deutsch
-    url: /lebenslauf-deutsch
-  - title: Contact
-    url: /contact
-  - title: Parent menu
+  #   url:               /blog
+  - title: Resumé - Lebenslauf
     url: /
     submenu:
-      - title: Submenu 1
-        url: /submenu-1
-      - title: Submenu 2
-        url: /submenu-2
+      - title: Resume - English
+        url: /resume-english
+      - title: Lebenslauf - Deutsch
+        url: /lebenslauf-deutsch
+  #- title: Resume - English
+  #  url: /resume-english
+  #- title: Lebenslauf - Deutsch
+  #  url: /lebenslauf-deutsch
+  - title: Contact Me
+    url: /contact-me
+  # Here is a parent menu, which can be used for a better sidebar structure
+  #- title: Parent menu
+  #  url: /
+  #  submenu:
+  #    - title: Submenu 1
+  #      url: /submenu-1
+  #    - title: Submenu 2
+  #      url: /submenu-2
   #- title: Projects - Projekte
   #  url: /projects-projekte/
   # - title:             Documentation

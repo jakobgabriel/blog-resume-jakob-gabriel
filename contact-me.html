@@ -1,0 +1,111 @@
+---
+layout: page
+---
+
+<article class="page mb6" role="article">
+  <header>
+    <h1 class="page-title">Contact Me</h1>
+    <div class="hr pb0"></div>
+  </header>
+  <p class="lead">You can start a conversation by submitting the form below.</p>
+  <form
+    action="https://formsubmit.co/808e81167cb335f819d74822827aa1c2"
+    class="validate message"
+    method="POST"
+    name="Contact Me"
+  >
+    <input type="hidden" name="form-name" value="Contact Me" />
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="First Name"
+            name="first_name"
+            required
+          />
+          <p class="help-block text-danger"></p>
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Last Name"
+            name="last_name"
+            required
+          />
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Company Name"
+            name="company_name"
+            required
+          />
+          <p class="help-block text-danger"></p>
+        </div>
+        <div class="col">
+          <input
+            type="tel"
+            class="form-control"
+            placeholder="Phone Number"
+            name="phone_number"
+            minlength="10"
+            maxlength="15"
+            required
+          />
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col">
+          <input
+            type="email"
+            class="form-control"
+            placeholder="E-Mail Address"
+            name="email_adress"
+            required
+          />
+          <p class="help-block text-danger"></p>
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Subject"
+          name="_subject"
+          required
+        />
+        <p class="help-block text-danger"></p>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="form-group floating-label-form-group controls">
+        <textarea
+          rows="10"
+          class="form-control"
+          placeholder="Enter your message..."
+          name="Message"
+          required
+        ></textarea>
+        <p class="help-block text-danger"></p>
+      </div>
+    </div>
+    <div id="success"></div>
+    <div class="form-group">
+      <input type="hidden" name="_captcha" value="true">
+      <!--<input type="hidden" name="_next" value="message_sent.html">-->
+      <button type="submit" class="btn btn-primary" id="sendMessageButton">
+        Submit
+      </button>
+    </div>
+  </form>
+</article>
