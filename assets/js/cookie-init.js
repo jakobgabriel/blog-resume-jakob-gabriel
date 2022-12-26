@@ -66,7 +66,7 @@ window.addEventListener("DOMContentLoaded", () => {
             {
               title: "Cookie usage 📢",
               description:
-                'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="https://jakobgabriel.github.io/resume-curriculum-vitae-jakob-gabriel/cookie-policy" class="cc-link">privacy policy</a>.',
+                'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="https://jakobgabriel.github.io/blog-resume-jakob-gabriel/cookie-policy" class="cc-link">privacy policy</a>.',
             },
             {
               title: "Strictly necessary cookies",
@@ -117,7 +117,7 @@ window.addEventListener("DOMContentLoaded", () => {
             {
               title: "More information",
               description:
-                'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="https://jakobgabriel.github.io/resume-curriculum-vitae-jakob-gabriel/contact-me">contact me</a>.',
+                'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="https://jakobgabriel.github.io/blog-resume-jakob-gabriel/contact-me">contact me</a>.',
             },
           ],
         },
