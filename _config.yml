@@ -55,7 +55,7 @@ author:
 menu:
   # - title:             Blog
   #   url:               /blog
-  - title: Resumé - Lebenslauf
+  - title: Resume - Lebenslauf
     url: /
     submenu:
       - title: Resume - English
@@ -83,13 +83,15 @@ menu:
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-# legal:
+legal:
 #  - title: LICENSE
 #    url: /LICENSE/
 #   - title: NOTICE
 #     url: /NOTICE/
 #   - title: CHANGELOG
 #     url: /CHANGELOG/
+   - title: COOKIE-POLICY
+     url: /cookie-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright: © 2022. All rights reserved.
