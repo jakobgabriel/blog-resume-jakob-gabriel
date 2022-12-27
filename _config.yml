@@ -58,7 +58,7 @@ menu:
   # - title:             Blog
   #   url:               /blog
   - title: Resume - Lebenslauf
-    url: /
+    url: /resume-index
     submenu:
       - title: Resume - English
         url: /resume-english
@@ -76,8 +76,8 @@ menu:
   #      url: /submenu-1
   #    - title: Submenu 2
   #      url: /submenu-2
-  #- title: Projects - Projekte
-  #  url: /projects-projekte/
+  - title: Projects - Projekte
+    url: /projects-projekte/
   # - title:             Documentation
   #   url:               /docs/
 
