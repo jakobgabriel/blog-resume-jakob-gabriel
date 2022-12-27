@@ -14,7 +14,7 @@ image:
 links:
   - title: Link
     url: 
-sitemap: false
+sitemap: true
 show_collection: projects_2023
 ---
 

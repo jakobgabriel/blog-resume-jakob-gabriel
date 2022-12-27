@@ -55,8 +55,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  # - title:             Blog
-  #   url:               /blog
+  # - title: Blog
+  #   url: /blog
   - title: Resume - Lebenslauf
     url: /resume-index
     submenu:
@@ -64,6 +64,10 @@ menu:
         url: /resume-english
       - title: Lebenslauf - Deutsch
         url: /lebenslauf-deutsch
+  - title: Projects - Projekte
+    url: /projects-projekte/
+  # - title: Documentation
+  #   url: /docs/
   - title: Contact Me
     url: /contact-me
 
@@ -76,10 +80,6 @@ menu:
   #      url: /submenu-1
   #    - title: Submenu 2
   #      url: /submenu-2
-  - title: Projects - Projekte
-    url: /projects-projekte/
-  # - title:             Documentation
-  #   url:               /docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
