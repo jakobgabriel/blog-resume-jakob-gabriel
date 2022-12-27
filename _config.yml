@@ -86,8 +86,8 @@ menu:
 legal:
   - title: LICENSE
     url: /licenses/
-   - title: NOTICE
-     url: /notice/  
+  - title: NOTICE
+    url: /notice/  
 #   - title: CHANGELOG
 #     url: /CHANGELOG/
   - title: COOKIE-POLICY
