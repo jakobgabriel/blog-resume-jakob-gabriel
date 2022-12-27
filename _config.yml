@@ -34,7 +34,7 @@ keywords: []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: "assets/icons_new/jakob_transparant_white.png"
+logo: "assets/icons_new/jakob_transparent_black_240px.png"
 email: jakob.gabriel5@googlemail.com
 
 # Analytics
@@ -119,7 +119,7 @@ accent_color: rgb(79,177,186)
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color: rgba(234,175,107,255)
+theme_color: rgb(234,175,107)
 #rgb(234,182,118)
 #rgb(25,55,71)
 
