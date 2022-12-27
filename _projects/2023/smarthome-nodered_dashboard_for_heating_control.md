@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 'SmartHome - NodeRED Dashboard for Heating Control'
-caption: Demo caption
+caption: 
 description: >
   Demo description
 date: '01-01-2023'
@@ -20,4 +20,4 @@ show_collection: projects_2023
 
 # SmartHome - NodeRED Dashboard for Heating Control
 
-DEMO PAGE
+This is a test
