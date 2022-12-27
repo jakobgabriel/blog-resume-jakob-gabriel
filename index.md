@@ -4,7 +4,7 @@ title: Home
 sitemap: false
 ---
 
-# Home
+# Home - Startseite
 
 
 ## Table of contents - Resume
