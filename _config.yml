@@ -35,6 +35,8 @@ keywords: []
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
 logo: "assets/icons_new/jakob_transparent_white_150px.png"
+logo_dark: "assets/icons_new/jakob_transparent_black_200px.png"
+logo_light: "assets/icons_new/jakob_transparent_white_200px.png"
 email: jakob.gabriel5@googlemail.com
 
 # Analytics
@@ -49,7 +51,7 @@ author:
   xing: Jakob_Gabriel4
   github: jakobgabriel
   #form: contact-me
-  
+
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -71,7 +73,6 @@ menu:
   - title: Contact Me
     url: /contact-me
 
-
   # Here is a parent menu, which can be used for a better sidebar structure
   #- title: Parent menu
   #  url: /
@@ -87,9 +88,9 @@ legal:
   - title: LICENSE
     url: /licenses/
   - title: NOTICE
-    url: /notice/  
-#   - title: CHANGELOG
-#     url: /CHANGELOG/
+    url: /notice/
+  #   - title: CHANGELOG
+  #     url: /CHANGELOG/
   - title: COOKIE-POLICY
     url: /cookie-policy/
 

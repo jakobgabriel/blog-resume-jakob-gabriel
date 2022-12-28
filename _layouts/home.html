@@ -5,7 +5,9 @@ layout: base
 <div class="sidebar-about">
     {% if site.logo %}
     <a class="no-hover" href="{{ '/' | relative_url }}" tabindex="-1">
-        <img src="{% include_cached smart-url url=site.logo %}" class="avatar"
+        <img src="{% include_cached smart-url url=site.logo_light %}" class="avatar show-dark"
+            alt="{{ site.short_title | default:site.title }}" width="120" height="120" loading="lazy" />
+        <img src="{% include_cached smart-url url=site.logo_dark %}" class="avatar show-light"
             alt="{{ site.short_title | default:site.title }}" width="120" height="120" loading="lazy" />
     </a>
     {% endif %}
