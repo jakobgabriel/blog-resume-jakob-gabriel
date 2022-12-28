@@ -22,11 +22,28 @@
 }
 
 @media screen {
+
+  .show-dark .show-light{
+    display: none;
+  }
+
   body.light-mode {
     @include light-mode();
+    .show-dark{
+      display: none;
+    }
+    .show-light{
+      display: block;
+    }
   }
 
   body.dark-mode {
     @include dark-mode();
+    .show-dark{
+      display: block;
+    }
+    .show-light{
+      display: none;
+    }
   }
 }
