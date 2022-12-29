@@ -35,7 +35,7 @@ keywords: []
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
 logo: "assets/icons_new/jakob_transparent_white_150px.png"
-logo_dark: "assets/icons_new/jakob_transparent_black_200px.png"
+logo_dark: "assets/icons_new/jakob_transparent_black_150px_round.png"
 logo_light: "assets/icons_new/jakob_transparent_white_200px.png"
 email: jakob.gabriel5@googlemail.com
 
@@ -70,11 +70,11 @@ menu:
         url: /lebenslauf-deutsch
   # - title: Documentation
   #   url: /docs/
-  - title: Contact Me
-    url: /contact-me
+  # - title: Contact Me
+  #   url: /contact-me
 
   # Here is a parent menu, which can be used for a better sidebar structure
-  #- title: Parent menu
+  # - title: Parent menu
   #  url: /
   #  submenu:
   #    - title: Submenu 1
