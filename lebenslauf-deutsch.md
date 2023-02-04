@@ -130,6 +130,17 @@ resume:
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2018-10-01'
       endDate: '2021-12-31'
+      summary: >
+        * Überwachung der Bearbeitung von Korrekturmaßnahmen einschließlich der Übertragung von Ursachen und Maßnahmen aus Reklamationen in die Produkt- und Prozess-FMEA
+        
+        * Ermittlung und Bewertung von Kundenanforderungen, einschließlich der internen Risikoanalyse im Rahmen der Machbarkeitsstudie und FMEA
+        
+        * Koordination von Kundenterminen mit Global Quality Planner und internen Stakeholdern bei internen Prozessreihen, sowie bei Kundenabnahmen
+        
+        * Einführung von Maßnahmen zur kontinuierlichen Verbesserung mit dem Ziel der Reduzierung der Qualitätskosten
+
+        * Erstellung und Pflege von Prüfanweisungen, Vorserienkontrollplänen, Serienkontrollplänen sowie Produktionsablaufplänen
+
       highlights:
         - items:
             - Durchführung von Bemusterungen/Reklamationen
