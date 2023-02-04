@@ -131,6 +131,17 @@ resume:
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2018-10-01'
       endDate: '2021-12-31'
+      summary: >
+        * Monitoring the processing of corrective measures including transfer of root causes and measures from complaints to the product and process FMEA
+        
+        * Determination and evaluation of customer requirements, including internal risk analysis  within the feasability study and FMEA
+        
+        * Coordination of customer appointments with Global Quality Planner and internal Stakeholders in internal process series as well as in customer acceptance tests
+        
+        * Introduction of continuous improvement actions with the aim of reducing quality costs
+
+        * Creation and maintenance of test instructions, pre-series control plans, series control plans as well as production flow charts
+      
       highlights:
         - items:
             - Carrying out sampling/reclamations
@@ -143,20 +154,20 @@ resume:
             - Collaboration in the definition of part-related gauge layouts
             - Creation and maintenance of test instructions
             - Creation of the pre-series control plan, the series control plan as well as production flow chart
-            - Determination and evaluation of quality-relevant customer requirements within the feasability Study and process fmea
+            - Determination and evaluation of quality-relevant customer requirements within the feasability Study and process FMEA
             - Checking the drawings for compliance with internal specifications as well as quality-relevant topics
-            - Documentation of deviations or requirements during the manufacturability process.
+            - Documentation of deviations or requirements during the manufacturability process
             - Coordination and moderation of the FMEA meetings
             - Participation in FMEA meetings
-            - Carrying out risk analyses
+            - Carrying out risk analysis
             - Participation in internal process series as well as in customer acceptance tests
-            - Coordination/scheduling of customer appointments with global Quality Planner and production
+            - Coordination/scheduling of customer appointments with global Quality Planner and internal Stakeholders
             - Effectiveness check of the Poka Yoke measures
             - Checking of product and process-related documents for correctness
             - Checking of product and process-related documents for correctness and completeness - Initiation and supervision of process capability studies
             - Enforcement of the principle of autonomous monitoring at every production site.
             - Specification, instruction and monitoring of compliance with workplace and inspection documentation.
-            - Continuous improvement with the aim of reducing quality costs
+            - Introduction of continuous improvement actions with the aim of reducing quality costs
             - Clear identification, labelling and tracing of products as well as control according to "FIFO"
             - Ensuring the process capability of the product-relevant machines and systems
             - AS/WS/UWS within the framework of the activities
@@ -169,7 +180,7 @@ resume:
       highlights:
         - items:
             - Analysis of problems and development of solutions in the field of product and process industrialization
-            - Documentation of the analyses within a project or seminar paper associated with the semester
+            - Documentation of the analysis within a project or seminar paper associated with the semester
 
     - company: 'ContiTech MGW GmbH - Waltershausen'
       position: 'Trainee'
