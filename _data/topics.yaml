@@ -1,0 +1,7 @@
+- name: Data Engineering
+  description: Master data engineering with these courses
+  courses:
+    - title: Grafana
+      level: Basic / Entry Level Training
+      url: courses/course-1
+      image: /assets/img/courses/grafana.jpg
