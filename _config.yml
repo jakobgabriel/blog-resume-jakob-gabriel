@@ -34,24 +34,23 @@ keywords: []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: "assets/icons_new/jakob_transparent_white_150px_round.png"
-logo_dark: "assets/icons_new/jakob_transparent_black_150px_round.png"
-logo_light: "assets/icons_new/jakob_transparent_white_150px_round.png"
+logo: 'assets/icons_new/jakob_transparent_white_150px_round.png'
+logo_dark: 'assets/icons_new/jakob_transparent_black_150px_round.png'
+logo_light: 'assets/icons_new/jakob_transparent_white_150px_round.png'
 email: jakob.gabriel5@googlemail.com
 
 # Analytics
-g4: "G-18VGL8XXHX"
+g4: 'G-18VGL8XXHX'
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
   name: Jakob Gabriel
-  email: "mailto:jakob.gabriel5@googlemail.com"
+  email: 'mailto:jakob.gabriel5@googlemail.com'
   linkedin: jakob-gabriel
   xing: Jakob_Gabriel4
   github: jakobgabriel
   #form: contact-me
-
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -72,7 +71,6 @@ menu:
   #   url: /docs/
   # - title: Contact Me
   #   url: /contact-me
-
   # Here is a parent menu, which can be used for a better sidebar structure
   # - title: Parent menu
   #  url: /
@@ -98,7 +96,7 @@ legal:
 copyright: © 2022. All rights reserved.
 
 # Format of the permalinks
-permalink: "/blog/:categories/:year-:month-:day-:title/"
+permalink: '/blog/:categories/:year-:month-:day-:title/'
 
 # Pagination configuration (used by the `blog` layout)
 paginate: 10
@@ -187,7 +185,7 @@ font_code: Fira Code, Menlo, Monaco, Consolas, monospace;
 kramdown:
   math_engine: mathjax
   math_engine_opts: {}
-  footnote_backlink: "&#x21a9;&#xfe0e;"
+  footnote_backlink: '&#x21a9;&#xfe0e;'
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
@@ -322,6 +320,8 @@ collections:
 
   projects:
     output: true
+  courses:
+    output: true
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
@@ -331,7 +331,7 @@ exclude:
   - ./#jekyll-theme-hydejack/.git
   - .jekyll-cache
   - .sass-cache
-  - "*.toml"
+  - '*.toml'
   - vendor
   - Gemfile
   - Gemfile.lock
@@ -402,7 +402,7 @@ titles_from_headings:
   collections: true
 
 compress_html:
-  comments: ["<!--", "-->"]
+  comments: ['<!--', '-->']
   clippings: all
   endings: all
   ignore:

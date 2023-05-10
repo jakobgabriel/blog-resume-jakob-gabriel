@@ -1,0 +1,16 @@
+---
+layout: page
+---
+{% assign no_third_column = page.no_third_column | default:site.hydejack.no_third_column | default:false %}
+<h1>Courses</h1>
+{% for topic in site.data.topics %}
+<h2>{{topic.name}}</h2>
+<p>{{topic.description}}</p>
+<div class="columns {% unless no_third_column %}columns-break{% endunless %}">
+    {% for course in topic.courses %}
+    <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
+        {% include_cached pro/project-card.html project=course %}
+    </div>
+    {% endfor %}
+</div>
+{% endfor %}
