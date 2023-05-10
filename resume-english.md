@@ -67,15 +67,15 @@ resume:
       startDate: '2022-01-01'
       endDate: ''
       summary: >
-        * Developing and defining analytics use cases and projects based on problems in production processes of Mobile Fluid Systems in collaboration with steakholders
+        * Developing and defining analytics use cases and projects based on problems in production processes of Mobile Fluid Systems in collaboration with stakeholders
         
-        * Execution of continuous improvement processes by applying analytical methods in the data-driven problem solving process against the background of global scaling potentials
+        * Execution of continuous improvement processes by applying analytical methods in the data-driven problem-solving process against the background of global scaling potentials
         
-        * Interpret and document solution approaches from executed use cases and projects for further decision making and iteration
+        * Interpret and document solution approaches from executed use cases and projects for further decision-making and iteration
         
-        * Automate analytics and operational business workflows to accelerate result discovery and support steakholder decision-making processes
+        * Automate analytics and operational business workflows to accelerate result discovery and support stakeholder decision-making processes
         
-        * Preparation of budgets for analytics projects with subsequent securing of these within the framework of defined project objectives
+        * Preparation of budgets for analytics projects, with subsequent securing of these within the framework of defined project objectives
         
         * Preparation and documentation of guidelines in the context of lessons learned from completed projects for continuous further development
         
@@ -136,7 +136,7 @@ resume:
         
         * Determination and evaluation of customer requirements, including internal risk analysis  within the feasability study and FMEA
         
-        * Coordination of customer appointments with Global Quality Planner and internal Stakeholders in internal process series as well as in customer acceptance tests
+        * Coordination of customer appointments with Global Quality Planner and internal stakeholders in internal process series as well as in customer acceptance tests
         
         * Introduction of continuous improvement actions with the aim of reducing quality costs
 

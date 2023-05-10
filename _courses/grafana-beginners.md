@@ -2,17 +2,17 @@
 layout: course
 title: Grafana
 level: Basic / Entry Level Training
-permalink: /courses/course-1
+permalink: /courses/grafana-beginners
 image: /assets/img/courses/grafana.jpg
 packages:
-  - name: Bronze
+  - name: Basic
     price: 250 €
     items:
       - Execution of Grafana training as described
       - Provisioning of training documentation (Presentation)
-      - 'Training Duration: 2.5 h'
+      - 'Training Duration: 1.5 h'
       - 'Training Execution: Online (Teams, Zoom)'
-  - name: Silver
+  - name: Intermediate
     price: 350 €
     items:
       - Execution of Grafana training as described
@@ -21,7 +21,7 @@ packages:
       - 'Training Duration: 2.5 h'
       - 'Additional Q&A Session: 30 min'
       - 'Training Execution: Online (Teams, Zoom)'
-  - name: Gold
+  - name: Large
     price: 500 €
     items:
       - Execution of Grafana Training as described
