@@ -320,8 +320,8 @@ collections:
 
   projects:
     output: true
-  courses:
-    output: true
+#  courses:
+#    output: true
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
