@@ -66,13 +66,13 @@ resume:
       startDate: '2022-01-01'
       endDate: ''
       summary: >
-        *  Erarbeiten und Definieren von Analytics Anwendungsfällen und Projekten auf Basis von Problemstellungen in Produktionsprozessen der Mobile Fluid Systems in Zusammenarbeit mit Steakholdern
+        *  Erarbeiten und Definieren von Analytics Anwendungsfällen und Projekten auf Basis von Problemstellungen in Produktionsprozessen der Mobile Fluid Systems in Zusammenarbeit mit Stakeholdern
         
         * Ausführen von kontinuierlichen Verbesserungsprozessen durch Anwendung von analytischen Methoden im datengetriebenen Problemlösungsprozess vor dem Hintergrund von globalen Skalierungspotenzialen
         
         * Interpretieren und Dokumentieren von Lösungsansätzen aus durchgeführten Anwendungsfällen und Projekten zur weiteren Entscheidungsfindung und Iteration
         
-        * Automatisieren von Analytics und operativen Business Workflows zur Beschleunigung von Ergebnisfindung und Unterstützung von Entscheidungsfindungsprozessen von Steakholdern
+        * Automatisieren von Analytics und operativen Business Workflows zur Beschleunigung von Ergebnisfindung und Unterstützung von Entscheidungsfindungsprozessen von Stakeholdern
         
         * Vorbereitung von Budgets für Analytics Projekte mit anschließender Sicherstellung dieser im Rahmen von definierten Projektzielen
         
