@@ -1,7 +1,11 @@
-- name: Data Engineering
-  description: Master data engineering with these courses
+- name: Trainings
+  description: Trainings for IoT Enthusiasts and Engineers 
   courses:
     - title: Grafana
       level: Basic / Entry Level Training
-      url: courses/course-1
+      url: courses/grafana-beginners
+      image: /assets/img/courses/grafana.jpg
+    - title: NodeRED
+      level: Basic / Entry Level Training
+      url: courses/node-red-beginners
       image: /assets/img/courses/grafana.jpg
