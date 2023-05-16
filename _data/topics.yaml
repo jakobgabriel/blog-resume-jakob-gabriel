@@ -3,9 +3,9 @@
   courses:
     - title: Grafana
       level: Basic / Entry Level Training
-      url: courses/grafana-beginners
+      url: trainings/grafana-beginners
       image: /assets/img/courses/grafana.jpg
     - title: NodeRED
       level: Basic / Entry Level Training
-      url: courses/node-red-beginners
+      url: trainings/node-red-beginners
       image: /assets/img/courses/grafana.jpg
