@@ -8,10 +8,10 @@
   --body-color: #ccc;
   --body-bg: var(--dark-mode-body-bg);
   --border-color: var(--dark-mode-border-color);
-  --gray: rgba(255,255,255,.5);
-  --gray-bg: rgba(255,255,255,.033);
-  --gray-text: rgba(255,255,255,.625);
-  --menu-text: rgba(255,255,255,.25);
+  --gray: rgba(255, 255, 255, 0.5);
+  --gray-bg: rgba(255, 255, 255, 0.033);
+  --gray-text: rgba(255, 255, 255, 0.625);
+  --menu-text: rgba(255, 255, 255, 0.25);
   --inv-body-color: #{$body-color};
   --inv-body-bg: #{$body-bg};
 
@@ -22,28 +22,41 @@
 }
 
 @media screen {
-
-  .show-dark .show-light{
+  .show-dark .show-light {
     display: none;
   }
 
   body.light-mode {
     @include light-mode();
-    .show-dark{
+    .show-dark {
       display: none;
     }
-    .show-light{
+    .show-light {
       display: block;
+    }
+    .button-color {
+      background-color: #{$body-bg};
+      border: none;
+    }
+    .button-text-color {
+      color: var(--dark-mode-body-bg);
     }
   }
 
   body.dark-mode {
     @include dark-mode();
-    .show-dark{
+    .show-dark {
       display: block;
     }
-    .show-light{
+    .show-light {
       display: none;
+    }
+    .button-color {
+      background-color: var(--dark-mode-body-bg);
+      border: none;
+    }
+    .button-text-color {
+      color: #{$body-bg};
     }
   }
 }
