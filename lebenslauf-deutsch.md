@@ -39,15 +39,15 @@ resume:
     label: 'Analytics and Data Engineer'
     picture: 'assets/img/logo.jpeg'
     email: 'jakob.gabriel5@googlemail.com'
-    phone: '+49-159-01665306'
+    #phone: '+49-159-01665306'
     #website:
     #summary: TODO
-    location:
-      address: 'Friedrich-Engels-Str. 13'
-      postalCode: '99086'
-      city: 'Erfurt'
-      countryCode: 'DE'
-      region: 'Thüringen'
+    #location:
+    #  address: 'Friedrich-Engels-Str. 13'
+    #  postalCode: '99086'
+    #  city: 'Erfurt'
+    #  countryCode: 'DE'
+    #  region: 'Thüringen'
     profiles:
       - network: 'GitHub'
         username: 'Jakob Gabriel'
