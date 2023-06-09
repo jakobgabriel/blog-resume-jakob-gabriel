@@ -26,7 +26,7 @@ buttons:
   vcf: /assets/Jakob Gabriel.vcf
   # http://h2vx.com/vcf/<!--url-->
   #json: /assets/resume.json
-  attachments: https://1drv.ms/u/s!ApGC4LfxKCgGicR_6WNFuvW_SenzcQ?e=AzshDb
+  # attachments: https://1drv.ms/u/s!ApGC4LfxKCgGicR_6WNFuvW_SenzcQ?e=AzshDb
 
 # Resume data for German
 resume:
@@ -60,6 +60,17 @@ resume:
         url: 'https://www.xing.com/profile/Jakob_Gabriel4'
 
   work:
+#    - company: 'ContiTech Techno-Chemie GmbH - Karben'
+#      position: ''
+#      website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
+#      startDate: '2022-10-01'
+#      endDate: ''
+#      summary: >
+#        * 
+#
+#      highlights:
+#        - items:
+#
     - company: 'ContiTech Techno-Chemie GmbH - Karben'
       position: 'Analytics and Data Engineer'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
@@ -233,7 +244,7 @@ resume:
       keywords:
         - 'Minitab'
     - name: 'Programmiersprachen'
-      level: '1-3'
+      level: '2-3'
       keywords:
         - 'Python'
     - name: 'Analytics Tools'

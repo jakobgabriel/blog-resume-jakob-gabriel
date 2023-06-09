@@ -27,7 +27,7 @@ buttons:
   #http://h2vx.com/vcf/<!--url-->
   #json: /assets/resume.json
   # Attachments
-  attachments: https://1drv.ms/u/s!ApGC4LfxKCgGicUAyodVoedcgmjcBQ?e=Qk8O7g
+  # attachments: https://1drv.ms/u/s!ApGC4LfxKCgGicUAyodVoedcgmjcBQ?e=Qk8O7g
 
 # Resume data for English
 resume:
@@ -61,6 +61,17 @@ resume:
         url: 'https://www.xing.com/profile/Jakob_Gabriel4'
 
   work:
+#    - company: 'ContiTech Techno-Chemie GmbH - Karben'
+#      position: ''
+#      website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
+#      startDate: '2022-10-01'
+#      endDate: ''
+#      summary: >
+#        * 
+#
+#      highlights:
+#        - items:
+#
     - company: 'ContiTech Techno-Chemie GmbH - Karben'
       position: 'Analytics and Data Engineer'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
