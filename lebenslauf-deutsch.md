@@ -210,6 +210,20 @@ resume:
       gpa: '1.6'
       url: 'https://www.dhge.de/DHGE/Studiengaenge/Technik/Kunststofftechnik.html'
 
+  projects:
+   - title: Test  
+     startDate: '2022-01-01'
+     endDate: '2022-12-31'
+     url: 'https://www.test.com'
+     summary: Das ist ein Test
+     highlights: 
+      - items:
+        - Test Item 1
+        - Test Item 2
+        - Test Item 3
+
+
+
   # Certiciates/Training
   certificates:
     - name: 'Advanced Analytics Methodologies'
@@ -218,6 +232,7 @@ resume:
       organization: 'AdvancedAnalytics.Academy GmbH'
       #summary: 'There is no spoon.'
       url: 'https://advancedanalytics.academy/trainings/fundamentals/advanced-analytics-methodologies'
+      
     - name: 'Produktauditor VDA 6.5'
       startDate: '2019-09-18'
       endDate: '2019-09-18'

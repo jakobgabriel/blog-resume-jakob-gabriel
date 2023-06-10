@@ -224,6 +224,7 @@ resume:
       organization: 'AdvancedAnalytics.Academy GmbH'
       #summary: ''
       url: 'https://advancedanalytics.academy/trainings/fundamentals/advanced-analytics-methodologies'
+
     - name: 'Product Auditor VDA 6.5'
       startDate: '2019-09-18'
       endDate: '2019-09-18'
@@ -237,7 +238,7 @@ resume:
       keywords:
         - 'MS Project'
         - 'MS Planner'
-        - 'Gitlab'
+        - 'Github'
     - name: 'Quality Management'
       level: '3-3'
       keywords:
@@ -249,7 +250,7 @@ resume:
       keywords:
         - 'Minitab'
     - name: 'Programming Languages'
-      level: '1-3'
+      level: '2-3'
       keywords:
         - 'Python'
     - name: 'Analytics Tools'
