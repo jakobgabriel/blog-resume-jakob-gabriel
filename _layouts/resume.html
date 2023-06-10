@@ -42,25 +42,37 @@ layout: base
     <div class="column column-3-5">
       {% for sec in l_col %}
       {% case sec %}
+      <!-- Work -->
       {% when 'work' %}
       {% include pro/resume/work.html %}
+      <!-- Volunteer -->
       {% when 'volunteer' %}
       {% include pro/resume/volunteer.html %}
+      <!-- Education -->
       {% when 'education' %}
       {% include pro/resume/education.html %}
+      <!-- Projects -->
+      {% when 'projects' %}
+      {% include pro/resume/projects.html %}
       <!-- Certificates -->
       {% when 'certificates' %}
       {% include pro/resume/certificates.html %}
+      <!-- Awards -->
       {% when 'awards' %}
       {% include pro/resume/awards.html %}
+      <!-- Publications -->
       {% when 'publications' %}
       {% include pro/resume/publications.html %}
+      <!-- References -->
       {% when 'references' %}
       {% include pro/resume/references.html %}
+      <!-- Languages -->
       {% when 'languages' %}
       {% include pro/resume/languages.html %}
+      <!-- Skills -->
       {% when 'skills' %}
       {% include pro/resume/skills.html %}
+      <!-- Interests -->
       {% when 'interests' %}
       {% include pro/resume/interests.html %}
       {% else %}
@@ -70,25 +82,37 @@ layout: base
     <div class="column column-2-5">
       {% for sec in r_col %}
       {% case sec %}
+      <!-- Work -->
       {% when 'work' %}
       {% include pro/resume/work.html %}
+      <!-- Volunteer -->
       {% when 'volunteer' %}
       {% include pro/resume/volunteer.html %}
+      <!-- Education -->
       {% when 'education' %}
       {% include pro/resume/education.html %}
+      <!-- Projects -->
+      {% when 'projects' %}
+      {% include pro/resume/projects.html %}
       <!-- Certificates -->
       {% when 'certificates' %}
       {% include pro/resume/certificates.html %}
+      <!-- Awards -->
       {% when 'awards' %}
       {% include pro/resume/awards.html %}
+      <!-- Publications -->
       {% when 'publications' %}
       {% include pro/resume/publications.html %}
+      <!-- References -->      
       {% when 'references' %}
       {% include pro/resume/references.html %}
+      <!-- Languages -->
       {% when 'languages' %}
       {% include pro/resume/languages.html %}
+      <!-- Skills -->
       {% when 'skills' %}
       {% include pro/resume/skills.html %}
+      <!-- Interests -->
       {% when 'interests' %}
       {% include pro/resume/interests.html %}
       {% else %}
