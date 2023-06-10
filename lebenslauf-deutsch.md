@@ -212,14 +212,14 @@ resume:
 
   projects:
     - title: Test  
-      startDate: '2022-01-01'
-      endDate: '2022-12-31'
-      url: 'https://www.test.com'
-      summary: Das ist ein Test
+      startDate: "2022-01-01"
+      endDate: "2022-12-31"
+      summary: "Das ist ein Test"
+      url: "https://www.test.com"
       highlights: 
-        - Test Item 1
-        - Test Item 2
-        - Test Item 3
+        - "Test Item 1"
+        - "Test Item 2"
+        - "Test Item 3"
     - title: "Bw-Tree Performance Boosting"
       startDate: "2018-08-01"
       endDate: "2019-10-31"
