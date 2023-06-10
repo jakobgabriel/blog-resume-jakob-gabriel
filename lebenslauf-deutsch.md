@@ -210,26 +210,26 @@ resume:
       gpa: '1.6'
       url: 'https://www.dhge.de/DHGE/Studiengaenge/Technik/Kunststofftechnik.html'
 
-  projects:
-    - title: Test  
-      startDate: "2022-01-01"
-      endDate: "2022-12-31"
-      summary: "Das ist ein Test"
-      url: "https://www.test.com"
-      highlights: 
-        - "Test Item 1"
-        - "Test Item 2"
-        - "Test Item 3"
-    - title: "Bw-Tree Performance Boosting"
-      startDate: "2018-08-01"
-      endDate: "2019-10-31"
-      summary: "Evaluating cache / multi thread Performance of <a href='https://github.com/wangziqi2013/BwTree'>Open Bw-Tree</a> to find bottleneck and improvement performance."
-      url: "https://lazyren.github.io/tag-bwtree/"
-      highlights:
-        - "Implementing update function based on the <a href='https://hyeontaek.com/papers/openbwtree-sigmod2018.pdf'>page</a>."
-        - "Make update function atomic & reduce call of traverse function."
-        - "Design TaS implemented Bw-Tree instead of CaS to reduce the overhead of failed CaS operations."
-
+#  # Projects 
+#  projects:
+#    - title: Test  
+#      startDate: "2022-01-01"
+#      endDate: "2022-12-31"
+#      summary: "Das ist ein Test"
+#      url: "https://www.test.com"
+#      highlights: 
+#        - "Test Item 1"
+#        - "Test Item 2"
+#        - "Test Item 3"
+#    - title: Test  
+#      startDate: "2022-01-01"
+#      endDate: "2022-12-31"
+#      summary: "Das ist ein Test"
+#      url: "https://www.test.com"
+#      highlights: 
+#        - "Test Item 1"
+#        - "Test Item 2"
+#        - "Test Item 3"
 
   # Certiciates/Training
   certificates:

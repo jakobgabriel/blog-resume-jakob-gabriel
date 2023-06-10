@@ -40,7 +40,7 @@ resume:
     label: 'Analytics and Data Engineer'
     picture: 'assets/img/logo.jpeg'
     email: 'jakob.gabriel5@googlemail.com'
-    #phone: '+49-159-01665306'
+    phone: '+49-159-01665306'
     #website:
     #summary: TODO
     #location:
@@ -199,6 +199,7 @@ resume:
       startDate: '2015-08-01'
       endDate: '2015-09-30'
 
+  # Education
   education:
     - institution: 'University of Applied Sciences Schmalkalden'
       area: 'Applied Polymer Engineering'
@@ -215,6 +216,27 @@ resume:
       endDate: '2018-09-30'
       gpa: 1.6
       url: 'https://www.dhge.de/DHGE/Studiengaenge/Technik/Kunststofftechnik.html'
+
+#  # Projects 
+#  projects:
+#    - title: Test  
+#      startDate: "2022-01-01"
+#      endDate: "2022-12-31"
+#      summary: "Das ist ein Test"
+#      url: "https://www.test.com"
+#      highlights: 
+#        - "Test Item 1"
+#        - "Test Item 2"
+#        - "Test Item 3"
+#    - title: Test  
+#      startDate: "2022-01-01"
+#      endDate: "2022-12-31"
+#      summary: "Das ist ein Test"
+#      url: "https://www.test.com"
+#      highlights: 
+#        - "Test Item 1"
+#        - "Test Item 2"
+#        - "Test Item 3"
 
   # Certiciates/Training
   certificates:
