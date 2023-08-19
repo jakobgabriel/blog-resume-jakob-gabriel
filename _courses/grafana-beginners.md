@@ -1,8 +1,8 @@
 ---
 layout: course
 title: Grafana
-level: Basic / Entry Level Training
-permalink: /trainings/grafana-beginners
+#level: Basic / Entry Level Training
+#permalink: /trainings/grafana-beginners
 image: /assets/img/courses/grafana.jpg
 packages:
   - name: Basic

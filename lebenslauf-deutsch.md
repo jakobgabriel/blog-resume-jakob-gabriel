@@ -237,7 +237,7 @@ resume:
       startDate: '2021-10-11'
       endDate: '2021-10-12'
       organization: 'AdvancedAnalytics.Academy GmbH'
-      #summary: 'There is no spoon.'
+      #summary: ''
       url: 'https://advancedanalytics.academy/trainings/fundamentals/advanced-analytics-methodologies'
       
     - name: 'Produktauditor VDA 6.5'

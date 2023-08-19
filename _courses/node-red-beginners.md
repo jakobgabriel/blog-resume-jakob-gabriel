@@ -1,8 +1,8 @@
 ---
 layout: course
-title: NodeRED
-level: Basic / Entry Level Training
-permalink: /trainings/node-red-beginners
+#title: NodeRED
+#level: Basic / Entry Level Training
+#permalink: /trainings/node-red-beginners
 image: /assets/img/courses/grafana.jpg
 packages:
   - name: Basic
