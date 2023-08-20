@@ -208,7 +208,7 @@ resume:
       startDate: '2015-10-01'
       endDate: '2018-09-30'
       gpa: '1.6'
-      url: 'https://www.dhge.de/DHGE/Studiengaenge/Technik/Kunststofftechnik.html'
+      url: 'https://www.dhge.de/DHGE/Studieninteressierte/Studieng-nge/Detail~Technik~Kunststofftechnik-Bachelor-of-Engineering~.html'
 
 #  # Projects 
 #  projects:
