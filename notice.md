@@ -18,22 +18,16 @@ Parts of this software are provided under separate licenses.
 ## Attributions
 Appropriate credit as per Creative Commons licenses.
 
-#### Background Images
 
-#Photo by <a href="https://unsplash.com/@jessebowser?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jesse Bowser</a> on <a href="https://unsplash.com/photos/c0I4ahyGIkA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-
-#### Other Images
+#### Images
 
 | Work                                                   | License        | Changes
 |:-------------------------------------------------------|:---------------|:-
-| Photo by [Jeremy Bishop][jb]                           | [Unsplash]     | Liquify filter, blur
-| Photo by [Caleb George][cg]                            | [Unsplash]     | Liquify filter, patch tool, blur
+| <a href="https://unsplash.com/@jessebowser?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jesse Bowser</a>[jb]                           | [Unsplash]     | None
 | [IcoMoon Icons Free Version][11] by [Keyamoon][12]     | [CC-BY-SA-4.0] | None
 | [Touch-161562.svg][41]                                 | [CC0-1.0]      | Composition
 
-[jb]: https://unsplash.com/photos/1braZySlEKA
-[cg]: https://unsplash.com/photos/AtvuPUenaeI
+[jb]: https://unsplash.com/photos/c0I4ahyGIkA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
 [11]: https://icomoon.io/#icons-icomoon
 [12]: http://keyamoon.com/
 [41]: https://commons.wikimedia.org/wiki/File:Touch-161562.svg

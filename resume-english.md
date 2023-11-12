@@ -260,7 +260,7 @@ resume:
       keywords:
         - 'MS Project'
         - 'MS Planner'
-        - 'Github'
+        - 'Gitlab/Github'
     - name: 'Quality Management'
       level: '3-3'
       keywords:
@@ -279,19 +279,20 @@ resume:
       level: '2-3'
       keywords:
         - 'KNIME Analytics Platform'
+        - 'JupyterLab'
     - name: 'Databases'
       level: '2-3'
       keywords:
         - 'Postgres'
         - 'Timescale'
         - 'InfluxDB'
-        - 'Cassandra'
     - name: 'Data Visualization'
       level: '2-3'
       keywords:
         - 'Grafana'
         - 'Superset'
         - 'PowerBI'
+        - 'Streamlit'
 
   languages:
     - language: 'German'
