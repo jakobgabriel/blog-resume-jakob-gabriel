@@ -116,13 +116,13 @@ paginate_path: /blog/:num/
 
 # Sidebar image and theme color of the site.
 accent_image: /assets/img/d-koi-GU_nNLVna_4-unsplash.jpg #/assets/img/unsplash_image_road.jpg #sidebar-bg.jpg
-accent_color: rgb(234,175,107)
+accent_color: rgb(127, 130, 128) #rgb(234,175,107)
 #rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color: rgb(234,175,107)
+theme_color: rgb(127, 130, 128) #rgb(234,175,107)
 #rgb(25,55,71)
 
 # The string encoding which fonts to fetch from Google Fonts.
