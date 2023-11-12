@@ -23,11 +23,12 @@ Appropriate credit as per Creative Commons licenses.
 
 | Work                                                   | License        | Changes
 |:-------------------------------------------------------|:---------------|:-
-| <a href="https://unsplash.com/@jessebowser?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jesse Bowser</a>[jb]                           | [Unsplash]     | None
+| <a href="https://unsplash.com/@jessebowser?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jesse Bowser</a> | [Unsplash]     | None
+| Photo by <a href="https://unsplash.com/@dkoi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">D koi</a> | [Unsplash]     | None 
 | [IcoMoon Icons Free Version][11] by [Keyamoon][12]     | [CC-BY-SA-4.0] | None
 | [Touch-161562.svg][41]                                 | [CC0-1.0]      | Composition
 
-[jb]: https://unsplash.com/photos/c0I4ahyGIkA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+
 [11]: https://icomoon.io/#icons-icomoon
 [12]: http://keyamoon.com/
 [41]: https://commons.wikimedia.org/wiki/File:Touch-161562.svg

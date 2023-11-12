@@ -115,7 +115,7 @@ paginate_path: /blog/:num/
 # ----------------------------------------------------------------------------------------
 
 # Sidebar image and theme color of the site.
-accent_image: /assets/img/unsplash_image_road.jpg #sidebar-bg.jpg
+accent_image: /assets/img/d-koi-GU_nNLVna_4-unsplash.jpg #/assets/img/unsplash_image_road.jpg #sidebar-bg.jpg
 accent_color: rgb(234,175,107)
 #rgb(79,177,186)
 
@@ -425,21 +425,21 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/unsplash_image_road.jpg #sidebar-bg.jpg
+        path: /assets/img/d-koi-GU_nNLVna_4-unsplash.jpg #/assets/img/unsplash_image_road.jpg #sidebar-bg.jpg
     posts:
       layout: post
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/unsplash_image_road.jpg #sidebar-bg.jpg
+        path: /assets/img/d-koi-GU_nNLVna_4-unsplash.jpg #/assets/img/unsplash_image_road.jpg #sidebar-bg.jpg
     projects:
       layout: project
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/unsplash_image_road.jpg #sidebar-bg.jpg
+        path: /assets/img/d-koi-GU_nNLVna_4-unsplash.jpg #/assets/img/unsplash_image_road.jpg #sidebar-bg.jpg
       links:
         - title: Project Link
           url: https://example.com
