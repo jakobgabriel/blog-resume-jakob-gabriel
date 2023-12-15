@@ -62,21 +62,22 @@ resume:
 
   work:
 #    - company: 'ContiTech Techno-Chemie GmbH - Karben'
-#      position: ''
+#      position: 'Digital Value Business Engineer'
 #      website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
-#      startDate: '2022-10-01'
+#      startDate: '2024-01-01'
 #      endDate: ''
-#      summary: >
-#        * 
+#      summary: > 
+#        * same as before
 #
 #      highlights:
 #        - items:
+#           - same as before 
 #
     - company: 'ContiTech Techno-Chemie GmbH - Karben'
       position: 'Analytics and Data Engineer'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2022-01-01'
-      endDate: ''
+      endDate: '' # 2023-12-31
       summary: >
         * Developing and defining analytics use cases and projects based on problems in production processes of Mobile Fluid Systems in collaboration with stakeholders
         
@@ -240,6 +241,12 @@ resume:
 
   # Certiciates/Training
   certificates:
+    - name: 'Continental Leading Self Program'
+      startDate: '2023-10-10' 
+      endDate: '2023-12-11'
+      organization: 'Continental AG'
+      url: 'https://www.continental.com/en/career/working-at-continental/your-development/leadership/'
+
     - name: 'Advanced Analytics Methodologies'
       startDate: '2021-10-11'
       endDate: '2021-10-12'
