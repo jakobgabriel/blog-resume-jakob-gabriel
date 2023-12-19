@@ -61,7 +61,7 @@ resume:
 
   work:
 #    - company: 'ContiTech Techno-Chemie GmbH - Karben'
-#      position: 'Digital Value Business Engineer'
+#      position: 'Digital Business Value Engineer'
 #      website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
 #      startDate: '2024-01-01'
 #      endDate: ''
