@@ -61,66 +61,65 @@ resume:
         url: 'https://www.xing.com/profile/Jakob_Gabriel4'
 
   work:
-    - company: 'ContiTech Techno-Chemie GmbH - Karben'
-      position: 'Digital Business Value Engineer'
-      website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
-      startDate: '2024-01-01'
-      endDate: ''
-      summary: > 
-        * Drive concept development by enhancing operations through increased process maturity and the development of holistic process concepts in collaboration with Electrical Engineering and machine vendors. Employ statistical metrics to enable statistical methods for comprehensive process diagnostics and leverage digital tools to create robust process standards that facilitate improved process maturity and successful implementation.
-
-      highlights:
-        - section: Operations Digitalization | Digital Use Case Identification & Implementation
-        - items:
-            - work with stakeholders to identify & follow-up on digitalization driven use cases 
-            - definition and harmonization of digital use case requirements together with stakeholders
-            - identification of use case related barriers and preconditions with stakeholders
-            - impact based use case scheduling for all plants and identified use cases
-            - definition of digital use case goals and benefits related to stakeholder requirements
-            - implementation of digital use cases related to defined requirements
-            - decision and planning for further iteration and/or global scalability based on its potential to carry over
-            - development and implementation of unique and per-process use cases and delineation to cross-process use cases
-            - implementation of re-occuring digital use cases related to the defined cross-process use case cluster
-            - documentation of digital use cases and their specific results
-        - section: Operations Digitalization | (Advanced) Analytics / Data Science
-        - items: 
-            - work with stakeholders to understand manufacturing process problems
-            - definition and harmonization of analytical goals related to the use cases and projects
-            - definition and implementation of data transformation workflows (understand, clean, join data) for use cases and projects
-            - definition and implementation of features based on the analytical abstract features from prepared data
-            - definition and implementation of models and execute analytics workflows for rout causes and decisions
-            - interpret, evaluate the workflows results and their benefits
-            - continuous iteration over analytics workflows for better and faster process development cycles
-        - section: Operations Digitalization | Robotic process automation
-        - items: 
-          - work with stakeholders to indentify manufacturing process workflows and problems
-          - definition of automation goals related to the use cases and projects
-          - automation of operations business workflows
-          - document the automation process and their specific results
-          - decision and planning for further iteration and/or global scalability based on its potential to carry over
-          - understand and evaluate global trends regarding manufacturing RPA approaches (e.g. in collaboration with universities)
-        - section: Project Management 
-        - items: 
-            - plan, execute and participate in agile projectmangement projects
-            - participate in BA projects and contribute to strategic targets
-            - prepare budget and forecast for digital use cases and analytics projects 
-            - report project status, goals and execution to stakeholder
-            - ensure workpackages and project goals within agile projects
-        - section: Training and Coaching (shared) 
-        - items: 
-          - provide project related documentation and guidelines for continuous qualification via Connext Communities
-          - grow network and share knowledge regarding process related analytics and plants implementation possibilities
-          - communicate process specific insights within the plants and central stakeholders
-        - section: ME process and Machine Standardization (shared)
-        - items: 
-            - enrich existing process and machine standards with inputs from analytics, it's results and potentials 
-            - provide feedback and input for further development of standards regarding manufacturing engineering
+  #  - company: 'ContiTech Techno-Chemie GmbH - Karben'
+  #    position: 'Digital Business Value Engineer'
+  #    website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
+  #    startDate: '2024-01-01'
+  #    endDate: ''
+  #    summary: > 
+  #      * Drive concept development by enhancing operations through increased process maturity and the development of holistic process concepts in collaboration with Electrical Engineering and machine vendors. Employ statistical metrics to enable statistical methods for comprehensive process diagnostics and leverage digital tools to create robust process standards that facilitate improved process maturity and successful implementation.
+  #    highlights:
+  #      - section: Operations Digitalization | Digital Use Case Identification & Implementation
+  #      - items:
+  #          - work with stakeholders to identify & follow-up on digitalization driven use cases 
+  #          - definition and harmonization of digital use case requirements together with stakeholders
+  #          - identification of use case related barriers and preconditions with stakeholders
+  #           - impact based use case scheduling for all plants and identified use cases
+  #          - definition of digital use case goals and benefits related to stakeholder requirements
+  #          - implementation of digital use cases related to defined requirements
+  #          - decision and planning for further iteration and/or global scalability based on its potential to carry over
+  #          - development and implementation of unique and per-process use cases and delineation to cross-process use cases
+  #          - implementation of re-occuring digital use cases related to the defined cross-process use case cluster
+  #          - documentation of digital use cases and their specific results
+  #      - section: Operations Digitalization | (Advanced) Analytics / Data Science
+  #      - items: 
+   #         - work with stakeholders to understand manufacturing process problems
+   #         - definition and harmonization of analytical goals related to the use cases and projects
+   #         - definition and implementation of data transformation workflows (understand, clean, join data) for use cases and projects
+   #         - definition and implementation of features based on the analytical abstract features from prepared data
+   #         - definition and implementation of models and execute analytics workflows for rout causes and decisions
+   #         - interpret, evaluate the workflows results and their benefits
+   #         - continuous iteration over analytics workflows for better and faster process development cycles
+   #     - section: Operations Digitalization | Robotic process automation
+   #     - items: 
+   #       - work with stakeholders to indentify manufacturing process workflows and problems
+   #       - definition of automation goals related to the use cases and projects
+   #       - automation of operations business workflows
+   #       - document the automation process and their specific results
+   #       - decision and planning for further iteration and/or global scalability based on its potential to carry over
+   #       - understand and evaluate global trends regarding manufacturing RPA approaches (e.g. in collaboration with universities)
+   #     - section: Project Management 
+   #     - items: 
+   #         - plan, execute and participate in agile projectmangement projects
+   #         - participate in BA projects and contribute to strategic targets
+   #         - prepare budget and forecast for digital use cases and analytics projects 
+   #         - report project status, goals and execution to stakeholder
+   #         - ensure workpackages and project goals within agile projects
+   #     - section: Training and Coaching (shared) 
+   #     - items: 
+   #       - provide project related documentation and guidelines for continuous qualification via Connext Communities
+   #       - grow network and share knowledge regarding process related analytics and plants implementation possibilities
+   #       - communicate process specific insights within the plants and central stakeholders
+   #     - section: ME process and Machine Standardization (shared)
+   #     - items: 
+   #         - enrich existing process and machine standards with inputs from analytics, it's results and potentials 
+   #         - provide feedback and input for further development of standards regarding manufacturing engineering
 
     - company: 'ContiTech Techno-Chemie GmbH - Karben'
       position: 'Analytics and Data Engineer'
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2022-01-01'
-      endDate: '2023-12-31'
+      endDate: '' #2023-12-31
       summary: >
         * Developing and defining analytics use cases and projects based on problems in production processes of Mobile Fluid Systems in collaboration with stakeholders
         
