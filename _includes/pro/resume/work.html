@@ -15,35 +15,49 @@
       
       {% if work.startDate.size > 0 %}
       <p class="faded">
+        {% assign todayYear = 'now' | date: "%Y" %}
+        {% assign todayMonth = 'now' | date: "%m" %}
         {% assign startYear = work.startDate | date: "%Y" %}
         {% assign startMonth = work.startDate | date: "%m" %}
         {% assign endYear = work.endDate | date: "%Y" %}
         {% assign endMonth = work.endDate | date: "%m" %}
   
         {% if work.endDate.size == 0 %}
-          {% assign todayYear = 'now' | date: "%Y" %}
-          {% assign todayMonth = 'now' | date: "%m" %}
           {% assign endYear = todayYear %}
           {% assign endMonth = todayMonth %}
         {% endif %}
   
-        {% assign yearDiff = endYear | minus: startYear %}
-        {% assign monthDiff = endMonth | minus: startMonth %}
+        {% assign startDate = startYear | append: '-' | append: startMonth %}
+        {% assign todayDate = todayYear | append: '-' | append: todayMonth %}
   
-        {% if monthDiff < 0 %}
-          {% assign monthDiff = monthDiff | plus: 12 %}
-          {% assign yearDiff = yearDiff | minus: 1 %}
+        {% if startDate > todayDate %}
+          <i class="faded">not started</i>
+        {% else %}
+          {% assign yearDiff = endYear | minus: startYear %}
+          {% assign monthDiff = endMonth | minus: startMonth %}
+  
+          {% if monthDiff < 0 %}
+            {% assign monthDiff = monthDiff | plus: 12 %}
+            {% assign yearDiff = yearDiff | minus: 1 %}
+          {% endif %}
+  
+          {% assign totalMonths = yearDiff | times: 12 | plus: monthDiff %}
+  
+          {% assign finalYears = totalMonths | divided_by: 12 %}
+          {% assign finalMonths = totalMonths | modulo: 12 %}
+  
+          {% assign unitYear = "year" %}
+          {% if finalYears != 1 %} {% assign unitYear = "years" %} {% endif %}
+          {% assign unitMonth = "month" %}
+          {% if finalMonths != 1 %} {% assign unitMonth = "months" %} {% endif %}
+  
+          {% include components/from-to.html from=work.startDate to=work.endDate format=from_to_format %}
+          <i class="faded"><span class="icon-history"></span> {{ finalYears }} {{ unitYear }}, {{ finalMonths }} {{ unitMonth }}</i>
         {% endif %}
-  
-        {% assign unitYear = "year" %}
-        {% if yearDiff != 1 %} {% assign unitYear = "years" %} {% endif %}
-        {% assign unitMonth = "month" %}
-        {% if monthDiff != 1 %} {% assign unitMonth = "months" %} {% endif %}
-  
-        {% include components/from-to.html from=work.startDate to=work.endDate format=from_to_format %}
-        <i class="faded"><span class="icon-history"></span> {{ yearDiff }} {{ unitYear }}, {{ monthDiff }} {{ unitMonth }}</i>
       </p>
   {% endif %}
+  
+  
   
   
       <!--  {% if work.startDate.size > 0 %}
