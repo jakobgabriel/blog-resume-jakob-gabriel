@@ -31,20 +31,23 @@
         {% assign todayDate = todayYear | append: '-' | append: todayMonth %}
   
         {% if startDate > todayDate %}
-          <i class="faded">not started</i>
+          <i class="faded">Not started</i>
         {% else %}
           {% assign yearDiff = endYear | minus: startYear %}
           {% assign monthDiff = endMonth | minus: startMonth %}
-  
-          {% if monthDiff < 0 %}
-            {% assign monthDiff = monthDiff | plus: 12 %}
-            {% assign yearDiff = yearDiff | minus: 1 %}
-          {% endif %}
-  
           {% assign totalMonths = yearDiff | times: 12 | plus: monthDiff %}
+  
+          {% if totalMonths < 0 %}
+            {% assign totalMonths = 0 %}
+          {% endif %}
   
           {% assign finalYears = totalMonths | divided_by: 12 %}
           {% assign finalMonths = totalMonths | modulo: 12 %}
+  
+          {% if finalMonths == 0 and totalMonths > 0 %}
+            {% assign finalMonths = 12 %}
+            {% assign finalYears = finalYears | minus: 1 %}
+          {% endif %}
   
           {% assign unitYear = "year" %}
           {% if finalYears != 1 %} {% assign unitYear = "years" %} {% endif %}
@@ -56,9 +59,6 @@
         {% endif %}
       </p>
   {% endif %}
-  
-  
-  
   
       <!--  {% if work.startDate.size > 0 %}
         <p class="faded">
