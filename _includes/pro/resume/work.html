@@ -16,35 +16,35 @@
       {% if work.startDate.size > 0 %}
       <p class="faded">
         {% assign startYear = work.startDate | date: "%Y" %}
+        {% assign startMonth = work.startDate | date: "%m" %}
         {% assign endYear = work.endDate | date: "%Y" %}
+        {% assign endMonth = work.endDate | date: "%m" %}
   
-        {% if endYear %}
-          {% assign diff = endYear | minus: startYear %}
-        {% else %}
+        {% if work.endDate.size == 0 %}
           {% assign todayYear = 'now' | date: "%Y" %}
-          {% assign diff = todayYear | minus: startYear %}
+          {% assign todayMonth = 'now' | date: "%m" %}
+          {% assign endYear = todayYear %}
+          {% assign endMonth = todayMonth %}
         {% endif %}
   
-        {% assign unit = "years" %}
+        {% assign yearDiff = endYear | minus: startYear %}
+        {% assign monthDiff = endMonth | minus: startMonth %}
   
-        {% if diff == 0 %}
-          {% assign startMonth = work.startDate | date: "%m" %}
-          
-          {% if endYear %}
-            {% assign endMonth = work.endDate | date: "%m" %}
-          {% else %}
-            {% assign todayMonth = 'now' | date: "%m" %}
-            {% assign endMonth = todayMonth %}
-          {% endif %}
-  
-          {% assign diff = endMonth | minus: startMonth %}
-          {% assign unit = "month(s)" %}
+        {% if monthDiff < 0 %}
+          {% assign monthDiff = monthDiff | plus: 12 %}
+          {% assign yearDiff = yearDiff | minus: 1 %}
         {% endif %}
+  
+        {% assign unitYear = "year" %}
+        {% if yearDiff != 1 %} {% assign unitYear = "years" %} {% endif %}
+        {% assign unitMonth = "month" %}
+        {% if monthDiff != 1 %} {% assign unitMonth = "months" %} {% endif %}
   
         {% include components/from-to.html from=work.startDate to=work.endDate format=from_to_format %}
-        <i class="faded"><span class="icon-history"></span> {{ diff }} {{ unit }}</i>
+        <i class="faded"><span class="icon-history"></span> {{ yearDiff }} {{ unitYear }}, {{ monthDiff }} {{ unitMonth }}</i>
       </p>
-      {% endif %}
+  {% endif %}
+  
   
       <!--  {% if work.startDate.size > 0 %}
         <p class="faded">
