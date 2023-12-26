@@ -12,7 +12,41 @@
         property="{% if work.endDate.size > 0 %}alumniOf{% else %}worksFor{% endif %}"
         typeof="Organization"
       >
-        {% if work.startDate.size > 0 %}
+      
+      {% if work.startDate.size > 0 %}
+      <p class="faded">
+        {% assign startYear = work.startDate | date: "%Y" %}
+        {% assign endYear = work.endDate | date: "%Y" %}
+  
+        {% if endYear %}
+          {% assign diff = endYear | minus: startYear %}
+        {% else %}
+          {% assign todayYear = 'now' | date: "%Y" %}
+          {% assign diff = todayYear | minus: startYear %}
+        {% endif %}
+  
+        {% assign unit = "years" %}
+  
+        {% if diff == 0 %}
+          {% assign startMonth = work.startDate | date: "%m" %}
+          
+          {% if endYear %}
+            {% assign endMonth = work.endDate | date: "%m" %}
+          {% else %}
+            {% assign todayMonth = 'now' | date: "%m" %}
+            {% assign endMonth = todayMonth %}
+          {% endif %}
+  
+          {% assign diff = endMonth | minus: startMonth %}
+          {% assign unit = "month(s)" %}
+        {% endif %}
+  
+        {% include components/from-to.html from=work.startDate to=work.endDate format=from_to_format %}
+        <i class="faded"><span class="icon-history"></span> {{ diff }} {{ unit }}</i>
+      </p>
+      {% endif %}
+  
+      <!--  {% if work.startDate.size > 0 %}
         <p class="faded">
           {% assign todayYear = 'now' | date: "%Y" %} {% assign startYear =
           work.startDate | date: "%Y" %} {% assign endYear = work.endDate |
@@ -27,7 +61,7 @@
             ><span class="icon-history"></span> {{diff}} {{unit}}</i
           >
         </p>
-        {% endif %}
+        {% endif %}-->
         <h3 class="h4 faded">
           <button class="button-color" @click="open=!open">
             <svg
