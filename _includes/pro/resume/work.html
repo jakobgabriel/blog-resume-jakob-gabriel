@@ -24,43 +24,71 @@
         {% assign endYear = work.endDate | date: "%Y" %}
         {% assign endMonth = work.endDate | date: "%m" %}
         {% assign endDay = work.endDate | date: "%d" %}
-  
+      
         {% if work.endDate.size == 0 %}
           {% assign endYear = todayYear %}
           {% assign endMonth = todayMonth %}
           {% assign endDay = todayDay %}
         {% endif %}
-  
+      
+        {% assign daysInMonth = 31 %}
+        {% if endMonth == "04" or endMonth == "06" or endMonth == "09" or endMonth == "11" %}
+          {% assign daysInMonth = 30 %}
+        {% elsif endMonth == "02" %}
+          {% assign isLeapYear = endYear | modulo: 4 == 0 and (endYear | modulo: 100 != 0 or endYear | modulo: 400 == 0) %}
+          {% if isLeapYear %}
+            {% assign daysInMonth = 29 %}
+          {% else %}
+            {% assign daysInMonth = 28 %}
+          {% endif %}
+        {% endif %}
+      
+        {% if endDay > daysInMonth / 2 %}
+          {% assign endMonth = endMonth | plus: 1 %}
+          {% if endMonth > 12 %}
+            {% assign endYear = endYear | plus: 1 %}
+            {% assign endMonth = 1 %}
+          {% endif %}
+        {% endif %}
+      
         {% assign startDate = startYear | append: '-' | append: startMonth | append: '-' | append: startDay %}
         {% assign endDate = endYear | append: '-' | append: endMonth | append: '-' | append: endDay %}
         {% assign todayDate = todayYear | append: '-' | append: todayMonth | append: '-' | append: todayDay %}
-  
+      
         {% if startDate > todayDate %}
           <i class="faded">not started</i>
         {% else %}
           {% assign yearDiff = endYear | minus: startYear %}
           {% assign monthDiff = endMonth | minus: startMonth %}
           {% assign dayDiff = endDay | minus: startDay %}
-  
+      
           {% if monthDiff < 0 or (monthDiff == 0 and dayDiff < 0) %}
             {% assign yearDiff = yearDiff | minus: 1 %}
             {% assign monthDiff = monthDiff | plus: 12 %}
           {% endif %}
-  
+      
           {% if dayDiff < 0 %}
             {% assign monthDiff = monthDiff | minus: 1 %}
           {% endif %}
-  
+      
+          {% if endDay > daysInMonth / 2 %}
+            {% assign monthDiff = monthDiff | plus: 1 %}
+            {% if monthDiff >= 12 %}
+              {% assign yearDiff = yearDiff | plus: 1 %}
+              {% assign monthDiff = 0 %}
+            {% endif %}
+          {% endif %}
+      
           {% assign unitYear = "year" %}
           {% if yearDiff != 1 %} {% assign unitYear = "years" %} {% endif %}
           {% assign unitMonth = "month" %}
           {% if monthDiff != 1 %} {% assign unitMonth = "months" %} {% endif %}
-  
+      
           {% include components/from-to.html from=work.startDate to=work.endDate format=from_to_format %}
           <i class="faded"><span class="icon-history"></span> {{ yearDiff }} {{ unitYear }}, {{ monthDiff }} {{ unitMonth }}</i>
         {% endif %}
-        </p>
-        {% endif %}
+      </p>
+      {% endif %}    
 
       <!--  {% if work.startDate.size > 0 %}
         <p class="faded">
