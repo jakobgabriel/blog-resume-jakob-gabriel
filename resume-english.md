@@ -28,6 +28,7 @@ buttons:
   #json: /assets/resume.json
   # Attachments
   # attachments: https://1drv.ms/u/s!ApGC4LfxKCgGicUAyodVoedcgmjcBQ?e=Qk8O7g
+  contactme: https://jakobgabriel.github.io/blog-resume-jakob-gabriel/contact-me
 
 # Resume data for English
 resume:
