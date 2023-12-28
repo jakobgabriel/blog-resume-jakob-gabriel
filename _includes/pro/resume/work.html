@@ -17,12 +17,12 @@
       <p class="faded">
         {% assign startYear = work.startDate | date: "%Y" | plus: 0 %}
         {% assign startMonth = work.startDate | date: "%m" | plus: 0 %}
-        {% assign todayYear = 'now' | date: "%Y" | plus: 0 %}
-        {% assign todayMonth = 'now' | date: "%m" | plus: 0 %}
         {% assign endYear = work.endDate | date: "%Y" | plus: 0 %}
         {% assign endMonth = work.endDate | date: "%m" | plus: 0 %}
       
         {% if work.endDate.size == 0 %}
+          {% assign todayYear = 'now' | date: "%Y" | plus: 0 %}
+          {% assign todayMonth = 'now' | date: "%m" | plus: 0 %}
           {% assign endYear = todayYear %}
           {% assign endMonth = todayMonth %}
         {% endif %}
@@ -35,6 +35,11 @@
           {% assign monthDiff = monthDiff | plus: 12 %}
         {% endif %}
       
+        {% if monthDiff == 11 %}
+          {% assign yearDiff = yearDiff | plus: 1 %}
+          {% assign monthDiff = 0 %}
+        {% endif %}
+      
         {% assign unitYear = "year" %}
         {% if yearDiff != 1 %} {% assign unitYear = "years" %} {% endif %}
         {% assign unitMonth = "month" %}
@@ -44,6 +49,7 @@
         <i class="faded"><span class="icon-history"></span> {{ yearDiff }} {{ unitYear }}, {{ monthDiff }} {{ unitMonth }}</i>
       </p>
       {% endif %}
+      
       
 
       <!--  {% if work.startDate.size > 0 %}
