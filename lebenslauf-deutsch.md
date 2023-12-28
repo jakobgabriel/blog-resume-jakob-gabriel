@@ -27,6 +27,7 @@ buttons:
   # http://h2vx.com/vcf/<!--url-->
   #json: /assets/resume.json
   # attachments: https://1drv.ms/u/s!ApGC4LfxKCgGicR_6WNFuvW_SenzcQ?e=AzshDb
+  contactme: https://jakobgabriel.github.io/blog-resume-jakob-gabriel/contact-me
 
 # Resume data for German
 resume:

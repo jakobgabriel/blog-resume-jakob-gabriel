@@ -59,10 +59,9 @@
           {% include components/from-to.html from=work.startDate to=work.endDate format=from_to_format %}
           <i class="faded"><span class="icon-history"></span> {{ yearDiff }} {{ unitYear }}, {{ monthDiff }} {{ unitMonth }}</i>
         {% endif %}
-      </p>
-  {% endif %}
-  
-  
+        </p>
+        {% endif %}
+
       <!--  {% if work.startDate.size > 0 %}
         <p class="faded">
           {% assign todayYear = 'now' | date: "%Y" %} {% assign startYear =
