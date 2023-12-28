@@ -38,6 +38,8 @@
         {% if monthDiff == 11 %}
           {% assign yearDiff = yearDiff | plus: 1 %}
           {% assign monthDiff = 0 %}
+        {% else %}
+          {% assign monthDiff = monthDiff | plus: 1 %}
         {% endif %}
       
         {% assign unitYear = "year" %}
@@ -49,6 +51,7 @@
         <i class="faded"><span class="icon-history"></span> {{ yearDiff }} {{ unitYear }}, {{ monthDiff }} {{ unitMonth }}</i>
       </p>
       {% endif %}
+      
       
       
 
