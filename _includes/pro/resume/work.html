@@ -16,14 +16,14 @@
       {% if work.startDate.size > 0 %}
       <p class="faded">
         {% assign startYear = work.startDate | date: "%Y" %}
-        {% assign startMonth = work.startDate | date: "%m" %}
-        {% assign startDay = work.startDate | date: "%d" %}
+        {% assign startMonth = work.startDate | date: "%m" | plus: 0 %}
+        {% assign startDay = work.startDate | date: "%d" | plus: 0 %}
         {% assign todayYear = 'now' | date: "%Y" %}
-        {% assign todayMonth = 'now' | date: "%m" %}
-        {% assign todayDay = 'now' | date: "%d" %}
+        {% assign todayMonth = 'now' | date: "%m" | plus: 0 %}
+        {% assign todayDay = 'now' | date: "%d" | plus: 0 %}
         {% assign endYear = work.endDate | date: "%Y" %}
-        {% assign endMonth = work.endDate | date: "%m" %}
-        {% assign endDay = work.endDate | date: "%d" %}
+        {% assign endMonth = work.endDate | date: "%m" | plus: 0 %}
+        {% assign endDay = work.endDate | date: "%d" | plus: 0 %}
       
         {% if work.endDate.size == 0 %}
           {% assign endYear = todayYear %}
@@ -32,9 +32,9 @@
         {% endif %}
       
         {% assign daysInMonth = 31 %}
-        {% if endMonth == "04" or endMonth == "06" or endMonth == "09" or endMonth == "11" %}
+        {% if endMonth == 4 or endMonth == 6 or endMonth == 9 or endMonth == 11 %}
           {% assign daysInMonth = 30 %}
-        {% elsif endMonth == "02" %}
+        {% elsif endMonth == 2 %}
           {% assign isLeapYear = endYear | modulo: 4 == 0 and (endYear | modulo: 100 != 0 or endYear | modulo: 400 == 0) %}
           {% if isLeapYear %}
             {% assign daysInMonth = 29 %}
@@ -88,7 +88,8 @@
           <i class="faded"><span class="icon-history"></span> {{ yearDiff }} {{ unitYear }}, {{ monthDiff }} {{ unitMonth }}</i>
         {% endif %}
       </p>
-      {% endif %}    
+      {% endif %}
+      
 
       <!--  {% if work.startDate.size > 0 %}
         <p class="faded">
