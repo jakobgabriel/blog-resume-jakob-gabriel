@@ -66,54 +66,55 @@ resume:
       website: 'https://www.continental-industry.com/de/topnavi/company/organization/mobile-fluid-systems'
       startDate: '2024-01-01'
       endDate: ''
-      summary: > 
-        * Drive concept development by enhancing operations through increased process maturity and the development of holistic process concepts in collaboration with Electrical Engineering and machine vendors. Employ statistical metrics to enable statistical methods for comprehensive process diagnostics and leverage digital tools to create robust process standards that facilitate improved process maturity and successful implementation.
+      summary: >
+        * Konzeptentwicklung vorantreiben, indem die Betriebsabläufe durch eine erhöhte Prozessreife und die Entwicklung von ganzheitlichen Prozesskonzepten in Zusammenarbeit mit der Elektrotechnik und Maschinenlieferanten verbessert werden. Einsatz statistischer Kennzahlen, um statistische Methoden für umfassende Prozessdiagnosen zu ermöglichen und digitale Werkzeuge nutzen, um robuste Prozessstandards zu schaffen, die eine verbesserte Prozessreife und erfolgreiche Implementierung erleichtern.
       highlights:
-        - section: Operations Digitalization | Digital Use Case Identification & Implementation
+        - section: Digitalisierung der Betriebsabläufe | Digitale Anwendungsfälle Identifizierung & Implementierung
         - items:
-            - work with stakeholders to identify & follow-up on digitalization driven use cases 
-            - definition and harmonization of digital use case requirements together with stakeholders
-            - identification of use case related barriers and preconditions with stakeholders
-            - impact based use case scheduling for all plants and identified use cases
-            - definition of digital use case goals and benefits related to stakeholder requirements
-            - implementation of digital use cases related to defined requirements
-            - decision and planning for further iteration and/or global scalability based on its potential to carry over
-            - development and implementation of unique and per-process use cases and delineation to cross-process use cases
-            - implementation of re-occuring digital use cases related to the defined cross-process use case cluster
-            - documentation of digital use cases and their specific results
-        - section: Operations Digitalization | (Advanced) Analytics / Data Science
+            - mit Stakeholdern zusammenarbeiten, um digitale Anwendungsfälle zu identifizieren & nachzuverfolgen
+            - Definition und Harmonisierung der Anforderungen an digitale Anwendungsfälle zusammen mit Stakeholdern
+            - Identifizierung von anwendungsfallbezogenen Barrieren und Voraussetzungen mit Stakeholdern
+            - anwendungsfallbasierte Terminplanung nach Auswirkung für alle Werke und identifizierten Anwendungsfälle
+            - Definition von Zielen und Vorteilen digitaler Anwendungsfälle in Bezug auf Stakeholder-Anforderungen
+            - Implementierung digitaler Anwendungsfälle in Bezug auf definierte Anforderungen
+            - Entscheidung und Planung für weitere Iterationen und/oder globale Skalierbarkeit basierend auf dem Übertragungspotenzial
+            - Entwicklung und Implementierung einzigartiger und prozessspezifischer Anwendungsfälle und Abgrenzung zu prozessübergreifenden Anwendungsfällen
+            - Implementierung wiederkehrender digitaler Anwendungsfälle in Bezug auf den definierten clusterübergreifenden Anwendungsfall
+            - Dokumentation digitaler Anwendungsfälle und ihrer spezifischen Ergebnisse
+        - section: Digitalisierung der Betriebsabläufe | (Fortgeschrittene) Analytik / Data Science
         - items: 
-            - work with stakeholders to understand manufacturing process problems
-            - definition and harmonization of analytical goals related to the use cases and projects
-            - definition and implementation of data transformation workflows (understand, clean, join data) for use cases and projects
-            - definition and implementation of features based on the analytical abstract features from prepared data
-            - definition and implementation of models and execute analytics workflows for rout causes and decisions
-            - interpret, evaluate the workflows results and their benefits
-            - continuous iteration over analytics workflows for better and faster process development cycles
-        - section: Operations Digitalization | Robotic process automation
+            - mit Stakeholdern zusammenarbeiten, um Probleme im Fertigungsprozess zu verstehen
+            - Definition und Harmonisierung analytischer Ziele in Bezug auf die Anwendungsfälle und Projekte
+            - Definition und Implementierung von Daten-Transformationsworkflows (Verstehen, Bereinigen, Verknüpfen von Daten) für Anwendungsfälle und Projekte
+            - Definition und Implementierung von Merkmalen basierend auf den analytischen abstrakten Merkmalen aus vorbereiteten Daten
+            - Definition und Implementierung von Modellen und Ausführung analytischer Workflows für Ursachenforschung und Entscheidungen
+            - Interpretation, Bewertung der Workflow-Ergebnisse und ihrer Vorteile
+            - kontinuierliche Iteration über analytische Workflows für bessere und schnellere Prozessentwicklungszyklen
+        - section: Digitalisierung der Betriebsabläufe | Robotergestützte Prozessautomatisierung
         - items: 
-          - work with stakeholders to indentify manufacturing process workflows and problems
-          - definition of automation goals related to the use cases and projects
-          - automation of operations business workflows
-          - document the automation process and their specific results
-          - decision and planning for further iteration and/or global scalability based on its potential to carry over
-          - understand and evaluate global trends regarding manufacturing RPA approaches (e.g. in collaboration with universities)
-        - section: Project Management 
+            - mit Stakeholdern zusammenarbeiten, um Fertigungsprozessabläufe und -probleme zu identifizieren
+            - Definition von Automatisierungszielen in Bezug auf die Anwendungsfälle und Projekte
+            - Automatisierung von betrieblichen Arbeitsabläufen
+            - Dokumentation des Automatisierungsprozesses und ihrer spezifischen Ergebnisse
+            - Entscheidung und Planung für weitere Iterationen und/oder globale Skalierbarkeit basierend auf dem Übertragungspotenzial
+            - Verstehen und Bewerten globaler Trends bezüglich der Ansätze zur robotergestützten Prozessautomatisierung (z.B. in Zusammenarbeit mit Universitäten)
+        - section: Projektmanagement
         - items: 
-            - plan, execute and participate in agile projectmangement projects
-            - participate in BA projects and contribute to strategic targets
-            - prepare budget and forecast for digital use cases and analytics projects 
-            - report project status, goals and execution to stakeholder
-            - ensure workpackages and project goals within agile projects
-        - section: Training and Coaching (shared) 
+            - Planen, Ausführen und Teilnehmen an agilen Projektmanagementprojekten
+            - Teilnahme an BA-Projekten und Beitrag zu strategischen Zielen
+            - Budgetvorbereitung und Prognose für digitale Anwendungsfälle und Analyseprojekte
+            - Berichterstattung über Projektstatus, Ziele und Ausführung an Stakeholder
+            - Sicherstellung von Arbeitspaketen und Projektzielen innerhalb agiler Projekte
+        - section: Training und Coaching (gemeinsam)
         - items: 
-          - provide project related documentation and guidelines for continuous qualification via Connext Communities
-          - grow network and share knowledge regarding process related analytics and plants implementation possibilities
-          - communicate process specific insights within the plants and central stakeholders
-        - section: ME process and Machine Standardization (shared)
+            - Bereitstellung projektbezogener Dokumentation und Richtlinien für kontinuierliche Qualifikation über Connext Communities
+            - Netzwerkausbau und Wissensaustausch bezüglich prozessbezogener Analytik und Implementierungsmöglichkeiten in den Werken
+            - Kommunikation prozessspezifischer Erkenntnisse innerhalb der Werke und zentralen Stakeholdern
+        - section: ME-Prozess- und Maschinenstandardisierung (gemeinsam)
         - items: 
-            - enrich existing process and machine standards with inputs from analytics, it's results and potentials 
-            - provide feedback and input for further development of standards regarding manufacturing engineering
+            - bestehende Prozess- und Maschinenstandards mit Inputs aus der Analytik, deren Ergebnissen und Potenzialen anreichern
+            - Rückmeldung und Input für die weitere Entwicklung von Standards bezüglich der Fertigungstechnik bereitstellen
+
    
     - company: 'ContiTech Techno-Chemie GmbH - Karben'
       position: 'Analytics and Data Engineer'
