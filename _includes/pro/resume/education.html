@@ -36,10 +36,7 @@
           {% capture gpa_us %}<span class="bc">{{ edu.gpa_us }}</span>{% endcapture %}
           {% capture gpa_de %}<span class="bc">{{ edu.gpa_de }}</span>{% endcapture %}
           <span>
-            {{study_type}} in {{area}} from {{institution}} with GPA of {{gpa_us}}
-            <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#gpaInfoModal">
-              <i class="fas fa-info-circle"></i>
-            </button>
+            {{study_type}} in {{area}} from {{institution}} with GPA of {{gpa_us}} (de: {{gpa_de}})
           </span>
         </h3>
       </header>
@@ -58,23 +55,3 @@
   {% endif %} {% endfor %}
 </section>
 {% endif %}
-
-<!-- GPA Info Modal -->
-<div class="modal fade" id="gpaInfoModal" tabindex="-1" role="dialog" aria-labelledby="gpaInfoModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="gpaInfoModalLabel">GPA Information</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        The GPA (Grade Point Average) is a standard way of measuring academic achievement in the U.S. The German GPA is calculated differently and typically ranges from 1.0 (best) to 5.0 (worst). Here, the US GPA is {{ edu.gpa_us }} and the German GPA is {{ edu.gpa_de }}.
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
