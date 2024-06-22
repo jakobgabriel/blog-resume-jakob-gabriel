@@ -254,9 +254,9 @@ resume:
       gpa_de: 'N/A'
       url: https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng
       thesis: 
-      - "Thesis Topic 1: Artificial Intelligence in Healthcare"
-      projectWorks: 
-      - "Project Work 1: "
+      - "Master Thesis: "
+      projectThesis: 
+      - "Project Work: "
 
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Polymer Engineering'
@@ -267,8 +267,8 @@ resume:
       gpa_de: 1.6
       url: 'https://www.dhge.de/DHGE/Studieninteressierte/Studieng-nge/Detail~Technik~Kunststofftechnik-Bachelor-of-Engineering~.html'
       thesis: 
-      - "Thesis Topic 1: Artificial Intelligence in Healthcare"
-      projectWorks: 
+      - "Bachelor Thesis: "
+      projectThesis: 
       - "Project Work 1: "
       - "Project Work 1: "
       - "Project Work 1: "

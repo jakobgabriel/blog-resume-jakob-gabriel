@@ -56,11 +56,13 @@
 
         {% if edu.projectThesis.size > 0 %}
         <h5 style="margin-bottom: 0.3em;">Project Thesis:</h5>
-        <ul style="margin-bottom: 0.5em;">
-          {% for project in edu.projectThesis %}
-          <li>{{ project }}</li>
-          {% endfor %}
-        </ul>
+        <div class="note" style="margin-bottom: 0.5em;">
+          <ul>
+            {% for project in edu.projectThesis %}
+            <li>{{ project }}</li>
+            {% endfor %}
+          </ul>
+        </div>
         {% endif %}
 
         {% if edu.courses.size > 0 %}

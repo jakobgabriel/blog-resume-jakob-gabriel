@@ -248,6 +248,10 @@ resume:
       gpa_us: 'N/A'
       gpa_de: 'N/A'
       url: 'https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng'
+      thesis: 
+      - "Master Thesis: Process Mining in der Fertigung: Potenzialanalyse anhand eines Anwendungsbeispiels"
+      projectThesis: 
+      - "Projektarbeit: "
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Kunststofftechnik'
       studyType: 'Bachelor of Engineering'
@@ -256,6 +260,11 @@ resume:
       gpa_us: 3.3
       gpa_de: 1.6
       url: 'https://www.dhge.de/DHGE/Studieninteressierte/Studieng-nge/Detail~Technik~Kunststofftechnik-Bachelor-of-Engineering~.html'
+      thesis: 
+      - "Bachelor Thesis:"
+      projectThesis: 
+      - "Projektarbeit: "
+      - "Projektarbeit: "
 
 #   Projects 
 #  projects:
