@@ -245,14 +245,16 @@ resume:
       studyType: 'Master of Engineering'
       startDate: '2019-04-01'
       endDate: ''
-      gpa: 'N/A'
+      gpa_us: 'N/A'
+      gpa_de: 'N/A'
       url: 'https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng'
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Kunststofftechnik'
       studyType: 'Bachelor of Engineering'
       startDate: '2015-10-01'
       endDate: '2018-09-30'
-      gpa: '1.6'
+      gpa_us: 3.3
+      gpa_de: 1.6
       url: 'https://www.dhge.de/DHGE/Studieninteressierte/Studieng-nge/Detail~Technik~Kunststofftechnik-Bachelor-of-Engineering~.html'
 
 #   Projects 

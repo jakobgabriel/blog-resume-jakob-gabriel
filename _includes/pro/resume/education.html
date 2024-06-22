@@ -41,6 +41,24 @@
         </h3>
       </header>
 
+      {% if edu.thesis.size > 0 %}
+      <h4>Thesis Topics:</h4>
+      <ul>
+        {% for topic in edu.thesis %}
+        <li>{{ topic }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if edu.projectWorks.size > 0 %}
+      <h4>Project Works:</h4>
+      <ul>
+        {% for project in edu.projectWorks %}
+        <li>{{ project }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
       {% if edu.courses.size > 0 %}
       <h4 class="sr-only">{{ strings.resume.courses | default:"Courses" }}</h4>
       <ul>
