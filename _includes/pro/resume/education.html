@@ -6,10 +6,10 @@
       <span class="symbol {{ icons.education | default:'icon-library' }}"></span>
     </h2>
     {% for edu in resume.education %}
-    <section x-data="{open:false}">
+    <section x-data="{open:false}" style="margin-bottom: 1em;">
       <header class="{% unless forloop.first %}mt2{% endunless %}">
         {% if edu.startDate.size > 0 %}
-        <p class="faded">
+        <p class="faded" style="margin-bottom: 0.5em;">
           {% assign todayYear = 'now' | date: "%Y" %}
           {% assign startYear = edu.startDate | date: "%Y" %}
           {% assign endYear = edu.endDate | date: "%Y" | default: todayYear %}
@@ -26,7 +26,7 @@
             class="faded"><span class="icon-history"></span> {{diff}} {{unit}}</i>
         </p>
         {% endif %}
-        <h3 class="h4 faded">
+        <h3 class="h4 faded" style="margin-bottom: 0.5em;">
           <button class="button-color" @click="open=!open">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg button-text-color" viewBox="0 0 16 16">
               <path x-show="!open" fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
@@ -44,10 +44,10 @@
         </h3>
       </header>
 
-      <div x-show="open">
+      <div x-show="open" style="margin-left: 1em;">
         {% if edu.thesis.size > 0 %}
-        <h4>Thesis Topics:</h4>
-        <ul>
+        <h5 style="margin-bottom: 0.3em;">Thesis Topics:</h5>
+        <ul style="margin-bottom: 0.5em;">
           {% for topic in edu.thesis %}
           <li>{{ topic }}</li>
           {% endfor %}
@@ -55,8 +55,8 @@
         {% endif %}
 
         {% if edu.projectThesis.size > 0 %}
-        <h4>Project Thesis:</h4>
-        <ul>
+        <h5 style="margin-bottom: 0.3em;">Project Thesis:</h5>
+        <ul style="margin-bottom: 0.5em;">
           {% for project in edu.projectThesis %}
           <li>{{ project }}</li>
           {% endfor %}
@@ -64,8 +64,8 @@
         {% endif %}
 
         {% if edu.courses.size > 0 %}
-        <h4 class="sr-only">{{ strings.resume.courses | default:"Courses" }}</h4>
-        <ul>
+        <h5 class="sr-only">{{ strings.resume.courses | default:"Courses" }}</h5>
+        <ul style="margin-bottom: 0.5em;">
           {% for course in edu.courses %}
           <li>{{ course }}</li>
           {% endfor %}
