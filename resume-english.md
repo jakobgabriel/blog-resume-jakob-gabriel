@@ -38,7 +38,7 @@ resume:
 
   basics:
     name: 'Jakob Gabriel'
-    label: 'Analytics and Data Engineer'
+    label: 'Digital Business Value Engineer'
     picture: 'assets/img/logo.jpeg'
     email: 'jakob.gabriel5@googlemail.com'
     phone: '+49-159-01665306'
@@ -254,9 +254,10 @@ resume:
       gpa_de: 'N/A'
       url: https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng
       thesis: 
-      - "Master Thesis: Process Mining in der Fertigung: Potenzialanalyse anhand eines Anwendungsbeispiels"
+      - "Master's Thesis: Process Mining in Manufacturing: Potential Analysis Based on a Case Study"
       projectThesis: 
-      - "Project Work: "
+      - "Project Work: Analysis for Predicting Pull-Off Forces Based on Process Data and Infrared Images in the Heating Element Welding Process"
+
 
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Polymer Engineering'
@@ -267,10 +268,7 @@ resume:
       gpa_de: 1.6
       url: 'https://www.dhge.de/DHGE/Studieninteressierte/Studieng-nge/Detail~Technik~Kunststofftechnik-Bachelor-of-Engineering~.html'
       thesis: 
-      - "Bachelor Thesis: "
-      projectThesis: 
-      - "Project Work: "
-      - "Project Work: "
+      - "Bachelor Thesis: Investigation of the Automation of Testing Activities and Packaging Processes Using Robotics and Camera Technologies Within an Existing Assembly Process"
 
 #  # Projects 
 #  projects:
