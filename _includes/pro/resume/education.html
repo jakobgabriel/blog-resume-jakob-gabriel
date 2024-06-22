@@ -45,24 +45,15 @@
       </header>
 
       <div x-show="open" style="margin-left: 1em;">
-        {% if edu.thesis.size > 0 %}
-        <h5 style="margin-bottom: 0.3em;">Thesis Topics:</h5>
+        {% if edu.thesis.size > 0 or edu.projectThesis.size > 0 %}
         <ul style="margin-bottom: 0.5em;">
           {% for topic in edu.thesis %}
           <li>{{ topic }}</li>
           {% endfor %}
+          {% for project in edu.projectThesis %}
+          <li>{{ project }}</li>
+          {% endfor %}
         </ul>
-        {% endif %}
-
-        {% if edu.projectThesis.size > 0 %}
-        <h5 style="margin-bottom: 0.3em;">Project Thesis:</h5>
-        <div class="note" style="margin-bottom: 0.5em;">
-          <ul>
-            {% for project in edu.projectThesis %}
-            <li>{{ project }}</li>
-            {% endfor %}
-          </ul>
-        </div>
         {% endif %}
 
         {% if edu.courses.size > 0 %}

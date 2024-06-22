@@ -254,7 +254,7 @@ resume:
       gpa_de: 'N/A'
       url: https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng
       thesis: 
-      - "Master Thesis: "
+      - "Master Thesis: Process Mining in der Fertigung: Potenzialanalyse anhand eines Anwendungsbeispiels"
       projectThesis: 
       - "Project Work: "
 
@@ -269,12 +269,9 @@ resume:
       thesis: 
       - "Bachelor Thesis: "
       projectThesis: 
-      - "Project Work 1: "
-      - "Project Work 1: "
-      - "Project Work 1: "
-      - "Project Work 1: "
-      - "Project Work 1: "
-      - "Project Work 1: "
+      - "Project Work: "
+      - "Project Work: "
+
 #  # Projects 
 #  projects:
 #    - title: Test  
