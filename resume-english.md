@@ -254,10 +254,9 @@ resume:
       gpa_de: 'N/A'
       url: https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng
       thesis: 
-      - "Master's Thesis: Process Mining in Manufacturing: Potential Analysis Based on a Case Study"
+      - "Master Thesis: Process Mining in Manufacturing: Potential Analysis Based on a Case Study"
       projectThesis: 
       - "Project Work: Analysis for Predicting Pull-Off Forces Based on Process Data and Infrared Images in the Heating Element Welding Process"
-
 
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Polymer Engineering'
