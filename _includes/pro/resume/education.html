@@ -6,7 +6,7 @@
       <span class="symbol {{ icons.education | default:'icon-library' }}"></span>
     </h2>
     {% for edu in resume.education %}
-    <section>
+    <section x-data="{open:false}">
       <header class="{% unless forloop.first %}mt2{% endunless %}">
         {% if edu.startDate.size > 0 %}
         <p class="faded">
@@ -26,13 +26,16 @@
             class="faded"><span class="icon-history"></span> {{diff}} {{unit}}</i>
         </p>
         {% endif %}
-        <h3 class="h4 faded" {% if edu.endDate.size>
-          0 %}property="alumniOf" typeof="EducationalOrganization"{% endif %}>
-          {% capture study_type %}<span class="bc">{{ edu.studyType }}</span>{%
-          endcapture %} {% capture area %}<span class="bc"> {{ edu.area }}</span>{% endcapture %} {% capture institution
-          %}<span class="bc" {% if edu.endDate.size>
-            0 %}property="name"{% endif %}>
-            <a href="{{edu.url}}">{{ edu.institution }}</a> </span>{% endcapture %}
+        <h3 class="h4 faded">
+          <button class="button-color" @click="open=!open">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg button-text-color" viewBox="0 0 16 16">
+              <path x-show="!open" fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+              <path x-show="open" fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+            </svg>
+          </button>
+          {% capture study_type %}<span class="bc">{{ edu.studyType }}</span>{% endcapture %} 
+          {% capture area %}<span class="bc"> {{ edu.area }}</span>{% endcapture %} 
+          {% capture institution %}<span class="bc" {% if edu.endDate.size> 0 %}property="name"{% endif %}><a href="{{edu.url}}">{{ edu.institution }}</a> </span>{% endcapture %} 
           {% capture gpa_us %}<span class="bc">{{ edu.gpa_us }}</span>{% endcapture %}
           {% capture gpa_de %}<span class="bc">{{ edu.gpa_de }}</span>{% endcapture %}
           <span>
@@ -41,32 +44,34 @@
         </h3>
       </header>
 
-      {% if edu.thesis.size > 0 %}
-      <h4>Thesis Topics:</h4>
-      <ul>
-        {% for topic in edu.thesis %}
-        <li>{{ topic }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
+      <div x-show="open">
+        {% if edu.thesis.size > 0 %}
+        <h4>Thesis Topics:</h4>
+        <ul>
+          {% for topic in edu.thesis %}
+          <li>{{ topic }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
 
-      {% if edu.projectWorks.size > 0 %}
-      <h4>Project Works:</h4>
-      <ul>
-        {% for project in edu.projectWorks %}
-        <li>{{ project }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
+        {% if edu.projectThesis.size > 0 %}
+        <h4>Project Thesis:</h4>
+        <ul>
+          {% for project in edu.projectThesis %}
+          <li>{{ project }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
 
-      {% if edu.courses.size > 0 %}
-      <h4 class="sr-only">{{ strings.resume.courses | default:"Courses" }}</h4>
-      <ul>
-        {% for course in edu.courses %}
-        <li>{{ course }}</li>
-        {% endfor %}
-      </ul>
-      {% endif %}
+        {% if edu.courses.size > 0 %}
+        <h4 class="sr-only">{{ strings.resume.courses | default:"Courses" }}</h4>
+        <ul>
+          {% for course in edu.courses %}
+          <li>{{ course }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
     </section>
     {% if forloop.first %}
   </div>
