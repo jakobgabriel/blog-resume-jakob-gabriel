@@ -41,15 +41,15 @@ resume:
     label: 'Digital Business Value Engineer'
     picture: 'assets/img/logo.jpeg'
     email: 'jakob.gabriel5@googlemail.com'
-    phone: '+49-159-01665306'
+    #phone: ''
     #website: 
     #summary: TODO
     #location:
-      #address: 'Friedrich-Engels-Str. 13'
-      #postalCode: '99086'
-      #city: 'Erfurt'
-      #countryCode: 'DE'
-      #region: 'Thuringia'
+      #address: ''
+      #postalCode: ''
+      #city: ''
+      #countryCode: ''
+      #region: ''
     profiles:
       - network: 'GitHub'
         username: 'Jakob Gabriel'
@@ -249,7 +249,7 @@ resume:
       area: 'Applied Polymer Engineering'
       studyType: 'Master of Engineering'
       startDate: '2019-04-01'
-      endDate: ''
+      endDate: '2024-12-31'
       gpa_us: 'N/A'
       gpa_de: 'N/A'
       url: https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng
