@@ -1,3 +1,17 @@
+{% if resume.coreSkills and resume.coreSkills.size > 0 %}
+<section class="npb">
+  <h2 id="core-skills" class="h3 hr-bottom">
+    {{ strings.resume.coreSkills | default:"Core Skills" }}
+    <span class="symbol {{ icons.coreSkills | default:'icon-star' }}"></span>
+  </h2>
+  <div class="skills-container">
+    {% for coreSkill in resume.skills.coreSkills %}
+    <span class="skill-pill">{{ coreSkill }}</span>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 {% if resume.skills.size > 0 %}
 <section class="npb">
   <h2 id="skills" class="h3 hr-bottom">
@@ -5,18 +19,7 @@
     <span class="symbol {{ icons.skills | default:'icon-wrench' }}"></span>
   </h2>
   <dl class="skills" style="font-size: .8em;">
-    {% if resume.skills.coreSkills and resume.skills.coreSkills.size > 0 %}
-    <dt class="fl">Core Skills</dt>
-    <dd class="faded clearafter">
-      <div class="skills-container">
-        {% for coreSkill in resume.skills.coreSkills %}
-        <span class="skill-pill">{{ coreSkill }}</span>
-        {% endfor %}
-      </div>
-    </dd>
-    {% endif %}
     {% for skl in resume.skills %}
-    {% unless skl.name == "coreSkills" %}
     <dt class="fl">{{ skl.name }}</dt>
     <dd class="faded clearafter">
       {% if skl.level and skl.level != '' %}
@@ -65,7 +68,6 @@
       </div>
       {% endif %}
     </dd>
-    {% endunless %}
     {% endfor %}
   </dl>
 </section>
