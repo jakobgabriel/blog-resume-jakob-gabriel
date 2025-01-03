@@ -292,6 +292,12 @@ resume:
 
   # Certiciates/Training
   certificates:
+    - name: 'The Power MBA'
+      startDate: '2024-11-08' 
+      endDate: '2026-01-05'
+      organization: 'ThePower Business School'
+      url: 'https://www.thepowermba.com/en/thepowermba'
+
     - name: 'Continental Leading Self Program'
       startDate: '2023-10-10' 
       endDate: '2023-12-11'
