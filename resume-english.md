@@ -59,7 +59,12 @@ resume:
         url: 'https://www.linkedin.com/in/jakob-gabriel'
       - network: 'XING'
         username: 'Jakob Gabriel'
-        url: 'https://www.xing.com/profile/Jakob_Gabriel4'
+        url: 'https://www.xing.com/profile/Jakob_Gabriel4'    
+    coreSkills:
+      - 'Digital Transformation'
+      - 'Data Analysis'
+      - 'Process Optimization'
+      - 'Project Management'
 
   work:
     - company: 'ContiTech Techno-Chemie GmbH - Karben'
