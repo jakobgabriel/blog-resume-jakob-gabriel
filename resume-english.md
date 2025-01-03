@@ -256,7 +256,7 @@ resume:
       thesis: 
       - "Master Thesis: Process Mining in Manufacturing: Potential Analysis Based on a Case Study"
       projectThesis: 
-      - "Project Work: Analysis for Predicting Pull-Off Forces Based on Process Data and Infrared Images in the Heating Element Welding Process"
+      - "Project Work: Analysis for Predicting Pull-Off Forces Based on Process Data and Infrared Images in the Hot Plate Welding Process"
 
     - institution: 'Duale Hochschule Gera Eisenach'
       area: 'Polymer Engineering'
@@ -267,7 +267,7 @@ resume:
       gpa_de: 1.6
       url: 'https://www.dhge.de/DHGE/Studieninteressierte/Studieng-nge/Detail~Technik~Kunststofftechnik-Bachelor-of-Engineering~.html'
       thesis: 
-      - "Bachelor Thesis: Investigation of the Automation of Testing Activities and Packaging Processes Using Robotics and Camera Technologies Within an Existing Assembly Process"
+      - "Bachelor Thesis: Investigation of the Automation of Testing Activities and Packaging Processes Using Robotics and Camera Technologies Within an existing Assembly Process"
 
 #  # Projects 
 #  projects:
