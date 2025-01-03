@@ -315,9 +315,9 @@ resume:
 
   coreSkills:
     - 'Digitale Transformation'
-    - 'Daten Analyse'
-    - 'Prozess Optimierung'
-    - 'Projekt Management'
+    - 'Datenanalyse'
+    - 'Prozessoptimierung'
+    - 'Projektmanagement'
 
   skills:
     - name: 'Projektmanagement'
