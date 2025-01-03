@@ -313,6 +313,11 @@ resume:
       #summary: ''
       url: 'https://www.tuev-club.de/656/tuev-know-how-club-seminare/'
 
+  coreSkills:
+    - 'Digitale Transformation'
+    - 'Daten Analyse'
+    - 'Prozess Optimierung'
+    - 'Projekt Management'
 
   skills:
     - name: 'Projektmanagement'
