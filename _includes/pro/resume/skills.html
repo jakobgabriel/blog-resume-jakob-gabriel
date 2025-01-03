@@ -5,7 +5,7 @@
     <span class="symbol {{ icons.coreSkills | default:'icon-star' }}"></span>
   </h2>
   <div class="skills-container">
-    {% for coreSkill in resume.skills.coreSkills %}
+    {% for coreSkill in resume.coreSkills %}
     <span class="skill-pill">{{ coreSkill }}</span>
     {% endfor %}
   </div>
@@ -88,7 +88,7 @@
     font-size: 14px;
     font-weight: 500;
     text-transform: capitalize;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px #0000001a;
     cursor: default;
     user-select: none;
   }
