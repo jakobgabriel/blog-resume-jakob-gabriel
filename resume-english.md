@@ -60,11 +60,6 @@ resume:
       - network: 'XING'
         username: 'Jakob Gabriel'
         url: 'https://www.xing.com/profile/Jakob_Gabriel4'    
-    coreSkills:
-      - 'Digital Transformation'
-      - 'Data Analysis'
-      - 'Process Optimization'
-      - 'Project Management'
 
   work:
     - company: 'ContiTech Techno-Chemie GmbH - Karben'
@@ -324,6 +319,11 @@ resume:
       url: 'https://www.tuev-club.de/656/tuev-know-how-club-seminare/'
 
   skills:
+    coreSkills:
+      - 'Digital Transformation'
+      - 'Data Analysis'
+      - 'Process Optimization'
+      - 'Project Management'
     - name: 'Project Management'
       level: '2-3'
       keywords:

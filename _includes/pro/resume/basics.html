@@ -102,39 +102,4 @@
       <a href="{{ basics.website }}" class="external no-print-link url u-url" property="sameAs">{{ basics.website }}</a>
     </dd>
   {% endif %}
-
-  {% if basics.coreSkills.size > 0 %}
-    <dt class="faded">
-      <span class="{{ icons.skills | default:'icon-star' }}" title="{{ strings.resume.skills | default:'Core Skills' }}"></span>
-      <span class="sr-only">{{ strings.resume.skills | default:"Core Skills" }}</span>
-    </dt>
-    <dd class="bold">
-      <div class="skills-container">
-        {% for skill in basics.coreSkills %}
-          <span class="skill-pill">{{ skill }}</span>
-        {% endfor %}
-      </div>
-    </dd>
-  {% endif %}
 </dl>
-
-<style>
-  .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
-  .skill-pill {
-    background-color: #1976d2; /* Primary color */
-    color: white;
-    padding: 5px 15px;
-    border-radius: 16px;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: capitalize;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    cursor: default;
-    user-select: none;
-  }
-</style>
