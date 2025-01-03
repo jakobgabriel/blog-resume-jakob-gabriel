@@ -2,7 +2,7 @@
 <section class="npb">
   <h2 id="core-skills" class="h3 hr-bottom">
     {{ strings.resume.coreSkills | default:"Core Skills" }}
-    <span class="symbol {{ icons.coreSkills | default:'icon-star' }}"></span>
+    <span class="symbol {{ icons.coreSkills | default:'icon-wrench' }}"></span>
   </h2>
   <div class="skills-container">
     {% for coreSkill in resume.coreSkills %}
@@ -77,18 +77,18 @@
   .skills-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px; /* Reduced gap for slimmer appearance */
   }
 
   .skill-pill {
     background-color: #6c6f6d; /* Custom color */
     color: white;
-    padding: 5px 15px;
-    border-radius: 16px;
-    font-size: 14px;
+    padding: 3px 10px; /* Reduced padding for slimmer appearance */
+    border-radius: 12px; /* Smaller radius for slimmer look */
+    font-size: 12px; /* Reduced font size */
     font-weight: 500;
     text-transform: capitalize;
-    box-shadow: 0 2px 4px #0000001a;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Adjusted shadow */
     cursor: default;
     user-select: none;
   }
