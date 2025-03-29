@@ -245,8 +245,8 @@ resume:
       studyType: 'Master of Engineering'
       startDate: '2019-04-01'
       endDate: '2024-12-31'
-      gpa_us: 'N/A'
-      gpa_de: 'N/A'
+      gpa_us: 3.0
+      gpa_de: 2.0
       url: 'https://www.hsm-fernstudium.de/masterstudiengaenge/angewandte-kunststofftechnik-meng'
       thesis: 
       - "Master Thesis: Process Mining in der Fertigung: Potenzialanalyse anhand eines Anwendungsbeispiels"
