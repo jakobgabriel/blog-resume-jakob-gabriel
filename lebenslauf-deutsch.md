@@ -287,17 +287,17 @@ resume:
 
   # Certiciates/Training
   certificates:
-  #  - name: 'The Power MBA'
-  #    startDate: '2024-11-08' 
-  #    endDate: '2026-01-05'
-  #    organization: 'ThePower Business School'
-  #    url: 'https://www.thepowermba.com/en/thepowermba'
+    - name: 'The Power MBA'
+      startDate: '2024-11-08' 
+      endDate: '2026-01-05'
+      organization: 'ThePower Business School'
+      url: 'https://www.thepowermba.com/en/thepowermba'
 
-  #  - name: 'Continental Leading Self Program'
-  #    startDate: '2023-10-10' 
-  #    endDate: '2023-12-11'
-  #    organization: 'Continental AG'
-  #    url: 'https://www.continental.com/en/career/working-at-continental/your-development/leadership/'
+    - name: 'Continental Leading Self Program'
+      startDate: '2023-10-10' 
+      endDate: '2023-12-11'
+      organization: 'Continental AG'
+      url: 'https://www.continental.com/en/career/working-at-continental/your-development/leadership/'
 
     - name: 'Advanced Analytics Methodologies'
       startDate: '2021-10-11'
