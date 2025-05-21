@@ -40,15 +40,15 @@ resume:
     label: 'Digital Business Value Engineer'
     picture: 'assets/img/logo.jpeg'
     email: 'jakob.gabriel5@googlemail.com'
-    phone: '+49-159-01665306'
+    #phone: ''
     #website:
     #summary: TODO
-    location:
-      address: 'Friedrich-Engels-Straße 13'
-      postalCode: '99086'
-      city: 'Erfurt'
-      countryCode: ''
-      region: ''
+    #location:
+      #address: ''
+      #postalCode: ''
+      #city: ''
+      #countryCode: ''
+      #region: ''
     profiles:
       - network: 'GitHub'
         username: 'Jakob Gabriel'
