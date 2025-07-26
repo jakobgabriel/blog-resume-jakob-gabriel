@@ -1,11 +1,5 @@
 # Blog / Resume Jakob Gabriel
 
-## Blog
-
-This section is currently under construction. 
-
-Please feel free to contact me if there is any question. 
-
 ## Resume / CV
 
 The resume section shows my personal resume in german and english. 
